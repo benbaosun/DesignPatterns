@@ -1,0 +1,13 @@
+package StrategyPattern;
+
+/**
+ * Created by lkmc2 on 2018/6/25.
+ * 不会叫（叫唤行为）
+ */
+
+public class MuteQuack implements QuackBehavior {
+    @Override
+    public void quack() {
+        // 什么也不做
+    }
+}
