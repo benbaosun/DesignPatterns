@@ -13,7 +13,7 @@ public class RedHeadDuck extends Duck {
     }
 
     @Override
-    void display() {
+    public void display() {
         System.out.println("我是红头鸭");
     }
 

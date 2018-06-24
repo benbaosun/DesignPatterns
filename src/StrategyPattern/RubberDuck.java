@@ -12,7 +12,7 @@ public class RubberDuck extends Duck {
     }
 
     @Override
-    void display() {
+    public void display() {
         System.out.println("我是橡皮鸭");
     }
 

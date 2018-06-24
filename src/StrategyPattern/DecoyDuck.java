@@ -8,7 +8,7 @@ package StrategyPattern;
 public class DecoyDuck extends Duck {
 
     @Override
-    void display() {
+    public void display() {
         System.out.println("我是诱饵鸭");
     }
 

@@ -5,7 +5,7 @@ package StrategyPattern;
  * 鸭子类
  */
 
-public class Duck {
+public abstract class Duck {
     // 飞行行为
     FlyBehavior flyBehavior;
 
@@ -18,9 +18,7 @@ public class Duck {
     }
 
     // 外观
-    void display() {
-        System.out.println("我是鸭子");
-    }
+    public abstract void display();
 
     // 执行飞行行为
     void performFly() {

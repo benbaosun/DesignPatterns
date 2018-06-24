@@ -8,6 +8,6 @@ package StrategyPattern;
 public class MuteQuack implements QuackBehavior {
     @Override
     public void quack() {
-        // 什么也不做
+        System.out.println("<<不会叫>>");
     }
 }

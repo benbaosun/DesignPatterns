@@ -8,6 +8,6 @@ package StrategyPattern;
 public class FlyNoWay implements FlyBehavior {
     @Override
     public void fly() {
-        // 什么也不做
+        System.out.println("我不会飞");
     }
 }
