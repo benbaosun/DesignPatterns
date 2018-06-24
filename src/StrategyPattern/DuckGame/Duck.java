@@ -2,7 +2,7 @@ package StrategyPattern.DuckGame;
 
 /**
  * Created by lkmc2 on 2018/6/25.
- * 鸭子类
+ * 鸭子类（策略模式）
  */
 
 public abstract class Duck {

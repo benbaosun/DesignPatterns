@@ -7,12 +7,12 @@ package StrategyPattern.DuckGame;
 
 public class Test {
     public static void main(String[] args) {
-        RedHeadDuck redHeadDuck = new RedHeadDuck();
+        Duck duck = new RedHeadDuck();
         printInfo("红头鸭");
-        redHeadDuck.swim();
-        redHeadDuck.display();
-        redHeadDuck.performFly();
-        redHeadDuck.performQuack();
+        duck.swim();
+        duck.display();
+        duck.performFly();
+        duck.performQuack();
         /*
             运行结果：
             ----------红头鸭----------
@@ -23,11 +23,11 @@ public class Test {
          */
 
         printInfo("绿头鸭");
-        GreenHeadDuck greenHeadDuck = new GreenHeadDuck();
-        greenHeadDuck.swim();
-        greenHeadDuck.display();
-        greenHeadDuck.performFly();
-        greenHeadDuck.performQuack();
+        duck = new GreenHeadDuck();
+        duck.swim();
+        duck.display();
+        duck.performFly();
+        duck.performQuack();
         /*
             运行结果：
             ----------绿头鸭----------
@@ -38,10 +38,10 @@ public class Test {
          */
 
         printInfo("橡皮鸭");
-        RubberDuck rubberDuck = new RubberDuck();
-        rubberDuck.swim();
-        rubberDuck.display();
-        rubberDuck.performQuack();
+        duck = new RubberDuck();
+        duck.swim();
+        duck.display();
+        duck.performQuack();
         /*
             运行结果：
             ----------橡皮鸭----------
@@ -52,9 +52,9 @@ public class Test {
          */
 
         printInfo("诱饵鸭");
-        DecoyDuck decoyDuck = new DecoyDuck();
-        decoyDuck.swim();
-        decoyDuck.display();
+        duck = new DecoyDuck();
+        duck.swim();
+        duck.display();
          /*
             运行结果：
             ----------诱饵鸭----------
@@ -63,10 +63,10 @@ public class Test {
          */
 
         printInfo("模型鸭");
-        ModelDuck modelDuck = new ModelDuck();
-        modelDuck.performFly();
-        modelDuck.setFlyBehavior(new FlyRocketPowered());
-        modelDuck.performFly();
+        duck = new ModelDuck();
+        duck.performFly();
+        duck.setFlyBehavior(new FlyRocketPowered());
+        duck.performFly();
         /*
             运行结果：
             ----------模型鸭----------

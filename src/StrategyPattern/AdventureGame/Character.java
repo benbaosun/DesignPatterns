@@ -2,7 +2,7 @@ package StrategyPattern.AdventureGame;
 
 /**
  * Created by lkmc2 on 2018/6/25.
- * 角色类
+ * 角色类（策略模式）
  */
 
 public class Character {
