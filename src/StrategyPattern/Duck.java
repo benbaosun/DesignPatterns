@@ -20,4 +20,9 @@ public class Duck {
     void display() {
         System.out.println("我是鸭子");
     }
+
+    // 飞行
+    void fly() {
+        System.out.println("我会飞");
+    }
 }
