@@ -5,21 +5,16 @@ package StrategyPattern;
  * 绿头鸭
  */
 
-public class GreenHeadDuck extends Duck implements Flyable, Quackable {
+public class GreenHeadDuck extends Duck {
+
+    public GreenHeadDuck() {
+        flyBehavior = new FlyWithWings(); // 使用翅膀飞行
+        quackBehavior = new Quack(); // 呱呱叫
+    }
+
     @Override
     void display() {
         System.out.println("我是绿头鸭");
     }
 
-    // 飞行
-    @Override
-    public void fly() {
-        System.out.println("我会飞");
-    }
-
-    // 呱呱叫
-    @Override
-    public void quack() {
-        System.out.println("我会呱呱叫");
-    }
 }

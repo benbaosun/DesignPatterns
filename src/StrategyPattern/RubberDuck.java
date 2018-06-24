@@ -7,6 +7,10 @@ package StrategyPattern;
 
 public class RubberDuck extends Duck {
 
+    public RubberDuck() {
+        quackBehavior = new Squeak(); // 吱吱叫
+    }
+
     @Override
     void display() {
         System.out.println("我是橡皮鸭");
