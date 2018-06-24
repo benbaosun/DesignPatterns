@@ -7,12 +7,12 @@ package StrategyPattern;
 
 public class Test {
     public static void main(String[] args) {
-        Duck duck = new RedHeadDuck();
+        RedHeadDuck redHeadDuck = new RedHeadDuck();
         printInfo("红头鸭");
-        duck.quack();
-        duck.swim();
-        duck.display();
-        duck.fly();
+        redHeadDuck.quack();
+        redHeadDuck.swim();
+        redHeadDuck.display();
+        redHeadDuck.fly();
         /*
             运行结果：
             ----------红头鸭----------
@@ -23,11 +23,11 @@ public class Test {
          */
 
         printInfo("绿头鸭");
-        duck = new GreenHeadDuck();
-        duck.quack();
-        duck.swim();
-        duck.display();
-        duck.fly();
+        GreenHeadDuck greenHeadDuck = new GreenHeadDuck();
+        greenHeadDuck.quack();
+        greenHeadDuck.swim();
+        greenHeadDuck.display();
+        greenHeadDuck.fly();
         /*
             运行结果：
             ----------绿头鸭----------
@@ -38,11 +38,9 @@ public class Test {
          */
 
         printInfo("橡皮鸭");
-        duck = new RubberDuck();
-        duck.quack();
-        duck.swim();
-        duck.display();
-        duck.fly();
+        RubberDuck rubberDuck = new RubberDuck();
+        rubberDuck.swim();
+        rubberDuck.display();
         /*
             运行结果：
             ----------橡皮鸭----------
@@ -52,11 +50,9 @@ public class Test {
          */
 
         printInfo("诱饵鸭");
-        duck = new DecoyDuck();
-        duck.quack();
-        duck.swim();
-        duck.display();
-        duck.fly();
+        DecoyDuck decoyDuck = new DecoyDuck();
+        decoyDuck.swim();
+        decoyDuck.display();
          /*
             运行结果：
             ----------诱饵鸭----------

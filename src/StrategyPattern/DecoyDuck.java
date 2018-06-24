@@ -6,18 +6,10 @@ package StrategyPattern;
  */
 
 public class DecoyDuck extends Duck {
-    @Override
-    void quack() {
-        // 什么也不做
-    }
 
     @Override
     void display() {
         System.out.println("我是诱饵鸭");
     }
 
-    @Override
-    void fly() {
-        // 什么也不做
-    }
 }
