@@ -61,6 +61,18 @@ public class Test {
             我会游泳
             我是诱饵鸭
          */
+
+        printInfo("模型鸭");
+        ModelDuck modelDuck = new ModelDuck();
+        modelDuck.performFly();
+        modelDuck.setFlyBehavior(new FlyRocketPowered());
+        modelDuck.performFly();
+        /*
+            运行结果：
+            ----------模型鸭----------
+            我不会飞
+            使用火箭推进飞行
+         */
     }
 
     private static void printInfo(String info) {

@@ -29,4 +29,14 @@ public abstract class Duck {
     void performQuack() {
         quackBehavior.quack();
     }
+
+    // 设置飞行行为
+    public void setFlyBehavior(FlyBehavior flyBehavior) {
+        this.flyBehavior = flyBehavior;
+    }
+
+    // 设置叫唤行为
+    public void setQuackBehavior(QuackBehavior quackBehavior) {
+        this.quackBehavior = quackBehavior;
+    }
 }
