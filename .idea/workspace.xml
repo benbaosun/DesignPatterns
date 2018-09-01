@@ -1,40 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b53849ff-7e58-4dcc-98b7-cb747762d9cf" name="Default" comment="实现抽象工厂模式">
-      <change afterPath="$PROJECT_DIR$/src/FactoryPattern/factory/NYPizzaIngredientFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryPattern/factory/PizzaIngredientFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryPattern/ingredient/Cheese.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryPattern/ingredient/Clams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryPattern/ingredient/Dough.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryPattern/ingredient/Pepperoni.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryPattern/ingredient/Sauce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryPattern/ingredient/Veggies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryPattern/ingredient/ny/FreshClams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryPattern/ingredient/ny/Garlic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryPattern/ingredient/ny/MarinaraSauce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryPattern/ingredient/ny/Mushroom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryPattern/ingredient/ny/Onion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryPattern/ingredient/ny/RedPepper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryPattern/ingredient/ny/ReggianoCheese.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryPattern/ingredient/ny/SlicedPeperoni.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryPattern/ingredient/ny/ThinCrustDough.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryPattern/pizza/CheesePizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryPattern/pizza/ClamsPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryPattern/pizza/PepperoniPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryPattern/pizza/VeggiePizza.java" afterDir="false" />
+    <list default="true" id="b53849ff-7e58-4dcc-98b7-cb747762d9cf" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/FactoryPattern/description.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FactoryPattern/TestMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FactoryPattern/TestMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FactoryPattern/pizza/Pizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FactoryPattern/pizza/Pizza.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FactoryPattern/pizza/chicagostyle/ChicagoStyleCheesePizza.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FactoryPattern/pizza/chicagostyle/ChicagoStyleGreekPizza.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FactoryPattern/pizza/chicagostyle/ChicagoStylePepperoniPizza.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FactoryPattern/pizza/nystyle/NYStyleCheesePizza.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FactoryPattern/pizza/nystyle/NYStyleGreekPizza.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FactoryPattern/pizza/nystyle/NYStylePepperoniPizza.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FactoryPattern/store/ChicagoStylePizzaStore.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FactoryPattern/store/NYStylePizzaStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FactoryPattern/store/NYStylePizzaStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FactoryPattern/store/PizzaStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FactoryPattern/store/PizzaStore.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,7 +15,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="NYPizzaIngredientFactory.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NYPizzaIngredientFactory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FactoryPattern/factory/NYPizzaIngredientFactory.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="311">
@@ -64,6 +33,15 @@
                 <element signature="e#658#659#0" expanded="true" />
                 <element signature="e#685#686#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="description.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/FactoryPattern/description.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -150,15 +128,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VeggiePizza.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FactoryPattern/pizza/VeggiePizza.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -208,7 +177,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/DecoratorPattern/size/CupSizeDecorator.java" />
         <option value="$PROJECT_DIR$/src/DecoratorPattern/BeverageTest/size/CupSizeDecorator.java" />
         <option value="$PROJECT_DIR$/src/DecoratorPattern/Beverage/MainTest.java" />
         <option value="$PROJECT_DIR$/src/DecoratorPattern/IO/info.txt" />
@@ -259,6 +227,7 @@
         <option value="$PROJECT_DIR$/src/FactoryPattern/TestMain.java" />
         <option value="$PROJECT_DIR$/src/FactoryPattern/factory/PizzaIngredientFactory.java" />
         <option value="$PROJECT_DIR$/src/FactoryPattern/factory/NYPizzaIngredientFactory.java" />
+        <option value="$PROJECT_DIR$/src/FactoryPattern/description.txt" />
       </list>
     </option>
   </component>
@@ -302,27 +271,6 @@
               <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="FactoryPattern" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="FactoryPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="FactoryPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="pizza" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="FactoryPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -831,11 +779,18 @@
       <option name="project" value="LOCAL" />
       <updated>1535807063898</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="实现抽象工厂模式">
+      <created>1535809869664</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1535809869664</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35902000" />
+    <option name="totallyTimeSpent" value="36252000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="713" y="0" width="734" height="907" extended-state="0" />
@@ -862,7 +817,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49851632" weight="0.6640827" />
       <window_info anchor="bottom" id="Run" order="12" visible="true" weight="0.29069766" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32945737" />
-      <window_info active="true" content_ui="combo" id="Project" order="8" visible="true" weight="0.45103857" />
+      <window_info content_ui="combo" id="Project" order="8" weight="0.45103857" />
       <window_info id="JRebel" order="0" side_tool="true" />
       <window_info anchor="right" id="BPMNPalette" />
       <window_info anchor="bottom" id="Find" order="11" weight="0.32945737" />
@@ -944,7 +899,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="将叫唤行为和飞行行为添加到Duck类中当成变量，并在子类构造方法中执行这些行为的具体实现类" />
     <MESSAGE value="将Duck类声明成抽象类，并把外观display方法声明称抽象方法" />
     <MESSAGE value="使用set方法给本来不会飞的模型鸭动态添加飞行功能" />
     <MESSAGE value="添加冒险游戏相关类" />
@@ -969,20 +923,14 @@
     <MESSAGE value="编写当有多种披萨时的情况" />
     <MESSAGE value="使用抽象方法实现根据地区生产不同口味的披萨" />
     <MESSAGE value="进一步完善工厂模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="进一步完善工厂模式" />
+    <MESSAGE value="实现抽象工厂模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现抽象工厂模式" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/io/LineNumberInputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="63" column="10" lean-forward="true" selection-start-line="63" selection-start-column="10" selection-end-line="63" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DecoratorPattern/Beverage/size/CupSizeDecorator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -1354,6 +1302,13 @@
             <element signature="e#658#659#0" expanded="true" />
             <element signature="e#685#686#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FactoryPattern/description.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
         </state>
       </provider>
     </entry>
