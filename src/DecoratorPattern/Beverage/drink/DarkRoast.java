@@ -1,4 +1,4 @@
-package DecoratorPattern.drink;
+package DecoratorPattern.Beverage.drink;
 
 /**
  * @author lkmc2

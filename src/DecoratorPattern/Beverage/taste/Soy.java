@@ -1,6 +1,6 @@
-package DecoratorPattern.taste;
+package DecoratorPattern.Beverage.taste;
 
-import DecoratorPattern.drink.Beverage;
+import DecoratorPattern.Beverage.drink.Beverage;
 
 /**
  * @author lkmc2

@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b53849ff-7e58-4dcc-98b7-cb747762d9cf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DecoratorPattern/size/BigCup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DecoratorPattern/size/CupSizeDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DecoratorPattern/size/MiddleCup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DecoratorPattern/size/SmallCup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DecoratorPattern/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DecoratorPattern/MainTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CupSizeDecorator.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CupSizeDecorator.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/DecoratorPattern/size/CupSizeDecorator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+            <state relative-caret-position="228">
+              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -44,8 +39,8 @@
       <file leaf-file-name="BigCup.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DecoratorPattern/size/BigCup.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="171">
+              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
               <folding>
                 <element signature="e#257#258#0" expanded="true" />
                 <element signature="e#297#298#0" expanded="true" />
@@ -84,13 +79,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DecoratorPattern/MainTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="38" column="54" selection-start-line="38" selection-start-column="54" selection-end-line="38" selection-end-column="54" />
+            <state relative-caret-position="950">
+              <caret line="50" column="46" lean-forward="true" selection-start-line="50" selection-start-column="46" selection-end-line="50" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DarkRoast.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DecoratorPattern/drink/DarkRoast.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+              <folding>
+                <element signature="e#166#167#0" expanded="true" />
+                <element signature="e#204#205#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -135,7 +143,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/StrategyPattern/AdventureGame/AxeBehavior.java" />
         <option value="$PROJECT_DIR$/src/StrategyPattern/AdventureGame/SwordBehavior.java" />
         <option value="$PROJECT_DIR$/src/StrategyPattern/AdventureGame/Queen.java" />
         <option value="$PROJECT_DIR$/src/StrategyPattern/AdventureGame/King.java" />
@@ -186,6 +193,7 @@
         <option value="$PROJECT_DIR$/src/DecoratorPattern/size/SmallCup.java" />
         <option value="$PROJECT_DIR$/src/DecoratorPattern/size/MiddleCup.java" />
         <option value="$PROJECT_DIR$/src/DecoratorPattern/MainTest.java" />
+        <option value="$PROJECT_DIR$/src/DecoratorPattern/size/CupSizeDecorator.java" />
       </list>
     </option>
   </component>
@@ -236,6 +244,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="LineNumberIn&#9;PSI&#9;JAVA://java.io.LineNumberInputStream" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -379,12 +388,12 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DecoratorPattern.MainTest" />
+      <option name="MAIN_CLASS_NAME" value="DecoratorPattern.Beverage.MainTest" />
       <module name="DesignPatterns" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DecoratorPattern.drink.*" />
+          <option name="PATTERN" value="DecoratorPattern.Beverage.drink.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -506,7 +515,7 @@
       <workItem from="1529856323894" duration="6839000" />
       <workItem from="1529909977730" duration="687000" />
       <workItem from="1530085560636" duration="22000" />
-      <workItem from="1535768272026" duration="18515000" />
+      <workItem from="1535768272026" duration="19294000" />
     </task>
     <task id="LOCAL-00001" summary="初始化鸭子类和子类（红头鸭、绿头鸭）">
       <created>1529856942203</created>
@@ -655,11 +664,18 @@
       <option name="project" value="LOCAL" />
       <updated>1535797328429</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="为饮料引入杯子大小装饰器">
+      <created>1535798141059</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1535798141059</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26063000" />
+    <option name="totallyTimeSpent" value="26842000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="713" y="0" width="734" height="907" extended-state="0" />
@@ -684,7 +700,7 @@
       <window_info id="Image Layers" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.6640827" />
-      <window_info anchor="bottom" id="Run" order="12" visible="true" weight="0.30620155" />
+      <window_info active="true" anchor="bottom" id="Run" order="12" visible="true" weight="0.30620155" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.33026114" />
       <window_info content_ui="combo" id="Project" order="8" weight="0.45103857" />
       <window_info id="JRebel" order="0" side_tool="true" />
@@ -761,27 +777,14 @@
     <MESSAGE value="添加观察者模式的运行结果" />
     <MESSAGE value="添加装饰者模式的基础类" />
     <MESSAGE value="引入装饰者模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="引入装饰者模式" />
+    <MESSAGE value="为饮料引入杯子大小装饰器" />
+    <option name="LAST_COMMIT_MESSAGE" value="为饮料引入杯子大小装饰器" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/StrategyPattern/AdventureGame/behavior/WeaponBehavior.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/StrategyPattern/AdventureGame/behavior/impl/AxeBehavior.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/StrategyPattern/AdventureGame/behavior/impl/BowAndArrowBehavior.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -1064,19 +1067,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DecoratorPattern/drink/DarkRoast.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#160#161#0" expanded="true" />
-            <element signature="e#191#192#0" expanded="true" />
-            <element signature="e#244#245#0" expanded="true" />
-            <element signature="e#270#271#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DecoratorPattern/taste/Milk.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -1116,13 +1106,6 @@
             <element signature="e#340#341#0" expanded="true" />
             <element signature="e#364#365#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DecoratorPattern/size/CupSizeDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -1198,10 +1181,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/DecoratorPattern/drink/DarkRoast.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <folding>
+            <element signature="e#166#167#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DecoratorPattern/MainTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="50" column="46" lean-forward="true" selection-start-line="50" selection-start-column="46" selection-end-line="50" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/DecoratorPattern/size/BigCup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="171">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
           <folding>
             <element signature="e#257#258#0" expanded="true" />
             <element signature="e#297#298#0" expanded="true" />
@@ -1213,13 +1217,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DecoratorPattern/MainTest.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/io/FilterInputStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="38" column="54" selection-start-line="38" selection-start-column="54" selection-end-line="38" selection-end-column="54" />
+        <state relative-caret-position="397">
+          <caret line="60" column="14" selection-start-line="60" selection-start-column="14" selection-end-line="60" selection-end-column="14" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1393#1394#0" expanded="true" />
+            <element signature="e#1421#1422#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/io/LineNumberInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="63" column="10" lean-forward="true" selection-start-line="63" selection-start-column="10" selection-end-line="63" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DecoratorPattern/size/CupSizeDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
         </state>
       </provider>
     </entry>

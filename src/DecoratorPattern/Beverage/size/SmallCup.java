@@ -1,6 +1,6 @@
-package DecoratorPattern.size;
+package DecoratorPattern.Beverage.size;
 
-import DecoratorPattern.drink.Beverage;
+import DecoratorPattern.Beverage.drink.Beverage;
 
 /**
  * @author lkmc2

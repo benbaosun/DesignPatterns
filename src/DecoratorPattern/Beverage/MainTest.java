@@ -1,13 +1,13 @@
-package DecoratorPattern;
+package DecoratorPattern.Beverage;
 
-import DecoratorPattern.drink.*;
-import DecoratorPattern.size.BigCup;
-import DecoratorPattern.size.MiddleCup;
-import DecoratorPattern.size.SmallCup;
-import DecoratorPattern.taste.Milk;
-import DecoratorPattern.taste.Mocha;
-import DecoratorPattern.taste.Soy;
-import DecoratorPattern.taste.Whip;
+import DecoratorPattern.Beverage.drink.*;
+import DecoratorPattern.Beverage.size.BigCup;
+import DecoratorPattern.Beverage.size.MiddleCup;
+import DecoratorPattern.Beverage.size.SmallCup;
+import DecoratorPattern.Beverage.taste.Milk;
+import DecoratorPattern.Beverage.taste.Mocha;
+import DecoratorPattern.Beverage.taste.Soy;
+import DecoratorPattern.Beverage.taste.Whip;
 
 /**
  * @author lkmc2
