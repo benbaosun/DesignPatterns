@@ -17,6 +17,7 @@ public class WeatherStation {
         StatisticsDisplay statisticsDisplay = new StatisticsDisplay(weatherData);
         ForecastDisplay forecastDisplay = new ForecastDisplay(weatherData);
 
+        // 进行测量，改变气象状况
         weatherData.setMeasurements(80, 65, 30.5f);
         weatherData.setMeasurements(82, 43, 29.3f);
         weatherData.setMeasurements(70, 58, 28.7f);
