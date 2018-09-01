@@ -11,7 +11,7 @@ public class TestMain {
         // 只有一种披萨时的情况
         PizzaStore pizzaStore = new PizzaStore();
         // 预定披萨
-        Pizza pizza = pizzaStore.orderPizza();
+        Pizza pizza = pizzaStore.orderPizza("pepperoni");
 
         System.out.println(pizza.getName() + "已送达");
 
@@ -21,7 +21,7 @@ public class TestMain {
             正在烘焙...
             正在裁切...
             正在装箱...
-            经典披萨已送达
+            意大利辣肠披萨已送达
          */
     }
 

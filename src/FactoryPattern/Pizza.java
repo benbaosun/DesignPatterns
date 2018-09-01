@@ -7,7 +7,7 @@ package FactoryPattern;
  */
 public class Pizza {
 
-    private String name = "经典披萨"; // 披萨名
+    protected String name = "经典披萨"; // 披萨名
 
     public String getName() {
         return name;

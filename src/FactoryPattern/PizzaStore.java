@@ -8,8 +8,18 @@ package FactoryPattern;
 public class PizzaStore {
 
     // 预定披萨
-    public Pizza orderPizza() {
-        Pizza pizza = new Pizza();
+    public Pizza orderPizza(String type) {
+        Pizza pizza;
+
+        if (type.equals("cheese")) {
+            pizza = new CheesePizza(); // 芝士披萨
+        } else if (type.equals("greek")) {
+            pizza = new GreekPizza(); // 希腊披萨
+        } else if (type.equals("pepperoni")) {
+            pizza = new PepperoniPizza(); // 意大利辣肠披萨
+        } else {
+            pizza = new Pizza();
+        }
 
         pizza.prepare();
         pizza.bake();
