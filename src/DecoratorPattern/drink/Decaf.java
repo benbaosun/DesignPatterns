@@ -1,4 +1,4 @@
-package DecoratorPattern;
+package DecoratorPattern.drink;
 
 /**
  * @author lkmc2
@@ -9,13 +9,12 @@ package DecoratorPattern;
 public class Decaf extends Beverage {
 
     public Decaf() {
-        setMilk(true);
-        setWhip(true);
+        description = "咖啡因饮料";
     }
 
     @Override
-    public String getDescription() {
-        return "咖啡因饮料";
+    public double cost() {
+        return 16;
     }
 
 }

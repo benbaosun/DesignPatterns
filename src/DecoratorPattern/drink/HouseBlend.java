@@ -1,4 +1,4 @@
-package DecoratorPattern;
+package DecoratorPattern.drink;
 
 /**
  * @author lkmc2
@@ -9,13 +9,12 @@ package DecoratorPattern;
 public class HouseBlend extends Beverage {
 
     public HouseBlend() {
-        setMilk(true);
-        setMocha(true);
+        description = "家庭搅拌饮料";
     }
 
     @Override
-    public String getDescription() {
-        return "家庭搅拌饮料";
+    public double cost() {
+        return 13;
     }
 
 }

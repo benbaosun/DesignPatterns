@@ -1,4 +1,4 @@
-package DecoratorPattern;
+package DecoratorPattern.drink;
 
 /**
  * @author lkmc2
@@ -9,14 +9,12 @@ package DecoratorPattern;
 public class DarkRoast extends Beverage {
 
     public DarkRoast() {
-        setMocha(true);
-        setSoy(true);
-        setWhip(true);
+        description = "深度烘焙饮料";
     }
 
     @Override
-    public String getDescription() {
-        return "深度烘焙饮料";
+    public double cost() {
+        return 11;
     }
 
 }

@@ -1,4 +1,4 @@
-package DecoratorPattern;
+package DecoratorPattern.drink;
 
 /**
  * @author lkmc2
@@ -9,14 +9,12 @@ package DecoratorPattern;
 public class Espresso extends Beverage {
 
     public Espresso() {
-        setMilk(true);
-        setMocha(true);
-        setWhip(true);
+        description = "浓咖啡饮料";
     }
 
     @Override
-    public String getDescription() {
-        return "浓咖啡饮料";
+    public double cost() {
+        return 15;
     }
 
 }
