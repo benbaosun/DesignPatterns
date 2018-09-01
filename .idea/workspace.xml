@@ -446,7 +446,7 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FactoryPattern.*" />
+          <option name="PATTERN" value="FactoryPattern.pizza.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>

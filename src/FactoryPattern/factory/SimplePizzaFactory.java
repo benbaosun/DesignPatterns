@@ -1,4 +1,9 @@
-package FactoryPattern;
+package FactoryPattern.factory;
+
+import FactoryPattern.pizza.CheesePizza;
+import FactoryPattern.pizza.GreekPizza;
+import FactoryPattern.pizza.PepperoniPizza;
+import FactoryPattern.pizza.Pizza;
 
 /**
  * @author lkmc2

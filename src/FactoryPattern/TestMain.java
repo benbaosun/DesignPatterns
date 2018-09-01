@@ -1,5 +1,8 @@
 package FactoryPattern;
 
+import FactoryPattern.factory.SimplePizzaFactory;
+import FactoryPattern.pizza.Pizza;
+
 /**
  * @author lkmc2
  * @date 2018/9/1

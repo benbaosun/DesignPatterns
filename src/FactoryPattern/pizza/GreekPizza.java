@@ -1,4 +1,4 @@
-package FactoryPattern;
+package FactoryPattern.pizza;
 
 /**
  * @author lkmc2
