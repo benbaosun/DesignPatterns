@@ -9,9 +9,19 @@ public class ChocolateBoiler {
     private boolean empty; // 是否锅炉为空
     private boolean boiled; // 是否在燃烧
 
-    public ChocolateBoiler() {
+    private static ChocolateBoiler instance; // 实例
+
+    private ChocolateBoiler() {
         empty = true; // 设置锅炉为空
         boiled = false; // 设置未燃烧
+    }
+
+    // 获取实例对象
+    public static ChocolateBoiler getInstance() {
+        if (instance == null) {
+            instance = new ChocolateBoiler();
+        }
+        return instance;
     }
 
     // 加入原料
