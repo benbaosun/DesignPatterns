@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b53849ff-7e58-4dcc-98b7-cb747762d9cf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DecoratorPattern/description.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FactoryPattern/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FactoryPattern/PizzaStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FactoryPattern/TestMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,11 +31,48 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="description.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="description.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DecoratorPattern/description.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="38">
               <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pizza.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FactoryPattern/Pizza.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+              <folding>
+                <element signature="e#135#136#0" expanded="true" />
+                <element signature="e#171#172#0" expanded="true" />
+                <element signature="e#210#211#0" expanded="true" />
+                <element signature="e#255#256#0" expanded="true" />
+                <element signature="e#284#285#0" expanded="true" />
+                <element signature="e#329#330#0" expanded="true" />
+                <element signature="e#369#370#0" expanded="true" />
+                <element signature="e#414#415#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PizzaStore.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FactoryPattern/PizzaStore.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestMain.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/FactoryPattern/TestMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -111,9 +150,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/StrategyPattern/DuckGame/Duck.java" />
-        <option value="$PROJECT_DIR$/src/StrategyPattern/AdventureGame/Character.java" />
-        <option value="$PROJECT_DIR$/src/StrategyPattern/package-info.java" />
         <option value="$PROJECT_DIR$/src/StrategyPattern/description.txt" />
         <option value="$PROJECT_DIR$/src/StrategyPattern/AdventureGame/impl/SwordBehavior.java" />
         <option value="$PROJECT_DIR$/src/StrategyPattern/AdventureGame/role/Troll.java" />
@@ -162,6 +198,9 @@
         <option value="$PROJECT_DIR$/src/DecoratorPattern/IO/InputTest.java" />
         <option value="$PROJECT_DIR$/src/DecoratorPattern/IO/LowerCaseInputStream.java" />
         <option value="$PROJECT_DIR$/src/DecoratorPattern/description.txt" />
+        <option value="$PROJECT_DIR$/src/FactoryPattern/Pizza.java" />
+        <option value="$PROJECT_DIR$/src/FactoryPattern/PizzaStore.java" />
+        <option value="$PROJECT_DIR$/src/FactoryPattern/TestMain.java" />
       </list>
     </option>
   </component>
@@ -204,7 +243,7 @@
               <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="DecoratorPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="FactoryPattern" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -353,7 +392,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.InputTest">
+  <component name="RunManager" selected="Application.TestMain">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -390,13 +429,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StrategyPattern.AdventureGame.Test" />
+    <configuration name="TestMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FactoryPattern.TestMain" />
       <module name="DesignPatterns" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StrategyPattern.AdventureGame.behavior.impl.*" />
+          <option name="PATTERN" value="FactoryPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -470,18 +509,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Test" />
-      <item itemvalue="Application.Test (1)" />
       <item itemvalue="Application.WeatherStation" />
       <item itemvalue="Application.MainTest" />
       <item itemvalue="Application.InputTest" />
+      <item itemvalue="Application.TestMain" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestMain" />
         <item itemvalue="Application.InputTest" />
         <item itemvalue="Application.MainTest" />
         <item itemvalue="Application.WeatherStation" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -498,7 +537,7 @@
       <workItem from="1529856323894" duration="6839000" />
       <workItem from="1529909977730" duration="687000" />
       <workItem from="1530085560636" duration="22000" />
-      <workItem from="1535768272026" duration="21176000" />
+      <workItem from="1535768272026" duration="21554000" />
     </task>
     <task id="LOCAL-00001" summary="初始化鸭子类和子类（红头鸭、绿头鸭）">
       <created>1529856942203</created>
@@ -668,11 +707,18 @@
       <option name="project" value="LOCAL" />
       <updated>1535801272256</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="添加装饰者模式的描述">
+      <created>1535801434643</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1535801434643</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28724000" />
+    <option name="totallyTimeSpent" value="29102000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="713" y="0" width="734" height="907" extended-state="0" />
@@ -699,7 +745,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.6640827" />
       <window_info anchor="bottom" id="Run" order="12" weight="0.30620155" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.33026114" />
-      <window_info active="true" content_ui="combo" id="Project" order="8" visible="true" weight="0.45103857" />
+      <window_info content_ui="combo" id="Project" order="8" weight="0.45103857" />
       <window_info id="JRebel" order="0" side_tool="true" />
       <window_info anchor="right" id="BPMNPalette" />
       <window_info anchor="bottom" id="Find" order="11" weight="0.32945737" />
@@ -777,34 +823,14 @@
     <MESSAGE value="为饮料引入杯子大小装饰器" />
     <MESSAGE value="启动饮料装饰器到新的包下" />
     <MESSAGE value="编写转换小写输入流装饰器" />
-    <option name="LAST_COMMIT_MESSAGE" value="编写转换小写输入流装饰器" />
+    <MESSAGE value="添加装饰者模式的描述" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加装饰者模式的描述" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/StrategyPattern/AdventureGame/role/Character.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/StrategyPattern/AdventureGame/role/King.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/StrategyPattern/AdventureGame/role/Knight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/StrategyPattern/DuckGame/behavior/QuackBehavior.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -1246,6 +1272,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FactoryPattern/Pizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding>
+            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#171#172#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FactoryPattern/PizzaStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FactoryPattern/TestMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
         </state>
       </provider>
     </entry>
