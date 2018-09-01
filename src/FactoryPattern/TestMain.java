@@ -1,5 +1,6 @@
 package FactoryPattern;
 
+import FactoryPattern.factory.NYPizzaFactory;
 import FactoryPattern.factory.SimplePizzaFactory;
 import FactoryPattern.pizza.Pizza;
 
@@ -11,8 +12,8 @@ import FactoryPattern.pizza.Pizza;
 public class TestMain {
 
     public static void main(String[] args) {
-        // 简单工厂
-        SimplePizzaFactory factory = new SimplePizzaFactory();
+        // 简单披萨工厂
+        SimplePizzaFactory factory = new NYPizzaFactory();
 
         // 披萨商店
         PizzaStore pizzaStore = new PizzaStore(factory);
@@ -23,6 +24,7 @@ public class TestMain {
 
         /*
             运行结果：
+            加入番茄风味...
             开始准备...
             正在烘焙...
             正在裁切...
