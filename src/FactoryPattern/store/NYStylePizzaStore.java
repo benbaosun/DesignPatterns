@@ -1,8 +1,5 @@
 package FactoryPattern.store;
 
-import FactoryPattern.pizza.CheesePizza;
-import FactoryPattern.pizza.GreekPizza;
-import FactoryPattern.pizza.PepperoniPizza;
 import FactoryPattern.pizza.Pizza;
 import FactoryPattern.pizza.nystyle.NYStyleCheesePizza;
 import FactoryPattern.pizza.nystyle.NYStyleGreekPizza;
@@ -11,7 +8,7 @@ import FactoryPattern.pizza.nystyle.NYStylePepperoniPizza;
 /**
  * @author lkmc2
  * @date 2018/9/1
- * @description 纽约风格披萨商店
+ * @description 纽约风格披萨商店（工厂模式）
  */
 public class NYStylePizzaStore extends PizzaStore {
     @Override

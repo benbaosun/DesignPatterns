@@ -11,5 +11,10 @@ public class NYStyleGreekPizza extends Pizza {
 
     public NYStyleGreekPizza() {
         name = "纽约风格希腊披萨";
+        dough = "粗面";
+        sauce = "加拿大酱";
+
+        toppings.add("高级奶酪");
+        toppings.add("曲奇");
     }
 }

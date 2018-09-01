@@ -8,7 +8,7 @@ import FactoryPattern.pizza.chicagostyle.ChicagoStylePepperoniPizza;
 /**
  * @author lkmc2
  * @date 2018/9/1
- * @description 芝加哥风格披萨商店
+ * @description 芝加哥风格披萨商店（工厂模式）
  */
 public class ChicagoStylePizzaStore extends PizzaStore {
     @Override
