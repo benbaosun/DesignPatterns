@@ -1,4 +1,7 @@
-package ObserverPattern;
+package ObserverPattern.observer;
+
+import ObserverPattern.DisplayElement;
+import ObserverPattern.subject.WeatherData;
 
 import java.util.Observable;
 import java.util.Observer;

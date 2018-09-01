@@ -1,5 +1,10 @@
 package ObserverPattern;
 
+import ObserverPattern.observer.CurrentConditionsDisplay;
+import ObserverPattern.observer.ForecastDisplay;
+import ObserverPattern.observer.StatisticsDisplay;
+import ObserverPattern.subject.WeatherData;
+
 /**
  * @author lkmc2
  * @date 2018/9/1
