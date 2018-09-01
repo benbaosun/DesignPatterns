@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b53849ff-7e58-4dcc-98b7-cb747762d9cf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/FactoryPattern/CheesePizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryPattern/GreekPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryPattern/PepperoniPizza.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FactoryPattern/Pizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FactoryPattern/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FactoryPattern/SimplePizzaFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FactoryPattern/PizzaStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FactoryPattern/PizzaStore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FactoryPattern/TestMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FactoryPattern/TestMain.java" afterDir="false" />
     </list>
@@ -37,8 +33,30 @@
       <file leaf-file-name="TestMain.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/FactoryPattern/TestMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+            <state relative-caret-position="342">
+              <caret line="18" column="52" lean-forward="true" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PizzaStore.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FactoryPattern/PizzaStore.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="389">
+              <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+              <folding>
+                <element signature="e#236#237#0" expanded="true" />
+                <element signature="e#296#297#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimplePizzaFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FactoryPattern/SimplePizzaFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -60,15 +78,6 @@
                 <element signature="e#369#370#0" expanded="true" />
                 <element signature="e#414#415#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PizzaStore.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FactoryPattern/PizzaStore.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -151,7 +160,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/StrategyPattern/AdventureGame/Troll.java" />
         <option value="$PROJECT_DIR$/src/StrategyPattern/AdventureGame/behavior/SwordBehavior.java" />
         <option value="$PROJECT_DIR$/src/StrategyPattern/AdventureGame/behavior/BowAndArrowBehavior.java" />
         <option value="$PROJECT_DIR$/src/StrategyPattern/AdventureGame/role/Character.java" />
@@ -201,6 +209,7 @@
         <option value="$PROJECT_DIR$/src/FactoryPattern/PepperoniPizza.java" />
         <option value="$PROJECT_DIR$/src/FactoryPattern/Pizza.java" />
         <option value="$PROJECT_DIR$/src/FactoryPattern/PizzaStore.java" />
+        <option value="$PROJECT_DIR$/src/FactoryPattern/SimplePizzaFactory.java" />
         <option value="$PROJECT_DIR$/src/FactoryPattern/TestMain.java" />
       </list>
     </option>
@@ -539,7 +548,7 @@
       <workItem from="1529856323894" duration="6839000" />
       <workItem from="1529909977730" duration="687000" />
       <workItem from="1530085560636" duration="22000" />
-      <workItem from="1535768272026" duration="22324000" />
+      <workItem from="1535768272026" duration="22810000" />
     </task>
     <task id="LOCAL-00001" summary="初始化鸭子类和子类（红头鸭、绿头鸭）">
       <created>1529856942203</created>
@@ -723,11 +732,18 @@
       <option name="project" value="LOCAL" />
       <updated>1535802078922</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="编写当有多种披萨时的情况">
+      <created>1535802626253</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1535802626253</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29872000" />
+    <option name="totallyTimeSpent" value="30358000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="713" y="0" width="734" height="907" extended-state="0" />
@@ -808,7 +824,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="为Duck添加fly方法，并新增两个Duck子类（橡皮鸭、诱饵鸭）" />
     <MESSAGE value="将飞行和呱呱叫方法抽离抽接口" />
     <MESSAGE value="添加飞行行为和叫唤行为，并分别创建它们的具体实现类" />
     <MESSAGE value="将叫唤行为和飞行行为添加到Duck类中当成变量，并在子类构造方法中执行这些行为的具体实现类" />
@@ -833,20 +848,14 @@
     <MESSAGE value="编写转换小写输入流装饰器" />
     <MESSAGE value="添加装饰者模式的描述" />
     <MESSAGE value="编写未使用工厂模式前只有一种类型的情况" />
-    <option name="LAST_COMMIT_MESSAGE" value="编写未使用工厂模式前只有一种类型的情况" />
+    <MESSAGE value="编写当有多种披萨时的情况" />
+    <option name="LAST_COMMIT_MESSAGE" value="编写当有多种披萨时的情况" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/StrategyPattern/DuckGame/behavior/impl/FlyRocketPowered.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/StrategyPattern/DuckGame/behavior/impl/FlyNoWay.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -1281,13 +1290,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FactoryPattern/PizzaStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/FactoryPattern/CheesePizza.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -1318,10 +1320,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/FactoryPattern/SimplePizzaFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FactoryPattern/PizzaStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+          <folding>
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/FactoryPattern/TestMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+        <state relative-caret-position="342">
+          <caret line="18" column="52" lean-forward="true" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
         </state>
       </provider>
     </entry>

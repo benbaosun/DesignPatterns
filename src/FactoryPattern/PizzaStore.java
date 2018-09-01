@@ -6,20 +6,18 @@ package FactoryPattern;
  * @description 披萨商店
  */
 public class PizzaStore {
+    private SimplePizzaFactory factory; // 简单工厂
+
+    public PizzaStore(SimplePizzaFactory factory) {
+        this.factory = factory;
+    }
 
     // 预定披萨
     public Pizza orderPizza(String type) {
         Pizza pizza;
 
-        if (type.equals("cheese")) {
-            pizza = new CheesePizza(); // 芝士披萨
-        } else if (type.equals("greek")) {
-            pizza = new GreekPizza(); // 希腊披萨
-        } else if (type.equals("pepperoni")) {
-            pizza = new PepperoniPizza(); // 意大利辣肠披萨
-        } else {
-            pizza = new Pizza();
-        }
+        // 根据不同的类型创建披萨
+        pizza = factory.createPizza(type);
 
         pizza.prepare();
         pizza.bake();

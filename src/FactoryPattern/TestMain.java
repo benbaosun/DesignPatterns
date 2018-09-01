@@ -8,10 +8,13 @@ package FactoryPattern;
 public class TestMain {
 
     public static void main(String[] args) {
-        // 只有一种披萨时的情况
-        PizzaStore pizzaStore = new PizzaStore();
+        // 简单工厂
+        SimplePizzaFactory factory = new SimplePizzaFactory();
+
+        // 披萨商店
+        PizzaStore pizzaStore = new PizzaStore(factory);
         // 预定披萨
-        Pizza pizza = pizzaStore.orderPizza("pepperoni");
+        Pizza pizza = pizzaStore.orderPizza("greek");
 
         System.out.println(pizza.getName() + "已送达");
 
@@ -21,7 +24,7 @@ public class TestMain {
             正在烘焙...
             正在裁切...
             正在装箱...
-            意大利辣肠披萨已送达
+            希腊披萨已送达
          */
     }
 
