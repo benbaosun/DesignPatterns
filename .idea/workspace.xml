@@ -374,7 +374,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ChocolateBoilerTest">
+  <component name="RunManager" selected="Application.SingletonTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -498,8 +498,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ChocolateBoilerTest" />
         <item itemvalue="Application.SingletonTest" />
+        <item itemvalue="Application.ChocolateBoilerTest" />
         <item itemvalue="Application.TestMain" />
         <item itemvalue="Application.InputTest" />
         <item itemvalue="Application.MainTest" />

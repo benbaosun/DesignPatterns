@@ -12,7 +12,7 @@ public class Singleton {
     private Singleton() {
     }
 
-    public static Singleton getInstance() {
+    public static synchronized Singleton getInstance() {
         // 如果访问时问创建实例对象，则创建
         if (instance == null) {
             instance = new Singleton();
