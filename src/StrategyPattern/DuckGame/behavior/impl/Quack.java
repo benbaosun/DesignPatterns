@@ -1,4 +1,6 @@
-package StrategyPattern.DuckGame;
+package StrategyPattern.DuckGame.behavior.impl;
+
+import StrategyPattern.DuckGame.behavior.QuackBehavior;
 
 /**
  * Created by lkmc2 on 2018/6/25.

@@ -1,5 +1,9 @@
 package StrategyPattern.DuckGame;
 
+import StrategyPattern.DuckGame.behavior.impl.FlyRocketPowered;
+import StrategyPattern.DuckGame.duck.*;
+import StrategyPattern.DuckGame.duck.impl.*;
+
 /**
  * Created by lkmc2 on 2018/6/25.
  * 测试类

@@ -1,4 +1,6 @@
-package StrategyPattern.AdventureGame;
+package StrategyPattern.AdventureGame.behavior.impl;
+
+import StrategyPattern.AdventureGame.behavior.WeaponBehavior;
 
 /**
  * Created by lkmc2 on 2018/6/25.

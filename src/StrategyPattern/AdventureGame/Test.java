@@ -1,5 +1,8 @@
 package StrategyPattern.AdventureGame;
 
+import StrategyPattern.AdventureGame.role.*;
+import StrategyPattern.AdventureGame.role.Character;
+
 /**
  * Created by lkmc2 on 2018/6/25.
  * 测试类

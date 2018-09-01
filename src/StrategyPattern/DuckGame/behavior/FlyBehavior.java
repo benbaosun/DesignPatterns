@@ -1,4 +1,4 @@
-package StrategyPattern.DuckGame;
+package StrategyPattern.DuckGame.behavior;
 
 /**
  * Created by lkmc2 on 2018/6/25.

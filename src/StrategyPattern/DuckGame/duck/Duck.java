@@ -1,4 +1,7 @@
-package StrategyPattern.DuckGame;
+package StrategyPattern.DuckGame.duck;
+
+import StrategyPattern.DuckGame.behavior.FlyBehavior;
+import StrategyPattern.DuckGame.behavior.QuackBehavior;
 
 /**
  * Created by lkmc2 on 2018/6/25.
@@ -7,13 +10,13 @@ package StrategyPattern.DuckGame;
 
 public abstract class Duck {
     // 飞行行为
-    FlyBehavior flyBehavior;
+    protected FlyBehavior flyBehavior;
 
     // 叫唤行为
-    QuackBehavior quackBehavior;
+    protected QuackBehavior quackBehavior;
 
     // 游泳
-    void swim() {
+    public void swim() {
         System.out.println("我会游泳");
     }
 
@@ -21,12 +24,12 @@ public abstract class Duck {
     public abstract void display();
 
     // 执行飞行行为
-    void performFly() {
+    public void performFly() {
         flyBehavior.fly();
     }
 
     // 执行叫唤行为
-    void performQuack() {
+    public void performQuack() {
         quackBehavior.quack();
     }
 
