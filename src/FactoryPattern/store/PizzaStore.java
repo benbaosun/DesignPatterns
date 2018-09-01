@@ -1,4 +1,4 @@
-package FactoryPattern;
+package FactoryPattern.store;
 
 import FactoryPattern.factory.SimplePizzaFactory;
 import FactoryPattern.pizza.Pizza;
@@ -8,19 +8,14 @@ import FactoryPattern.pizza.Pizza;
  * @date 2018/9/1
  * @description 披萨商店
  */
-public class PizzaStore {
-    private SimplePizzaFactory factory; // 简单工厂
-
-    public PizzaStore(SimplePizzaFactory factory) {
-        this.factory = factory;
-    }
+public abstract class PizzaStore {
 
     // 预定披萨
     public Pizza orderPizza(String type) {
         Pizza pizza;
 
         // 根据不同的类型创建披萨
-        pizza = factory.createPizza(type);
+        pizza = createPizza(type);
 
         pizza.prepare();
         pizza.bake();
@@ -29,5 +24,8 @@ public class PizzaStore {
 
         return pizza;
     }
+
+    // 根据类型创建披萨
+    protected abstract Pizza createPizza(String type);
 
 }

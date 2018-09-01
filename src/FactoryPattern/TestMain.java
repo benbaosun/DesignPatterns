@@ -1,8 +1,8 @@
 package FactoryPattern;
 
-import FactoryPattern.factory.NYPizzaFactory;
-import FactoryPattern.factory.SimplePizzaFactory;
 import FactoryPattern.pizza.Pizza;
+import FactoryPattern.store.NYStylePizzaStore;
+import FactoryPattern.store.PizzaStore;
 
 /**
  * @author lkmc2
@@ -12,13 +12,10 @@ import FactoryPattern.pizza.Pizza;
 public class TestMain {
 
     public static void main(String[] args) {
-        // 简单披萨工厂
-        SimplePizzaFactory factory = new NYPizzaFactory();
-
-        // 披萨商店
-        PizzaStore pizzaStore = new PizzaStore(factory);
+        // 纽约风格披萨商店
+        PizzaStore nyPizzaStore = new NYStylePizzaStore();
         // 预定披萨
-        Pizza pizza = pizzaStore.orderPizza("greek");
+        Pizza pizza = nyPizzaStore.orderPizza("greek");
 
         System.out.println(pizza.getName() + "已送达");
 
