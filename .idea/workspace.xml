@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b53849ff-7e58-4dcc-98b7-cb747762d9cf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/SingletonPattern/ChocolateBoiler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SingletonPattern/ChocolateBoilerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,17 +28,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChocolateBoiler.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ChocolateBoiler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SingletonPattern/ChocolateBoiler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+            <state relative-caret-position="133">
+              <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
               <folding>
                 <element signature="e#371#372#0" expanded="true" />
                 <element signature="e#399#400#0" expanded="true" />
                 <element signature="e#432#433#0" expanded="true" />
                 <element signature="e#461#462#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChocolateBoilerTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SingletonPattern/ChocolateBoilerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -61,6 +70,7 @@
         <option value="Interface" />
         <option value="Arquillian JUnit Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -102,7 +112,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/DecoratorPattern/IO/InputTest.java" />
         <option value="$PROJECT_DIR$/src/DecoratorPattern/IO/LowerCaseInputStream.java" />
         <option value="$PROJECT_DIR$/src/DecoratorPattern/description.txt" />
         <option value="$PROJECT_DIR$/src/FactoryPattern/CheesePizza.java" />
@@ -153,6 +162,7 @@
         <option value="$PROJECT_DIR$/src/SingletonPattern/Singleton.java" />
         <option value="$PROJECT_DIR$/src/SingletonPattern/SingletonTest.java" />
         <option value="$PROJECT_DIR$/src/SingletonPattern/ChocolateBoiler.java" />
+        <option value="$PROJECT_DIR$/src/SingletonPattern/ChocolateBoilerTest.java" />
       </list>
     </option>
   </component>
@@ -208,8 +218,9 @@
     <property name="SearchEverywhereHistoryKey" value="LineNumberIn&#9;PSI&#9;JAVA://java.io.LineNumberInputStream" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
@@ -363,9 +374,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SingletonTest">
+  <component name="RunManager" selected="Application.ChocolateBoilerTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration name="ChocolateBoilerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SingletonPattern.ChocolateBoilerTest" />
+      <module name="DesignPatterns" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SingletonPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration name="InputTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DecoratorPattern.IO.InputTest" />
@@ -407,17 +429,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="FactoryPattern.pizza.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="WeatherStation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ObserverPattern.WeatherStation" />
-      <module name="DesignPatterns" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ObserverPattern.subject.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -479,19 +490,19 @@
       <method />
     </configuration>
     <list>
-      <item itemvalue="Application.WeatherStation" />
       <item itemvalue="Application.MainTest" />
       <item itemvalue="Application.InputTest" />
       <item itemvalue="Application.TestMain" />
       <item itemvalue="Application.SingletonTest" />
+      <item itemvalue="Application.ChocolateBoilerTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ChocolateBoilerTest" />
         <item itemvalue="Application.SingletonTest" />
         <item itemvalue="Application.TestMain" />
         <item itemvalue="Application.InputTest" />
         <item itemvalue="Application.MainTest" />
-        <item itemvalue="Application.WeatherStation" />
       </list>
     </recent_temporary>
   </component>
@@ -734,11 +745,25 @@
       <option name="project" value="LOCAL" />
       <updated>1535810706462</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="添加巧克力工厂类">
+      <created>1535811109535</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1535811109535</updated>
+    </task>
+    <task id="LOCAL-00034" summary="将巧克力工厂改造成单例对象">
+      <created>1535811227407</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1535811227407</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37138000" />
+    <option name="totallyTimeSpent" value="37405000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="713" y="0" width="734" height="907" extended-state="0" />
@@ -847,8 +872,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加冒险游戏相关类" />
-    <MESSAGE value="对鸭子游戏使用多态" />
     <MESSAGE value="添加策略模式的描述文件" />
     <MESSAGE value="（开始观察者模式）添加天气数据类" />
     <MESSAGE value="编写获取天气数据，并更新到布告板的示例" />
@@ -872,20 +895,15 @@
     <MESSAGE value="实现抽象工厂模式" />
     <MESSAGE value="添加工厂模式的描述" />
     <MESSAGE value="添加单例示范代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加单例示范代码" />
+    <MESSAGE value="添加巧克力工厂类" />
+    <MESSAGE value="将巧克力工厂改造成单例对象" />
+    <option name="LAST_COMMIT_MESSAGE" value="将巧克力工厂改造成单例对象" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/DecoratorPattern/IO/info.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DecoratorPattern/IO/InputTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
@@ -1256,14 +1274,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SingletonPattern/ChocolateBoiler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+        <state relative-caret-position="133">
+          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
           <folding>
             <element signature="e#371#372#0" expanded="true" />
             <element signature="e#399#400#0" expanded="true" />
             <element signature="e#432#433#0" expanded="true" />
             <element signature="e#461#462#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SingletonPattern/ChocolateBoilerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
         </state>
       </provider>
     </entry>

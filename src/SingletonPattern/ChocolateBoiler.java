@@ -29,7 +29,7 @@ public class ChocolateBoiler {
         if (isEmpty()) {
             empty = false;
             boiled = false;
-            // 在锅炉中填满巧克力和牛奶
+            System.out.println("在锅炉中填满巧克力和牛奶");
         }
     }
 
@@ -37,16 +37,16 @@ public class ChocolateBoiler {
     public void drain() {
         // 锅炉非空，且在燃烧
         if (!isEmpty() && isBoiled()) {
-            // 排出煮沸的巧克力和牛奶
             empty = true;
+            System.out.println("排出煮沸的巧克力和牛奶");
         }
     }
 
     // 煮东西
     public void boil() {
         if (!isEmpty() && !isBoiled()) {
-            // 将锅炉内东西煮沸
             boiled = true;
+            System.out.println("将锅炉内东西煮沸");
         }
     }
 
