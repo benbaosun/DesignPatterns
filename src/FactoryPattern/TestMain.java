@@ -15,7 +15,7 @@ public class TestMain {
         // 纽约风格披萨商店
         PizzaStore nyPizzaStore = new NYStylePizzaStore();
         // 预定披萨
-        Pizza pizza = nyPizzaStore.orderPizza("greek");
+        Pizza pizza = nyPizzaStore.orderPizza("cheese");
 
         System.out.println(pizza.getName() + "已送达");
 

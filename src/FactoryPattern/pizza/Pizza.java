@@ -1,6 +1,9 @@
 package FactoryPattern.pizza;
 
+import FactoryPattern.ingredient.*;
+
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -8,22 +11,17 @@ import java.util.List;
  * @date 2018/9/1
  * @description 披萨
  */
-public class Pizza {
+public abstract class Pizza {
     protected String name; // 披萨名
-    protected String dough; // 面团类型
-    protected String sauce; // 酱料类型
-    protected List<String> toppings = new ArrayList<>(); // 佐料列表
+    protected Dough dough; // 面团
+    protected Sauce sauce; // 酱料
+    protected Veggies[] veggies; // 蔬菜数组
+    protected Cheese cheese; // 奶酪
+    protected Pepperoni pepperoni; // 意大利辣肠
+    protected Clams clams; // 蛤蜊
 
-    public void prepare() {
-        System.out.println("开始准备 " + name);
-        System.out.println("柔面团... ");
-        System.out.println("添加酱料... ");
-        System.out.println("添加佐料... ");
-
-        for (String topping : toppings) {
-            System.out.println(topping);
-        }
-    }
+    // 准备工作
+    public abstract void prepare();
 
     public void bake() {
         System.out.println("正在烘焙...");
@@ -37,8 +35,24 @@ public class Pizza {
         System.out.println("正在装箱...");
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
     public String getName() {
         return name;
     }
 
+    @Override
+    public String toString() {
+        return "Pizza{" +
+                "name='" + name + '\'' +
+                ", dough=" + dough +
+                ", sauce=" + sauce +
+                ", veggies=" + Arrays.toString(veggies) +
+                ", cheese=" + cheese +
+                ", pepperoni=" + pepperoni +
+                ", clams=" + clams +
+                '}';
+    }
 }

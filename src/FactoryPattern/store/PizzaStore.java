@@ -5,7 +5,7 @@ import FactoryPattern.pizza.Pizza;
 /**
  * @author lkmc2
  * @date 2018/9/1
- * @description 披萨商店（工厂模式）
+ * @description 披萨商店（抽象工厂）
  */
 public abstract class PizzaStore {
 
