@@ -1,4 +1,4 @@
-package TemplatePattern;
+package TemplatePattern.CaffeineDemo;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -7,18 +7,18 @@ import java.io.InputStreamReader;
 /**
  * @author lkmc2
  * @date 2018/9/2
- * @description 咖啡（带钩子方法）
+ * @description 茶
  */
-public class CoffeeWithHook extends CaffeineBeverageWithHook {
+public class TeaWithHook extends CaffeineBeverageWithHook {
 
     @Override
     protected void brew() {
-        System.out.println("冲泡咖啡");
+        System.out.println("冲泡茶包");
     }
 
     @Override
     protected void addCondiments() {
-        System.out.println("加糖加奶");
+        System.out.println("加柠檬");
     }
 
     @Override
@@ -30,7 +30,7 @@ public class CoffeeWithHook extends CaffeineBeverageWithHook {
     // 获取用户输入
     private String getUserInput() {
         String answer = null;
-        System.out.println("请问要在咖啡里添加牛奶或糖么？[输入y或n]");
+        System.out.println("请问要在咖啡里添加柠檬么？[输入y或n]");
 
         try {
             BufferedReader reader = new BufferedReader(
@@ -45,4 +45,5 @@ public class CoffeeWithHook extends CaffeineBeverageWithHook {
         }
         return answer;
     }
+
 }

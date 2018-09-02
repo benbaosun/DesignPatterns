@@ -1,4 +1,4 @@
-package TemplatePattern;
+package TemplatePattern.CaffeineDemo;
 
 /**
  * @author lkmc2
