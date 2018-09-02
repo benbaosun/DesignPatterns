@@ -6,6 +6,14 @@ package CommandPattern.component;
  * @description 车库门
  */
 public class GarageDoor {
+    private String name; // 地点名
+
+    public GarageDoor() {
+    }
+
+    public GarageDoor(String name) {
+        this.name = name;
+    }
 
     // 车库门升起
     public void up() {

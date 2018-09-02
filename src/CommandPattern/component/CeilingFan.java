@@ -3,26 +3,26 @@ package CommandPattern.component;
 /**
  * @author lkmc2
  * @date 2018/9/2
- * @description 灯泡
+ * @description 吊扇
  */
-public class Light {
+public class CeilingFan {
     private String name; // 地点名
 
-    public Light() {
+    public CeilingFan() {
     }
 
-    public Light(String name) {
+    public CeilingFan(String name) {
         this.name = name;
     }
 
     // 开灯
     public void on() {
-        System.out.println("已开灯");
+        System.out.println("已开风扇");
     }
 
     // 关灯
     public void off() {
-        System.out.println("已关灯");
+        System.out.println("已关风扇");
     }
 
 }

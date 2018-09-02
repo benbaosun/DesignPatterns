@@ -8,6 +8,14 @@ import CommandPattern.command.Command;
  * @description 音响
  */
 public class Stereo {
+    private String name; // 地点名
+
+    public Stereo() {
+    }
+
+    public Stereo(String name) {
+        this.name = name;
+    }
 
     public void on() {
         System.out.println("开启音响");

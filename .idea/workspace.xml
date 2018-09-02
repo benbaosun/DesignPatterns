@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b53849ff-7e58-4dcc-98b7-cb747762d9cf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CommandPattern/SimpleRemoteControlTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CommandPattern/command/NoCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CommandPattern/command/garage/GarageDoorOpenCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CommandPattern/command/light/LightOnCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CommandPattern/command/stereo/StereoOffWithCDCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CommandPattern/command/stereo/StereoOnWithCDCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CommandPattern/component/Stereo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CommandPattern/remote/RemoteControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CommandPattern/RemoteLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CommandPattern/component/CeilingFan.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CommandPattern/RemoteControlTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommandPattern/RemoteControlTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CommandPattern/command/GarageDoorOpenCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommandPattern/command/garage/GarageDoorCloseCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CommandPattern/command/LightOnCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommandPattern/command/light/LightOffCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommandPattern/component/GarageDoor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommandPattern/component/GarageDoor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommandPattern/component/Light.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommandPattern/component/Light.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommandPattern/component/Stereo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommandPattern/component/Stereo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,81 +22,85 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="RemoteLoader.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/CommandPattern/RemoteLoader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="512">
+              <caret line="60" column="25" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CeilingFanOnCommand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CommandPattern/command/fan/CeilingFanOnCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+              <folding>
+                <element signature="e#435#436#0" expanded="true" />
+                <element signature="e#466#467#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CeilingFanOffCommand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CommandPattern/command/fan/CeilingFanOffCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="RemoteControlTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CommandPattern/RemoteControlTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
+            <state relative-caret-position="646">
               <caret line="44" column="14" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RemoteControl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/CommandPattern/remote/RemoteControl.java">
+      <file leaf-file-name="CeilingFan.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CommandPattern/component/CeilingFan.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+            <state relative-caret-position="133">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Light.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CommandPattern/component/Light.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="31" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#209#210#0" expanded="true" />
+                <element signature="e#241#242#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LightOffCommand.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CommandPattern/command/light/LightOffCommand.java">
+      <file leaf-file-name="GarageDoor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CommandPattern/component/GarageDoor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="133">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LightOnCommand.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CommandPattern/command/light/LightOnCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GarageDoorOpenCommand.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CommandPattern/command/garage/GarageDoorOpenCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GarageDoorCloseCommand.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CommandPattern/command/garage/GarageDoorCloseCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#389#390#0" expanded="true" />
-                <element signature="e#429#430#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StereoOffWithCDCommand.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CommandPattern/command/stereo/StereoOffWithCDCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#192#193#0" expanded="true" />
+                <element signature="e#224#225#0" expanded="true" />
+                <element signature="e#241#242#0" expanded="true" />
+                <element signature="e#284#285#0" expanded="true" />
+                <element signature="e#325#326#0" expanded="true" />
+                <element signature="e#370#371#0" expanded="true" />
+                <element signature="e#411#412#0" expanded="true" />
+                <element signature="e#453#454#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -111,45 +109,22 @@
       <file leaf-file-name="Stereo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CommandPattern/component/Stereo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+            <state relative-caret-position="171">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding>
-                <element signature="e#181#182#0" expanded="true" />
-                <element signature="e#217#218#0" expanded="true" />
-                <element signature="e#248#249#0" expanded="true" />
+                <element signature="e#252#253#0" expanded="true" />
                 <element signature="e#284#285#0" expanded="true" />
+                <element signature="e#181#182#0" expanded="true" />
+                <element signature="e#223#224#0" expanded="true" />
+                <element signature="e#248#249#0" expanded="true" />
+                <element signature="e#290#291#0" expanded="true" />
                 <element signature="e#317#318#0" expanded="true" />
-                <element signature="e#353#354#0" expanded="true" />
+                <element signature="e#359#360#0" expanded="true" />
                 <element signature="e#387#388#0" expanded="true" />
-                <element signature="e#423#424#0" expanded="true" />
+                <element signature="e#430#431#0" expanded="true" />
                 <element signature="e#460#461#0" expanded="true" />
-                <element signature="e#496#497#0" expanded="true" />
-                <element signature="e#533#534#0" expanded="true" />
-                <element signature="e#569#570#0" expanded="true" />
+                <element signature="e#502#503#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StereoOnWithCDCommand.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CommandPattern/command/stereo/StereoOnWithCDCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#312#313#0" expanded="true" />
-                <element signature="e#348#349#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NoCommand.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CommandPattern/command/NoCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -175,7 +150,7 @@
       <find>芝士</find>
       <find>希腊</find>
       <find>芝士披萨</find>
-      <find>pizza =</find>
+      <find />
       <find>创建</find>
       <find>COMMAND_COUNT</find>
     </findStrings>
@@ -207,14 +182,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/FactoryPattern/ingredient/Pepperoni.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPattern/ingredient/Cheese.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPattern/ingredient/Dough.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPattern/ingredient/Sauce.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPattern/ingredient/ny/MarinaraSauce.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPattern/ingredient/Veggies.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPattern/ingredient/ny/ReggianoCheese.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPattern/ingredient/ny/Garlic.java" />
         <option value="$PROJECT_DIR$/src/FactoryPattern/ingredient/ny/Onion.java" />
         <option value="$PROJECT_DIR$/src/FactoryPattern/ingredient/ny/Mushroom.java" />
         <option value="$PROJECT_DIR$/src/FactoryPattern/ingredient/ny/RedPepper.java" />
@@ -253,11 +220,19 @@
         <option value="$PROJECT_DIR$/src/CommandPattern/command/LightOffCommand.java" />
         <option value="$PROJECT_DIR$/src/CommandPattern/command/GarageDoorCloseCommand.java" />
         <option value="$PROJECT_DIR$/src/CommandPattern/command/StereoOffWithCDCommand.java" />
-        <option value="$PROJECT_DIR$/src/CommandPattern/component/Stereo.java" />
         <option value="$PROJECT_DIR$/src/CommandPattern/command/stereo/StereoOnWithCDCommand.java" />
         <option value="$PROJECT_DIR$/src/CommandPattern/command/stereo/StereoOffWithCDCommand.java" />
         <option value="$PROJECT_DIR$/src/CommandPattern/RemoteControlTest.java" />
         <option value="$PROJECT_DIR$/src/CommandPattern/remote/RemoteControl.java" />
+        <option value="$PROJECT_DIR$/src/CommandPattern/component/Light.java" />
+        <option value="$PROJECT_DIR$/src/CommandPattern/component/Stereo.java" />
+        <option value="$PROJECT_DIR$/src/CommandPattern/component/CeilingFan.java" />
+        <option value="$PROJECT_DIR$/src/CommandPattern/component/GarageDoor.java" />
+        <option value="$PROJECT_DIR$/src/CommandPattern/command/fan/light/LightOnCommand.java" />
+        <option value="$PROJECT_DIR$/src/CommandPattern/command/fan/LightOnCommand.java" />
+        <option value="$PROJECT_DIR$/src/CommandPattern/command/fan/CeilingFanOnCommand.java" />
+        <option value="$PROJECT_DIR$/src/CommandPattern/command/fan/CeilingFanOffCommand.java" />
+        <option value="$PROJECT_DIR$/src/CommandPattern/RemoteLoader.java" />
       </list>
     </option>
   </component>
@@ -307,6 +282,29 @@
               <item name="CommandPattern" type="462c0819:PsiDirectoryNode" />
               <item name="command" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="CommandPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="command" type="462c0819:PsiDirectoryNode" />
+              <item name="fan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="CommandPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="command" type="462c0819:PsiDirectoryNode" />
+              <item name="light" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="CommandPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -337,16 +335,17 @@
       <recent name="ObserverPattern" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="CommandPattern.command.fan" />
+      <recent name="CommandPattern.component" />
       <recent name="CommandPattern.command" />
       <recent name="CommandPattern" />
       <recent name="SingletonPattern" />
-      <recent name="FactoryPattern.pizza" />
-      <recent name="FactoryPattern.ingredient.ny" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\IntellJ Project\DesignPatterns\src\CommandPattern\command\fan" />
       <recent name="F:\IntellJ Project\DesignPatterns\src\FactoryPattern\pizza" />
       <recent name="F:\IntellJ Project\DesignPatterns\src\FactoryPattern\pizza\chicagostyle" />
     </key>
@@ -363,7 +362,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RemoteControlTest">
+  <component name="RunManager" selected="Application.RemoteLoader">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -378,19 +377,19 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="InputTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DecoratorPattern.IO.InputTest" />
+    <configuration name="RemoteControlTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CommandPattern.RemoteControlTest" />
       <module name="DesignPatterns" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DecoratorPattern.IO.*" />
+          <option name="PATTERN" value="CommandPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="RemoteControlTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CommandPattern.RemoteControlTest" />
+    <configuration name="RemoteLoader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CommandPattern.RemoteLoader" />
       <module name="DesignPatterns" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -490,19 +489,19 @@
       <method />
     </configuration>
     <list>
-      <item itemvalue="Application.InputTest" />
       <item itemvalue="Application.TestMain" />
       <item itemvalue="Application.SingletonTest" />
       <item itemvalue="Application.ChocolateBoilerTest" />
       <item itemvalue="Application.RemoteControlTest" />
+      <item itemvalue="Application.RemoteLoader" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoteLoader" />
         <item itemvalue="Application.RemoteControlTest" />
         <item itemvalue="Application.SimpleRemoteControlTest" />
         <item itemvalue="Application.SingletonTest" />
         <item itemvalue="Application.ChocolateBoilerTest" />
-        <item itemvalue="Application.TestMain" />
       </list>
     </recent_temporary>
   </component>
@@ -520,7 +519,7 @@
       <workItem from="1529909977730" duration="687000" />
       <workItem from="1530085560636" duration="22000" />
       <workItem from="1535768272026" duration="22810000" />
-      <workItem from="1535854090292" duration="6746000" />
+      <workItem from="1535854090292" duration="8514000" />
     </task>
     <task id="LOCAL-00001" summary="初始化鸭子类和子类（红头鸭、绿头鸭）">
       <created>1529856942203</created>
@@ -816,11 +815,18 @@
       <option name="project" value="LOCAL" />
       <updated>1535857713620</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="添加带插槽的遥控器，使用命令模式">
+      <created>1535861944026</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1535861944026</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45063000" />
+    <option name="totallyTimeSpent" value="46831000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="713" y="0" width="734" height="907" extended-state="0" />
@@ -850,6 +856,7 @@
       <window_info content_ui="combo" id="Project" order="8" sideWeight="0.498708" weight="0.45103857" />
       <window_info id="JRebel" order="0" side_tool="true" />
       <window_info anchor="right" id="BPMNPalette" order="11" />
+      <window_info anchor="bottom" id="Find" order="11" weight="0.32945737" />
       <window_info id="Learn" order="10" weight="0.32937685" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="7" sideWeight="0.501292" side_tool="true" weight="0.45103857" />
@@ -862,7 +869,6 @@
       <window_info anchor="bottom" id="Tail" order="5" />
       <window_info anchor="right" id="RestServices" order="0" />
       <window_info anchor="right" id="Properties" order="3" />
-      <window_info anchor="bottom" id="Find" order="11" weight="0.32945737" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="6" />
       <window_info anchor="bottom" id="Message" order="10" />
       <window_info anchor="right" id="Commander" order="8" weight="0.4" />
@@ -901,7 +907,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加观察者模式的运行结果" />
     <MESSAGE value="添加装饰者模式的基础类" />
     <MESSAGE value="引入装饰者模式" />
     <MESSAGE value="为饮料引入杯子大小装饰器" />
@@ -926,48 +931,14 @@
     <MESSAGE value="编写命令模式例子" />
     <MESSAGE value="添加打开车库门命令" />
     <MESSAGE value="调整命令模式的包结构" />
-    <option name="LAST_COMMIT_MESSAGE" value="调整命令模式的包结构" />
+    <MESSAGE value="添加带插槽的遥控器，使用命令模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加带插槽的遥控器，使用命令模式" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/FactoryPattern/ingredient/Clams.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FactoryPattern/ingredient/Dough.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FactoryPattern/ingredient/Pepperoni.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FactoryPattern/ingredient/Sauce.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FactoryPattern/ingredient/ny/MarinaraSauce.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/FactoryPattern/ingredient/Veggies.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -1174,19 +1145,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CommandPattern/component/Light.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="e#129#130#0" expanded="true" />
-            <element signature="e#165#166#0" expanded="true" />
-            <element signature="e#195#196#0" expanded="true" />
-            <element signature="e#231#232#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CommandPattern/remote/SimpleRemoteControl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -1196,24 +1154,6 @@
             <element signature="e#279#280#0" expanded="true" />
             <element signature="e#329#330#0" expanded="true" />
             <element signature="e#363#364#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CommandPattern/component/GarageDoor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-          <folding>
-            <element signature="e#136#137#0" expanded="true" />
-            <element signature="e#172#173#0" expanded="true" />
-            <element signature="e#205#206#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
-            <element signature="e#345#346#0" expanded="true" />
-            <element signature="e#381#382#0" expanded="true" />
-            <element signature="e#417#418#0" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1262,27 +1202,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CommandPattern/component/Stereo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-          <folding>
-            <element signature="e#181#182#0" expanded="true" />
-            <element signature="e#217#218#0" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#284#285#0" expanded="true" />
-            <element signature="e#317#318#0" expanded="true" />
-            <element signature="e#353#354#0" expanded="true" />
-            <element signature="e#387#388#0" expanded="true" />
-            <element signature="e#423#424#0" expanded="true" />
-            <element signature="e#460#461#0" expanded="true" />
-            <element signature="e#496#497#0" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
-            <element signature="e#569#570#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CommandPattern/command/stereo/StereoOnWithCDCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -1317,17 +1236,104 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/CommandPattern/remote/RemoteControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CommandPattern/component/Light.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="31" />
+          <folding>
+            <element signature="e#209#210#0" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CommandPattern/component/Stereo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#430#431#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CommandPattern/component/GarageDoor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CommandPattern/command/fan/LightOffCommand.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CommandPattern/component/CeilingFan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CommandPattern/command/fan/CeilingFanOnCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding>
+            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/CommandPattern/RemoteControlTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
+        <state relative-caret-position="646">
           <caret line="44" column="14" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CommandPattern/remote/RemoteControl.java">
+    <entry file="file://$PROJECT_DIR$/src/CommandPattern/command/fan/CeilingFanOffCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+        <state relative-caret-position="285">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CommandPattern/RemoteLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="60" column="25" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
