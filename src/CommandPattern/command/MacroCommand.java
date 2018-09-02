@@ -23,6 +23,9 @@ public class MacroCommand implements Command {
 
     @Override
     public void undo() {
-
+        // 撤销所有操作
+        for (Command command : commands) {
+            command.undo();
+        }
     }
 }
