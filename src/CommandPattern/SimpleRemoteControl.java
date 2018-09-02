@@ -3,7 +3,7 @@ package CommandPattern;
 /**
  * @author lkmc2
  * @date 2018/9/2
- * @description 遥控器
+ * @description 遥控器（命令模式）
  */
 public class SimpleRemoteControl {
     private Command slot; // 命令插槽
