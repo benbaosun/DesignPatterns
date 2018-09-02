@@ -7,13 +7,14 @@ import CommandPattern.command.NoCommand;
  * @author lkmc2
  * @date 2018/9/2
  * @description 带插槽的遥控器（命令模式）
+ * 可撤销上一步操作
  */
-public class RemoteControl {
+public class RemoteControlWithUndo {
     private Command[] onCommands; // 打开命令数组
     private Command[] offCommands; // 关闭命令数组
     private Command undoCommand; // 记录前一个命令，用以撤销
 
-    public RemoteControl() {
+    public RemoteControlWithUndo() {
         onCommands = new Command[7];
         offCommands = new Command[7];
 

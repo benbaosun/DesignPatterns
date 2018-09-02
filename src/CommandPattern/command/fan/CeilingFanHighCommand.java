@@ -6,20 +6,20 @@ import CommandPattern.component.CeilingFan;
 /**
  * @author lkmc2
  * @date 2018/9/2
- * @description 关吊扇命令
+ * @description 吊扇高速档命令
  */
-public class CeilingFanOffCommand implements Command {
+public class CeilingFanHighCommand implements Command {
     private CeilingFan ceilingFan; // 吊扇
     private int prevSpeed; // 上一次的速度，用以进行撤销
 
-    public CeilingFanOffCommand(CeilingFan ceilingFan) {
+    public CeilingFanHighCommand(CeilingFan ceilingFan) {
         this.ceilingFan = ceilingFan;
     }
 
     @Override
     public void execute() {
         prevSpeed = ceilingFan.getSpeed(); // 记录风扇的速度
-        ceilingFan.off(); // 关吊扇
+        ceilingFan.high(); // 开启风扇高速档
     }
 
     @Override

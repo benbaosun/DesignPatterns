@@ -1,7 +1,5 @@
 package CommandPattern;
 
-import CommandPattern.command.fan.CeilingFanOffCommand;
-import CommandPattern.command.fan.CeilingFanOnCommand;
 import CommandPattern.command.garage.GarageDoorCloseCommand;
 import CommandPattern.command.garage.GarageDoorOpenCommand;
 import CommandPattern.command.light.LightOffCommand;
@@ -12,7 +10,7 @@ import CommandPattern.component.CeilingFan;
 import CommandPattern.component.GarageDoor;
 import CommandPattern.component.Light;
 import CommandPattern.component.Stereo;
-import CommandPattern.remote.RemoteControl;
+import CommandPattern.remote.RemoteControlWithUndo;
 
 /**
  * @author lkmc2
@@ -35,10 +33,6 @@ public class RemoteLoader {
         LightOnCommand kitchenLightOn = new LightOnCommand(kitchenLight);
         LightOffCommand kitchenLightOff = new LightOffCommand(kitchenLight);
 
-        // 创建吊扇命令（开、关）对象
-        CeilingFanOnCommand ceilingFanOn = new CeilingFanOnCommand(ceilingFan);
-        CeilingFanOffCommand ceilingFanOff = new CeilingFanOffCommand(ceilingFan);
-
         // 创建车库门命令（开、关）对象
         GarageDoorOpenCommand garageDoorOpen = new GarageDoorOpenCommand(garageDoor);
         GarageDoorCloseCommand garageDoorClose = new GarageDoorCloseCommand(garageDoor);
@@ -48,12 +42,11 @@ public class RemoteLoader {
         StereoOffWithCDCommand stereoOffWithCD = new StereoOffWithCDCommand(stereo);
 
         // 遥控器
-        RemoteControl remoteControl = new RemoteControl();
+        RemoteControlWithUndo remoteControl = new RemoteControlWithUndo();
 
         // 设置遥控器插槽上对应位置的开关事件
         remoteControl.setCommand(0, livingRoomLightOn, livingRoomLightOff);
         remoteControl.setCommand(1, kitchenLightOn, kitchenLightOff);
-        remoteControl.setCommand(2, ceilingFanOn, ceilingFanOff);
         remoteControl.setCommand(3, garageDoorOpen, garageDoorClose);
         remoteControl.setCommand(4, stereoOnWithCD, stereoOffWithCD);
 

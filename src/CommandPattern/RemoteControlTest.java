@@ -4,13 +4,12 @@ import CommandPattern.command.garage.GarageDoorCloseCommand;
 import CommandPattern.command.garage.GarageDoorOpenCommand;
 import CommandPattern.command.light.LightOffCommand;
 import CommandPattern.command.light.LightOnCommand;
-import CommandPattern.command.NoCommand;
 import CommandPattern.command.stereo.StereoOffWithCDCommand;
 import CommandPattern.command.stereo.StereoOnWithCDCommand;
 import CommandPattern.component.GarageDoor;
 import CommandPattern.component.Light;
 import CommandPattern.component.Stereo;
-import CommandPattern.remote.RemoteControl;
+import CommandPattern.remote.RemoteControlWithUndo;
 
 /**
  * @author lkmc2
@@ -42,7 +41,7 @@ public class RemoteControlTest {
         StereoOffWithCDCommand stereoOffWithCD = new StereoOffWithCDCommand(stereo);
 
         // 遥控器
-        RemoteControl remote = new RemoteControl();
+        RemoteControlWithUndo remote = new RemoteControlWithUndo();
         // 设置指定插槽对应的开关命令
         remote.setCommand(0, lightOn, lightOff);
         remote.setCommand(1, doorOpen, doorClose);
@@ -52,6 +51,7 @@ public class RemoteControlTest {
 
         /*
             运行结果：
+            ----- 遥控器 -----
             插槽[0] LightOnCommand LightOffCommand
             插槽[1] GarageDoorOpenCommand GarageDoorCloseCommand
             插槽[2] StereoOnWithCDCommand StereoOffWithCDCommand
