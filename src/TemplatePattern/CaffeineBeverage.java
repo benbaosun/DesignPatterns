@@ -7,8 +7,8 @@ package TemplatePattern;
  */
 public abstract class CaffeineBeverage {
 
-    // 准备食谱
-    protected void prepareRecipe() {
+    // 准备食谱（防止方法被重写）
+    protected final void prepareRecipe() {
         boilWater(); // 煮沸水
         brew(); // 冲泡
         pourInCup(); // 把咖啡倒进杯子
