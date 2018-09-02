@@ -1,4 +1,4 @@
-package ApapterPattern.turkey;
+package ApapterPattern.DuckExapmle.turkey;
 
 /**
  * @author lkmc2

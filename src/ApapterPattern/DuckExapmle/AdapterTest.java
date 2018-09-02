@@ -1,8 +1,8 @@
-package ApapterPattern;
+package ApapterPattern.DuckExapmle;
 
-import ApapterPattern.duck.Duck;
-import ApapterPattern.duck.MallardDuck;
-import ApapterPattern.turkey.WildTurkey;
+import ApapterPattern.DuckExapmle.duck.Duck;
+import ApapterPattern.DuckExapmle.duck.MallardDuck;
+import ApapterPattern.DuckExapmle.turkey.WildTurkey;
 
 /**
  * @author lkmc2
