@@ -1,5 +1,8 @@
 package ApapterPattern;
 
+import ApapterPattern.duck.Duck;
+import ApapterPattern.turkey.Turkey;
+
 /**
  * @author lkmc2
  * @date 2018/9/2

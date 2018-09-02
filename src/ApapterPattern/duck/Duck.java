@@ -1,4 +1,4 @@
-package ApapterPattern;
+package ApapterPattern.duck;
 
 /**
  * @author lkmc2
