@@ -12,7 +12,12 @@ public abstract class CaffeineBeverage {
         boilWater(); // 煮沸水
         brew(); // 冲泡
         pourInCup(); // 把咖啡倒进杯子
-        addCondiments(); // 添加调味料
+
+        // 自定义是否添加调料
+        if (customerWantsCondiments()) {
+            addCondiments(); // 添加调味料
+        }
+
         hook(); // 钩子方法（占位）
     }
 
@@ -28,6 +33,11 @@ public abstract class CaffeineBeverage {
 
     private void pourInCup() {
         System.out.println("把饮料倒进杯子");
+    }
+
+    // 自定义是否加调料（钩子方法的应用例子）
+    protected boolean customerWantsCondiments() {
+        return true;
     }
 
     // 钩子方法，什么也不做，留给子类视情况重写
