@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b53849ff-7e58-4dcc-98b7-cb747762d9cf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ApapterPattern/IteratorExample/EnumerationAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ApapterPattern/IteratorExample/EnumerationAdapterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FacadePattern/HomeTheaterFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FacadePattern/HomeTheaterFacadeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FacadePattern/component/Amplifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FacadePattern/component/CdPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FacadePattern/component/DvdPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FacadePattern/component/PopcornPopper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FacadePattern/component/Projector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FacadePattern/component/Screen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FacadePattern/component/TheaterLights.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FacadePattern/component/Tuner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ApapterPattern/AdapterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApapterPattern/DuckExapmle/AdapterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ApapterPattern/TurkeyAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApapterPattern/DuckExapmle/TurkeyAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ApapterPattern/duck/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApapterPattern/DuckExapmle/duck/Duck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ApapterPattern/duck/MallardDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApapterPattern/DuckExapmle/duck/MallardDuck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ApapterPattern/turkey/Turkey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApapterPattern/DuckExapmle/turkey/Turkey.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ApapterPattern/turkey/WildTurkey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApapterPattern/DuckExapmle/turkey/WildTurkey.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,59 +27,147 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TurkeyAdapter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ApapterPattern/DuckExapmle/TurkeyAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#221#222#0" expanded="true" />
-                <element signature="e#257#258#0" expanded="true" />
-                <element signature="e#298#299#0" expanded="true" />
-                <element signature="e#333#334#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EnumerationAdapter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ApapterPattern/IteratorExample/EnumerationAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#333#334#0" expanded="true" />
-                <element signature="e#379#380#0" expanded="true" />
-                <element signature="e#425#426#0" expanded="true" />
-                <element signature="e#477#478#0" expanded="true" />
-                <element signature="e#519#520#0" expanded="true" />
-                <element signature="e#567#568#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EnumerationAdapterTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ApapterPattern/IteratorExample/EnumerationAdapterTest.java">
+      <file leaf-file-name="Amplifier.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FacadePattern/component/Amplifier.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="494">
-              <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+              <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#144#145#0" expanded="true" />
+                <element signature="e#187#188#0" expanded="true" />
+                <element signature="e#212#213#0" expanded="true" />
+                <element signature="e#255#256#0" expanded="true" />
+                <element signature="e#308#309#0" expanded="true" />
+                <element signature="e#344#345#0" expanded="true" />
+                <element signature="e#392#393#0" expanded="true" />
+                <element signature="e#428#429#0" expanded="true" />
+                <element signature="e#481#482#0" expanded="true" />
+                <element signature="e#517#518#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdapterTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ApapterPattern/DuckExapmle/AdapterTest.java">
+      <file leaf-file-name="Tuner.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FacadePattern/component/Tuner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="133">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#130#131#0" expanded="true" />
+                <element signature="e#173#174#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomeTheaterFacade.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FacadePattern/HomeTheaterFacade.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomeTheaterFacadeTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/FacadePattern/HomeTheaterFacadeTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DvdPlayer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FacadePattern/component/DvdPlayer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+              <folding>
+                <element signature="e#137#138#0" expanded="true" />
+                <element signature="e#183#184#0" expanded="true" />
+                <element signature="e#306#307#0" expanded="true" />
+                <element signature="e#342#343#0" expanded="true" />
+                <element signature="e#393#394#0" expanded="true" />
+                <element signature="e#429#430#0" expanded="true" />
+                <element signature="e#465#466#0" expanded="true" />
+                <element signature="e#501#502#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CdPlayer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FacadePattern/component/CdPlayer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding>
+                <element signature="e#135#136#0" expanded="true" />
+                <element signature="e#180#181#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Projector.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FacadePattern/component/Projector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+              <folding>
+                <element signature="e#134#135#0" expanded="true" />
+                <element signature="e#177#178#0" expanded="true" />
+                <element signature="e#291#292#0" expanded="true" />
+                <element signature="e#327#328#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TheaterLights.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FacadePattern/component/TheaterLights.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+              <folding>
+                <element signature="e#139#140#0" expanded="true" />
+                <element signature="e#183#184#0" expanded="true" />
+                <element signature="e#296#297#0" expanded="true" />
+                <element signature="e#332#333#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Screen.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FacadePattern/component/Screen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+              <folding>
+                <element signature="e#132#133#0" expanded="true" />
+                <element signature="e#176#177#0" expanded="true" />
+                <element signature="e#281#282#0" expanded="true" />
+                <element signature="e#317#318#0" expanded="true" />
+                <element signature="e#347#348#0" expanded="true" />
+                <element signature="e#383#384#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PopcornPopper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FacadePattern/component/PopcornPopper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding>
+                <element signature="e#139#140#0" expanded="true" />
+                <element signature="e#183#184#0" expanded="true" />
+                <element signature="e#287#288#0" expanded="true" />
+                <element signature="e#323#324#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -104,9 +194,16 @@
       <find>芝士</find>
       <find>希腊</find>
       <find>芝士披萨</find>
-      <find>pizza =</find>
+      <find />
       <find>创建</find>
       <find>COMMAND_COUNT</find>
+      <find>收音机</find>
+      <find>DVD</find>
+      <find>CD播放器</find>
+      <find>投影仪</find>
+      <find>影院屏幕</find>
+      <find>剧场灯光</find>
+      <find>扩音器</find>
     </findStrings>
     <replaceStrings>
       <replace>牛奶</replace>
@@ -120,6 +217,14 @@
       <replace>return</replace>
       <replace>添加</replace>
       <replace>7</replace>
+      <replace>收音机</replace>
+      <replace>DVD播放器</replace>
+      <replace>CD</replace>
+      <replace>投影仪</replace>
+      <replace>剧场灯光</replace>
+      <replace>爆米花机</replace>
+      <replace>影院屏幕</replace>
+      <replace>扬声器</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -136,23 +241,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/SingletonPattern/description.txt" />
-        <option value="$PROJECT_DIR$/src/CommandPattern/Command.java" />
-        <option value="$PROJECT_DIR$/src/CommandPattern/LightOnCommand.java" />
-        <option value="$PROJECT_DIR$/src/CommandPattern/Light.java" />
-        <option value="$PROJECT_DIR$/src/CommandPattern/GarageDoor.java" />
-        <option value="$PROJECT_DIR$/src/CommandPattern/GarageDoorOpenCommand.java" />
-        <option value="$PROJECT_DIR$/src/CommandPattern/command/LightOnCommand.java" />
-        <option value="$PROJECT_DIR$/src/CommandPattern/SimpleRemoteControl.java" />
-        <option value="$PROJECT_DIR$/src/CommandPattern/remote/SimpleRemoteControl.java" />
-        <option value="$PROJECT_DIR$/src/CommandPattern/StereoOnWithCDCommand.java" />
-        <option value="$PROJECT_DIR$/src/CommandPattern/SimpleRemoteControlTest.java" />
-        <option value="$PROJECT_DIR$/src/CommandPattern/command/LightOffCommand.java" />
-        <option value="$PROJECT_DIR$/src/CommandPattern/command/GarageDoorCloseCommand.java" />
-        <option value="$PROJECT_DIR$/src/CommandPattern/command/StereoOffWithCDCommand.java" />
-        <option value="$PROJECT_DIR$/src/CommandPattern/component/Light.java" />
-        <option value="$PROJECT_DIR$/src/CommandPattern/command/fan/light/LightOnCommand.java" />
-        <option value="$PROJECT_DIR$/src/CommandPattern/command/fan/LightOnCommand.java" />
         <option value="$PROJECT_DIR$/src/CommandPattern/command/Command.java" />
         <option value="$PROJECT_DIR$/src/CommandPattern/command/light/LightOnCommand.java" />
         <option value="$PROJECT_DIR$/src/CommandPattern/command/light/LightOffCommand.java" />
@@ -187,6 +275,23 @@
         <option value="$PROJECT_DIR$/src/ApapterPattern/DuckExapmle/TurkeyAdapter.java" />
         <option value="$PROJECT_DIR$/src/ApapterPattern/IteratorExample/EnumerationAdapter.java" />
         <option value="$PROJECT_DIR$/src/ApapterPattern/IteratorExample/EnumerationAdapterTest.java" />
+        <option value="$PROJECT_DIR$/src/ApapterPattern/description.txt" />
+        <option value="$PROJECT_DIR$/src/FacadePattern/Amplifier.java" />
+        <option value="$PROJECT_DIR$/src/FacadePattern/Tuner.java" />
+        <option value="$PROJECT_DIR$/src/FacadePattern/DvdPlayer.java" />
+        <option value="$PROJECT_DIR$/src/FacadePattern/CdPlayer.java" />
+        <option value="$PROJECT_DIR$/src/FacadePattern/Projector.java" />
+        <option value="$PROJECT_DIR$/src/FacadePattern/TheaterLights.java" />
+        <option value="$PROJECT_DIR$/src/FacadePattern/Screen.java" />
+        <option value="$PROJECT_DIR$/src/FacadePattern/PopcornPopper.java" />
+        <option value="$PROJECT_DIR$/src/FacadePattern/component/PopcornPopper.java" />
+        <option value="$PROJECT_DIR$/src/FacadePattern/component/TheaterLights.java" />
+        <option value="$PROJECT_DIR$/src/FacadePattern/component/Projector.java" />
+        <option value="$PROJECT_DIR$/src/FacadePattern/component/Amplifier.java" />
+        <option value="$PROJECT_DIR$/src/FacadePattern/component/Screen.java" />
+        <option value="$PROJECT_DIR$/src/FacadePattern/component/DvdPlayer.java" />
+        <option value="$PROJECT_DIR$/src/FacadePattern/HomeTheaterFacade.java" />
+        <option value="$PROJECT_DIR$/src/FacadePattern/HomeTheaterFacadeTest.java" />
       </list>
     </option>
   </component>
@@ -227,14 +332,7 @@
               <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ApapterPattern" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ApapterPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="IteratorExample" type="462c0819:PsiDirectoryNode" />
+              <item name="FacadePattern" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -259,6 +357,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="FacadePattern" />
       <recent name="ApapterPattern.IteratorExample" />
       <recent name="SingletonPattern" />
     </key>
@@ -267,11 +366,11 @@
       <recent name="ObserverPattern" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="FacadePattern" />
       <recent name="CommandPattern" />
       <recent name="CommandPattern.command.fan" />
       <recent name="CommandPattern.component" />
       <recent name="CommandPattern.command" />
-      <recent name="SingletonPattern" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -294,7 +393,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.EnumerationAdapterTest">
+  <component name="RunManager" selected="Application.HomeTheaterFacadeTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -320,6 +419,17 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration name="HomeTheaterFacadeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FacadePattern.HomeTheaterFacadeTest" />
+      <module name="DesignPatterns" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FacadePattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="MacroCommandTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CommandPattern.MacroCommandTest" />
       <module name="DesignPatterns" />
@@ -333,17 +443,6 @@
     </configuration>
     <configuration name="RemoteCeilingFanTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CommandPattern.RemoteCeilingFanTest" />
-      <module name="DesignPatterns" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CommandPattern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="RemoteControlTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CommandPattern.RemoteControlTest" />
       <module name="DesignPatterns" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -421,19 +520,19 @@
       <method />
     </configuration>
     <list>
-      <item itemvalue="Application.RemoteControlTest" />
       <item itemvalue="Application.RemoteCeilingFanTest" />
       <item itemvalue="Application.MacroCommandTest" />
       <item itemvalue="Application.AdapterTest" />
       <item itemvalue="Application.EnumerationAdapterTest" />
+      <item itemvalue="Application.HomeTheaterFacadeTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HomeTheaterFacadeTest" />
         <item itemvalue="Application.EnumerationAdapterTest" />
         <item itemvalue="Application.AdapterTest" />
         <item itemvalue="Application.MacroCommandTest" />
         <item itemvalue="Application.RemoteCeilingFanTest" />
-        <item itemvalue="Application.RemoteControlTest" />
       </list>
     </recent_temporary>
   </component>
@@ -451,21 +550,7 @@
       <workItem from="1529909977730" duration="687000" />
       <workItem from="1530085560636" duration="22000" />
       <workItem from="1535768272026" duration="22810000" />
-      <workItem from="1535854090292" duration="17104000" />
-    </task>
-    <task id="LOCAL-00005" summary="将叫唤行为和飞行行为添加到Duck类中当成变量，并在子类构造方法中执行这些行为的具体实现类">
-      <created>1529860304508</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1529860304508</updated>
-    </task>
-    <task id="LOCAL-00006" summary="将Duck类声明成抽象类，并把外观display方法声明称抽象方法">
-      <created>1529860602557</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1529860602557</updated>
+      <workItem from="1535854090292" duration="19196000" />
     </task>
     <task id="LOCAL-00007" summary="使用set方法给本来不会飞的模型鸭动态添加飞行功能">
       <created>1529861133882</created>
@@ -796,11 +881,25 @@
       <option name="project" value="LOCAL" />
       <updated>1535876658431</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="添加迭代类型适配器">
+      <created>1535877982796</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1535877982796</updated>
+    </task>
+    <task id="LOCAL-00055" summary="添加适配器模式的描述">
+      <created>1535878212042</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1535878212042</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55421000" />
+    <option name="totallyTimeSpent" value="57513000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="713" y="0" width="734" height="907" extended-state="0" />
@@ -881,8 +980,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="实现抽象工厂模式" />
-    <MESSAGE value="添加工厂模式的描述" />
     <MESSAGE value="添加单例示范代码" />
     <MESSAGE value="添加巧克力工厂类" />
     <MESSAGE value="将巧克力工厂改造成单例对象" />
@@ -906,106 +1003,15 @@
     <MESSAGE value="添加适配器模式的基础接口和类" />
     <MESSAGE value="添加适配器类" />
     <MESSAGE value="修改适配器模式的包结构" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改适配器模式的包结构" />
+    <MESSAGE value="添加迭代类型适配器" />
+    <MESSAGE value="添加适配器模式的描述" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加适配器模式的描述" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/SingletonPattern/description.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SingletonPattern/Singleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SingletonPattern/Singleton2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SingletonPattern/Singleton4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SingletonPattern/Singleton3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CommandPattern/remote/SimpleRemoteControl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="e#244#245#0" expanded="true" />
-            <element signature="e#279#280#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-            <element signature="e#363#364#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CommandPattern/component/Light.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="31" />
-          <folding>
-            <element signature="e#209#210#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CommandPattern/command/fan/LightOffCommand.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CommandPattern/command/Command.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CommandPattern/command/light/LightOnCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#451#452#0" expanded="true" />
-            <element signature="e#478#479#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CommandPattern/command/light/LightOffCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#454#455#0" expanded="true" />
-            <element signature="e#480#481#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CommandPattern/command/garage/GarageDoorCloseCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -1250,7 +1256,7 @@
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
           <ID>JavaScript-modules-diagram</ID>
-          <OriginalElement>$PROJECT_DIR$/src/ApapterPattern/duck;F:/IntellJ Project/DesignPatterns/src/ApapterPattern/turkey;</OriginalElement>
+          <OriginalElement />
           <nodes />
           <notes />
           <edges />
@@ -1397,11 +1403,144 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ApapterPattern/IteratorExample/EnumerationAdapterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        <state relative-caret-position="66">
+          <caret line="14" column="55" lean-forward="true" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApapterPattern/description.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FacadePattern/component/Tuner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="e#130#131#0" expanded="true" />
+            <element signature="e#173#174#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FacadePattern/component/CdPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#180#181#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FacadePattern/component/PopcornPopper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="e#139#140#0" expanded="true" />
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FacadePattern/component/TheaterLights.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+          <folding>
+            <element signature="e#139#140#0" expanded="true" />
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FacadePattern/component/Projector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+          <folding>
+            <element signature="e#134#135#0" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FacadePattern/component/Amplifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
+          <folding>
+            <element signature="e#144#145#0" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FacadePattern/component/Screen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+          <folding>
+            <element signature="e#132#133#0" expanded="true" />
+            <element signature="e#176#177#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FacadePattern/component/DvdPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="e#137#138#0" expanded="true" />
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FacadePattern/HomeTheaterFacade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FacadePattern/HomeTheaterFacadeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
         </state>
       </provider>
     </entry>
