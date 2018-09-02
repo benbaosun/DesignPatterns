@@ -8,12 +8,12 @@ package TemplatePattern;
 public class DrinkTest {
 
     public static void main(String[] args) {
-        Coffee coffee = new Coffee();
+        CoffeeWithHook coffee = new CoffeeWithHook();
         coffee.prepareRecipe(); // 准备咖啡
 
         System.out.println("----------------");
 
-        Tea tea = new Tea();
+        TeaWithHook tea = new TeaWithHook();
         tea.prepareRecipe(); // 准备茶
 
         /*
@@ -21,11 +21,14 @@ public class DrinkTest {
             煮沸水
             冲泡咖啡
             把饮料倒进杯子
-            加糖加奶
+            请问要在咖啡里添加牛奶或糖么？[输入y或n]
+            n
             ----------------
             煮沸水
             冲泡茶包
             把饮料倒进杯子
+            请问要在咖啡里添加柠檬么？[输入y或n]
+            y
             加柠檬
          */
     }
