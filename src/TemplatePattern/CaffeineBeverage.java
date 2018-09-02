@@ -13,6 +13,7 @@ public abstract class CaffeineBeverage {
         brew(); // 冲泡
         pourInCup(); // 把咖啡倒进杯子
         addCondiments(); // 添加调味料
+        hook(); // 钩子方法（占位）
     }
 
     // 冲泡
@@ -27,6 +28,11 @@ public abstract class CaffeineBeverage {
 
     private void pourInCup() {
         System.out.println("把饮料倒进杯子");
+    }
+
+    // 钩子方法，什么也不做，留给子类视情况重写
+    protected void hook() {
+
     }
 
 }
