@@ -1,20 +1,18 @@
 package CommandPattern.component;
 
-import CommandPattern.command.Command;
-
 /**
  * @author lkmc2
  * @date 2018/9/2
  * @description 音响
  */
 public class Stereo {
-    private String name; // 地点名
+    private String location; // 地点名
 
     public Stereo() {
     }
 
-    public Stereo(String name) {
-        this.name = name;
+    public Stereo(String location) {
+        this.location = location;
     }
 
     public void on() {
