@@ -1,4 +1,6 @@
-package CommandPattern;
+package CommandPattern.command;
+
+import CommandPattern.component.GarageDoor;
 
 /**
  * @author lkmc2

@@ -1,4 +1,4 @@
-package CommandPattern;
+package CommandPattern.command;
 
 /**
  * @author lkmc2

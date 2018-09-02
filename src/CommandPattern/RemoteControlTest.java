@@ -1,5 +1,11 @@
 package CommandPattern;
 
+import CommandPattern.command.GarageDoorOpenCommand;
+import CommandPattern.command.LightOnCommand;
+import CommandPattern.component.GarageDoor;
+import CommandPattern.component.Light;
+import CommandPattern.remote.SimpleRemoteControl;
+
 /**
  * @author lkmc2
  * @date 2018/9/2

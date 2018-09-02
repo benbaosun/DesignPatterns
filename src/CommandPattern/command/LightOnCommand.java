@@ -1,4 +1,6 @@
-package CommandPattern;
+package CommandPattern.command;
+
+import CommandPattern.component.Light;
 
 /**
  * @author lkmc2
