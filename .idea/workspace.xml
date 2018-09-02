@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b53849ff-7e58-4dcc-98b7-cb747762d9cf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CommandPattern/RemoteLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CommandPattern/component/CeilingFan.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CommandPattern/component/GarageDoor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommandPattern/component/GarageDoor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CommandPattern/component/Light.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommandPattern/component/Light.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CommandPattern/component/Stereo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommandPattern/component/Stereo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,8 +20,8 @@
       <file leaf-file-name="RemoteLoader.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/CommandPattern/RemoteLoader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="60" column="25" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="25" />
+            <state relative-caret-position="361">
+              <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -150,7 +145,7 @@
       <find>芝士</find>
       <find>希腊</find>
       <find>芝士披萨</find>
-      <find />
+      <find>pizza =</find>
       <find>创建</find>
       <find>COMMAND_COUNT</find>
     </findStrings>
@@ -519,7 +514,7 @@
       <workItem from="1529909977730" duration="687000" />
       <workItem from="1530085560636" duration="22000" />
       <workItem from="1535768272026" duration="22810000" />
-      <workItem from="1535854090292" duration="8514000" />
+      <workItem from="1535854090292" duration="8782000" />
     </task>
     <task id="LOCAL-00001" summary="初始化鸭子类和子类（红头鸭、绿头鸭）">
       <created>1529856942203</created>
@@ -822,11 +817,18 @@
       <option name="project" value="LOCAL" />
       <updated>1535861944026</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="添加更详尽的命令模式遥控器测试类">
+      <created>1535863942527</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1535863942527</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46831000" />
+    <option name="totallyTimeSpent" value="47099000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="713" y="0" width="734" height="907" extended-state="0" />
@@ -907,7 +909,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加装饰者模式的基础类" />
     <MESSAGE value="引入装饰者模式" />
     <MESSAGE value="为饮料引入杯子大小装饰器" />
     <MESSAGE value="启动饮料装饰器到新的包下" />
@@ -932,7 +933,8 @@
     <MESSAGE value="添加打开车库门命令" />
     <MESSAGE value="调整命令模式的包结构" />
     <MESSAGE value="添加带插槽的遥控器，使用命令模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加带插槽的遥控器，使用命令模式" />
+    <MESSAGE value="添加更详尽的命令模式遥控器测试类" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加更详尽的命令模式遥控器测试类" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1332,8 +1334,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CommandPattern/RemoteLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="60" column="25" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="25" />
+        <state relative-caret-position="361">
+          <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
