@@ -19,4 +19,9 @@ public class LightOffCommand implements Command {
     public void execute() {
         light.off(); // 关灯
     }
+
+    @Override
+    public void undo() {
+        light.on(); // 开灯
+    }
 }

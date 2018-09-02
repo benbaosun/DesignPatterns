@@ -75,12 +75,23 @@ public class RemoteLoader {
         // 分别按下对应插槽的开、关按钮
         remoteControl.onButtonWasPushed(0); // 按下0插槽的开按钮
         remoteControl.offButtonWasPushed(0);  // 按下0插槽的关按钮
-        remoteControl.onButtonWasPushed(1);
-        remoteControl.offButtonWasPushed(1);
+        printDivideLine();
+
+        // 按下撤销上一步按钮
+        remoteControl.undoButtonWasPushed();
+        printDivideLine();
+
         remoteControl.onButtonWasPushed(2);
-        remoteControl.offButtonWasPushed(2);
+        printDivideLine();
+
+        // 按下撤销上一步按钮
+        remoteControl.undoButtonWasPushed();
+        printDivideLine();
+
         remoteControl.onButtonWasPushed(3);
         remoteControl.offButtonWasPushed(3);
+        printDivideLine();
+
         remoteControl.onButtonWasPushed(4);
         remoteControl.offButtonWasPushed(4);
 
@@ -88,12 +99,18 @@ public class RemoteLoader {
             运行结果：
             已开灯
             已关灯
+            -----------------------------
+            [撤销上一步操作]
             已开灯
-            已关灯
+            -----------------------------
             已开风扇
+            -----------------------------
+            [撤销上一步操作]
             已关风扇
+            -----------------------------
             车库门升起
             车库门下降
+            -----------------------------
             设置CD
             开启音响
             设置音量：11
@@ -101,6 +118,11 @@ public class RemoteLoader {
             关闭音响
             设置音量：0
          */
+    }
+
+    // 打印分隔线
+    private static void printDivideLine() {
+        System.out.println("-----------------------------");
     }
 
 }

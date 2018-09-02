@@ -19,4 +19,9 @@ public class CeilingFanOffCommand implements Command {
     public void execute() {
         fan.off(); // 关吊扇
     }
+
+    @Override
+    public void undo() {
+        fan.on(); // 开吊扇
+    }
 }

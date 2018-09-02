@@ -19,4 +19,9 @@ public class GarageDoorOpenCommand implements Command {
     public void execute() {
         garageDoor.up(); // 车库门升起
     }
+
+    @Override
+    public void undo() {
+        garageDoor.down(); // 车库门下降
+    }
 }

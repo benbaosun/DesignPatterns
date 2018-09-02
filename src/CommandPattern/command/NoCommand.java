@@ -10,4 +10,9 @@ public class NoCommand implements Command {
     public void execute() {
         // 无操作
     }
+
+    @Override
+    public void undo() {
+        // 无操作
+    }
 }

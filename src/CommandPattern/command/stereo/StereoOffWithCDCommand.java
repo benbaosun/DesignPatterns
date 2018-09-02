@@ -21,4 +21,11 @@ public class StereoOffWithCDCommand implements Command {
         stereo.off(); // 关闭音响
         stereo.setVolume(0); // 设置音量
     }
+
+    @Override
+    public void undo() {
+        stereo.setCd(); // 设置cd
+        stereo.on(); // 打开音响
+        stereo.setVolume(11); // 设置音量
+    }
 }

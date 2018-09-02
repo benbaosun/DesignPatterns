@@ -11,6 +11,7 @@ import CommandPattern.command.NoCommand;
 public class RemoteControl {
     private Command[] onCommands; // 打开命令数组
     private Command[] offCommands; // 关闭命令数组
+    private Command undoCommand; // 记录前一个命令，用以撤销
 
     public RemoteControl() {
         onCommands = new Command[7];
@@ -23,6 +24,7 @@ public class RemoteControl {
             onCommands[i] = noCommand;
             offCommands[i] = noCommand;
         }
+        undoCommand = noCommand; // 设置最初的前一个命令为无操作
     }
 
     /**
@@ -41,7 +43,8 @@ public class RemoteControl {
      * @param slot 插槽号
      */
     public void onButtonWasPushed(int slot) {
-        onCommands[slot].execute();
+        onCommands[slot].execute(); // 执行对应插槽的操作
+        undoCommand = onCommands[slot]; // 记录该操作，用以撤销
     }
 
     /**
@@ -49,7 +52,14 @@ public class RemoteControl {
      * @param slot 插槽号
      */
     public void offButtonWasPushed(int slot) {
-        offCommands[slot].execute();
+        offCommands[slot].execute(); // 执行对应插槽的操作
+        undoCommand = offCommands[slot]; // 记录该操作，用以撤销
+    }
+
+    // 按下撤销按钮
+    public void undoButtonWasPushed() {
+        System.out.println("[撤销上一步操作]");
+        undoCommand.undo(); // 撤销上一步的操作
     }
 
     @Override
