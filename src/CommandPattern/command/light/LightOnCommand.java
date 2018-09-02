@@ -1,5 +1,6 @@
-package CommandPattern.command;
+package CommandPattern.command.light;
 
+import CommandPattern.command.Command;
 import CommandPattern.component.Light;
 
 /**
