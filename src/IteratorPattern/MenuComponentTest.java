@@ -45,7 +45,17 @@ public class MenuComponentTest {
 
         // 服务员
         Waitress waitress = new Waitress(allMenus);
-        waitress.printMenu(); // 打印菜单
+//        waitress.printMenu(); // 打印菜单
+
+        waitress.printVegetarianMenu(); // 只打印素菜
+        /*
+            运行结果：
+              煎饼早餐[蔬菜]，3.0 -- 鸡蛋、蔬菜、面包
+              烤煎饼[蔬菜]，3.0 -- 鸡蛋、面包、芒果
+              手拍黄瓜[蔬菜]，12.0 -- 黄瓜、辣椒、醋
+              美式咖啡[蔬菜]，18.0 -- 咖啡
+              卡布奇诺咖啡[蔬菜]，19.0 -- 咖啡
+         */
     }
 
 }

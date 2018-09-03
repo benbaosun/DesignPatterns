@@ -2,6 +2,8 @@ package IteratorPattern.menu;
 
 import IteratorPattern.component.MenuComponent;
 
+import java.util.Iterator;
+
 /**
  * @author lkmc2
  * @date 2018/9/3
@@ -58,5 +60,10 @@ public class MenuItem extends MenuComponent {
                 ", vegetarian=" + vegetarian +
                 ", price=" + price +
                 '}';
+    }
+
+    @Override
+    public Iterator<MenuComponent> createIterator() {
+        return new NullIterator();
     }
 }

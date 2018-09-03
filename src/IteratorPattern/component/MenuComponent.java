@@ -1,5 +1,9 @@
 package IteratorPattern.component;
 
+import IteratorPattern.menu.MenuItem;
+
+import java.util.Iterator;
+
 /**
  * @author lkmc2
  * @date 2018/9/3
@@ -36,6 +40,11 @@ public abstract class MenuComponent {
     }
 
     public void print() {
+        throw new UnsupportedOperationException();
+    }
+
+    // 创建迭代器
+    public Iterator<MenuComponent> createIterator() {
         throw new UnsupportedOperationException();
     }
 

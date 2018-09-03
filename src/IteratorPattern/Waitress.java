@@ -2,6 +2,8 @@ package IteratorPattern;
 
 import IteratorPattern.component.MenuComponent;
 
+import java.util.Iterator;
+
 /**
  * @author lkmc2
  * @date 2018/9/3
@@ -17,5 +19,21 @@ public class Waitress {
     // 打印全部菜单
     public void printMenu() {
         allMenus.print();
+    }
+
+    // 打印素菜
+    public void printVegetarianMenu() {
+        Iterator<MenuComponent> iterator = allMenus.createIterator();
+
+        while (iterator.hasNext()) {
+            MenuComponent menuComponent = iterator.next();
+            // 打印素菜（只有MenuItem支持isVegetarian）
+            try {
+                if (menuComponent.isVegetarian()) {
+                    menuComponent.print();
+                }
+            } catch (UnsupportedOperationException ignored) {
+            }
+        }
     }
 }
