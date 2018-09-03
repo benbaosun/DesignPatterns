@@ -42,7 +42,7 @@ public class MenuItem extends MenuComponent {
 
     @Override
     public void print() {
-        System.out.print(getName());
+        System.out.print("  " + getName());
         if (isVegetarian()) {
             System.out.print("[蔬菜]");
         }
