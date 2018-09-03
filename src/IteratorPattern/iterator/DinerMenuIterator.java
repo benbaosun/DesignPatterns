@@ -2,6 +2,8 @@ package IteratorPattern.iterator;
 
 import IteratorPattern.menu.MenuItem;
 
+import java.util.Iterator;
+
 /**
  * @author lkmc2
  * @date 2018/9/3

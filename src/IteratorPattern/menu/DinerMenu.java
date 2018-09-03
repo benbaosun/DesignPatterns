@@ -1,7 +1,8 @@
 package IteratorPattern.menu;
 
 import IteratorPattern.iterator.DinerMenuIterator;
-import IteratorPattern.iterator.Iterator;
+
+import java.util.Iterator;
 
 /**
  * @author lkmc2

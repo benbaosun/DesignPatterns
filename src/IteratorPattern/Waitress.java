@@ -1,6 +1,5 @@
 package IteratorPattern;
 
-import IteratorPattern.iterator.Iterator;
 import IteratorPattern.menu.DinerMenu;
 import IteratorPattern.menu.MenuItem;
 import IteratorPattern.menu.PancakeHouseMenu;
