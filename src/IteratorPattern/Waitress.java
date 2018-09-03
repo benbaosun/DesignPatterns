@@ -1,10 +1,6 @@
 package IteratorPattern;
 
-import IteratorPattern.menu.Menu;
-import IteratorPattern.menu.MenuItem;
-
-import java.util.Iterator;
-import java.util.List;
+import IteratorPattern.component.MenuComponent;
 
 /**
  * @author lkmc2
@@ -12,26 +8,14 @@ import java.util.List;
  * @description 服务员
  */
 public class Waitress {
-    private List<Menu> menus; // 各餐厅的菜单列表
+    private MenuComponent allMenus; // 所有餐厅的菜单列表
 
-    public Waitress(List<Menu> menus) {
-        this.menus = menus;
+    public Waitress(MenuComponent allMenus) {
+        this.allMenus = allMenus;
     }
 
     // 打印全部菜单
     public void printMenu() {
-        for (Menu menu : menus) {
-            // 创建菜单的迭代器并打印
-            printMenu(menu.createIterator());
-        }
-    }
-
-    // 打印迭代器里面的菜单
-    private void printMenu(Iterator iterator) {
-        // 还有下一项，打印菜单
-        while (iterator.hasNext()) {
-            MenuItem item = (MenuItem) iterator.next();
-            System.out.println(item);
-        }
+        allMenus.print();
     }
 }

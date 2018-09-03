@@ -13,24 +13,24 @@ import java.util.List;
 public class MenuTest {
 
     public static void main(String[] args) {
-        // 煎饼屋菜单
-        Menu pancakeHouseMenu = new PancakeHouseMenu();
-        // 餐厅菜单
-        Menu dinerMenu = new DinerMenu();
-        // 咖啡厅菜单
-        Menu cafeMenu = new CafeMenu();
-
-        // 将菜单加入菜单列表
-        List<Menu> menus = new ArrayList<>();
-        menus.add(pancakeHouseMenu);
-        menus.add(dinerMenu);
-        menus.add(cafeMenu);
-
-
-        // 带有菜单的服务员
-        Waitress waitress = new Waitress(menus);
-        // 打印菜单
-        waitress.printMenu();
+//        // 煎饼屋菜单
+//        Menu pancakeHouseMenu = new PancakeHouseMenu();
+//        // 餐厅菜单
+//        Menu dinerMenu = new DinerMenu();
+//        // 咖啡厅菜单
+//        Menu cafeMenu = new CafeMenu();
+//
+//        // 将菜单加入菜单列表
+//        List<Menu> menus = new ArrayList<>();
+//        menus.add(pancakeHouseMenu);
+//        menus.add(dinerMenu);
+//        menus.add(cafeMenu);
+//
+//
+//        // 带有菜单的服务员
+//        Waitress waitress = new Waitress(menus);
+//        // 打印菜单
+//        waitress.printMenu();
 
         /*
             运行结果：
