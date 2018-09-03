@@ -1,5 +1,8 @@
 package IteratorPattern.menu;
 
+import IteratorPattern.iterator.DinerMenuIterator;
+import IteratorPattern.iterator.Iterator;
+
 /**
  * @author lkmc2
  * @date 2018/9/3
@@ -33,7 +36,8 @@ public class DinerMenu {
         }
     }
 
-    public MenuItem[] getMenuItems() {
-        return menuItems;
+    // 创建迭代器
+    public Iterator createIterator() {
+        return new DinerMenuIterator(menuItems);
     }
 }

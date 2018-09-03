@@ -14,28 +14,33 @@ import java.util.List;
 public class MenuTest {
 
     public static void main(String[] args) {
-        printMenu(); // 打印出餐单上每一项
-    }
-
-    // 打印出餐单上每一项
-    private static void printMenu() {
-        // 获取煎饼屋的菜单列表（早餐）
+        // 煎饼屋菜单
         PancakeHouseMenu pancakeHouseMenu = new PancakeHouseMenu();
-        List<MenuItem> breakfastItems = pancakeHouseMenu.getMenuItems();
-
-        // 获取餐厅的菜单数组（午餐）
+        // 餐厅菜单
         DinerMenu dinerMenu = new DinerMenu();
-        MenuItem[] lunchItems = dinerMenu.getMenuItems();
 
-        System.out.println("早餐：");
-        for (MenuItem breakfastItem : breakfastItems) {
-            System.out.println(breakfastItem);
-        }
+        // 带有菜单的服务员
+        Waitress waitress = new Waitress(pancakeHouseMenu, dinerMenu);
+        // 打印菜单
+        waitress.printMenu();
 
-        System.out.println("午餐：");
-        for (MenuItem lunchItem : lunchItems) {
-            System.out.println(lunchItem);
-        }
+        /*
+            运行结果：
+            ----- 菜单 -----
+            早餐：
+            MenuItem{name='煎饼早餐', description='鸡蛋、蔬菜、面包', vegetarian=true, price=3.0}
+            MenuItem{name='烤煎饼', description='鸡蛋、面包、芒果', vegetarian=true, price=3.0}
+            MenuItem{name='红烧煎饼', description='排骨、鸡蛋、蔬菜、面包', vegetarian=false, price=8.0}
+            MenuItem{name='牛肉煎饼', description='牛肉、芝士、鸡蛋、蔬菜、面包', vegetarian=false, price=12.0}
+            ----------------
+            午餐：
+            MenuItem{name='水煮牛肉', description='牛肉、辣椒、豆芽', vegetarian=false, price=24.0}
+            MenuItem{name='红烧鱼', description='鱼、秘制酱汁', vegetarian=false, price=18.0}
+            MenuItem{name='虎皮凤爪', description='鸡爪、秘制酱汁', vegetarian=false, price=22.0}
+            MenuItem{name='手拍黄瓜', description='黄瓜、辣椒、醋', vegetarian=false, price=12.0}
+         */
     }
+
+
 
 }

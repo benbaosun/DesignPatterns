@@ -1,5 +1,8 @@
 package IteratorPattern.menu;
 
+import IteratorPattern.iterator.Iterator;
+import IteratorPattern.iterator.PancakeHouseMenuIterator;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -28,8 +31,8 @@ public class PancakeHouseMenu {
         menuItems.add(menuItem);
     }
 
-    // 获取菜单列表
-    public List<MenuItem> getMenuItems() {
-        return menuItems;
+    // 创建菜单迭代器
+    public Iterator createIterator() {
+        return new PancakeHouseMenuIterator(menuItems);
     }
 }
