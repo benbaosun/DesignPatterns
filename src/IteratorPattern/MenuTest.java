@@ -1,5 +1,9 @@
 package IteratorPattern;
 
+import IteratorPattern.menu.DinerMenu;
+import IteratorPattern.menu.MenuItem;
+import IteratorPattern.menu.PancakeHouseMenu;
+
 import java.util.List;
 
 /**

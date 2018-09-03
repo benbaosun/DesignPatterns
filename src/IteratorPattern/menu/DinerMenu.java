@@ -1,4 +1,4 @@
-package IteratorPattern;
+package IteratorPattern.menu;
 
 /**
  * @author lkmc2
