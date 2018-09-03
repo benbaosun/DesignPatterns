@@ -1,6 +1,7 @@
 package IteratorPattern.menu;
 
 import IteratorPattern.component.MenuComponent;
+import IteratorPattern.iterator.NullIterator;
 
 import java.util.Iterator;
 

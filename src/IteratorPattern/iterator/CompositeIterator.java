@@ -1,6 +1,7 @@
-package IteratorPattern.menu;
+package IteratorPattern.iterator;
 
 import IteratorPattern.component.MenuComponent;
+import IteratorPattern.menu.Menu;
 
 import java.util.Iterator;
 import java.util.Stack;

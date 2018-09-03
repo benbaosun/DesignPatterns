@@ -1,4 +1,4 @@
-package IteratorPattern.menu;
+package IteratorPattern.iterator;
 
 import IteratorPattern.component.MenuComponent;
 

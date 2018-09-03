@@ -2,7 +2,7 @@ package IteratorPattern;
 
 
 import IteratorPattern.component.MenuComponent;
-import IteratorPattern.menu.CompositeIterator;
+import IteratorPattern.iterator.CompositeIterator;
 import IteratorPattern.menu.Menu;
 import IteratorPattern.menu.MenuItem;
 
