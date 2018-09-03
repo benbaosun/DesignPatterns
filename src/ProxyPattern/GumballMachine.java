@@ -13,9 +13,11 @@ public class GumballMachine {
 
     private int state = SOLD_OUT; // 初始状态为卖光
     private int count; // 现有糖果数目
+    private String location; // 位置
 
-    public GumballMachine(int count) {
+    public GumballMachine(int count, String location) {
         this.count = count;
+        this.location = location;
 
         // 糖果数目大于0
         if (count > 0) {
@@ -88,8 +90,15 @@ public class GumballMachine {
         }
     }
 
-    @Override
-    public String toString() {
+    public String getLocation() {
+        return location;
+    }
+
+    public int getCount() {
+        return count;
+    }
+
+    public String getState() {
         String stateStr;
         switch (state) {
             case NO_MONEY:
@@ -107,6 +116,6 @@ public class GumballMachine {
             default:
                 stateStr = "未投币";
         }
-        return String.format("糖果机状态[%s]，剩余糖果数：[%s]", stateStr, count);
+        return String.format("糖果机状态[%s]", stateStr);
     }
 }
