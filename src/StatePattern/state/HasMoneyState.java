@@ -2,12 +2,15 @@ package StatePattern.state;
 
 import StatePattern.GumballMachine;
 
+import java.util.Random;
+
 /**
  * @author lkmc2
  * @date 2018/9/3
  * @description 已投币状态（状态模式）
  */
 public class HasMoneyState implements State {
+    private Random randomWinner = new Random(System.currentTimeMillis()); // 决定中奖的随机数
     private GumballMachine gumballMachine; // 糖果机
 
     public HasMoneyState(GumballMachine gumballMachine) {
@@ -29,8 +32,18 @@ public class HasMoneyState implements State {
     @Override
     public void turnCrank() {
         System.out.println("已移动曲柄");
-        // 设置状态为售出
-        gumballMachine.setState(gumballMachine.getSoldState());
+
+        // 根据获取的随机数决定中奖
+        int winner = randomWinner.nextInt(10);
+
+        // 中奖（糖果机中的糖果数大于1）
+        if ((winner == 0) && gumballMachine.getCount() > 1) {
+            // 设置状态为中奖
+            gumballMachine.setState(gumballMachine.getWinnerState());
+        } else { // 未中奖
+            // 设置状态为售出
+            gumballMachine.setState(gumballMachine.getSoldState());
+        }
     }
 
     @Override

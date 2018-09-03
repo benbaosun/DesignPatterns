@@ -12,6 +12,7 @@ public class GumballMachine {
     private State noMoneyState; // 投币
     private State hasMoneyState; // 卖光
     private State soldState; // 售出糖果
+    private State winnerState; // 中奖
 
     private State state = null; // 糖果机状态
     private int count; // 现有糖果数目
@@ -21,6 +22,7 @@ public class GumballMachine {
         noMoneyState = new NoMoneyState(this);
         hasMoneyState = new HasMoneyState(this);
         soldState = new SoldState(this);
+        winnerState = new WinnerState(this);
 
         this.count = count;
 
@@ -94,5 +96,9 @@ public class GumballMachine {
 
     public State getSoldState() {
         return soldState;
+    }
+
+    public State getWinnerState() {
+        return winnerState;
     }
 }
