@@ -28,4 +28,21 @@ public class DinerMenuIterator implements Iterator {
         // 返回下一项菜单子项
         return items[position++];
     }
+
+    @Override
+    public void remove() {
+        if (position <= 0) {
+            throw new IllegalStateException("菜单数组中已没有元素，无法移除");
+        }
+
+        if (items[position - 1] != null) {
+            // 将被删除元素后面的元素全都向前移动一位
+            for (int i = position - 1; i < items.length - 1; i++) {
+                items[i] = items[i + 1];
+            }
+//            下一行代码等效于上面的for循环
+//            System.arraycopy(items, position, items, position - 1, items.length - position - 2);
+            items[items.length - 1] = null;
+        }
+    }
 }
