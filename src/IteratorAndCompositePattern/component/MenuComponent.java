@@ -1,6 +1,4 @@
-package IteratorPattern.component;
-
-import IteratorPattern.menu.MenuItem;
+package IteratorAndCompositePattern.component;
 
 import java.util.Iterator;
 

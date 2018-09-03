@@ -1,8 +1,8 @@
-package IteratorPattern;
+package IteratorAndCompositePattern;
 
-import IteratorPattern.component.MenuComponent;
-import IteratorPattern.menu.Menu;
-import IteratorPattern.menu.MenuItem;
+import IteratorAndCompositePattern.component.MenuComponent;
+import IteratorAndCompositePattern.menu.Menu;
+import IteratorAndCompositePattern.menu.MenuItem;
 
 /**
  * @author lkmc2

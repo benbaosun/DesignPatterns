@@ -1,10 +1,10 @@
-package IteratorPattern;
+package IteratorAndCompositePattern;
 
 
-import IteratorPattern.component.MenuComponent;
-import IteratorPattern.iterator.CompositeIterator;
-import IteratorPattern.menu.Menu;
-import IteratorPattern.menu.MenuItem;
+import IteratorAndCompositePattern.component.MenuComponent;
+import IteratorAndCompositePattern.iterator.CompositeIterator;
+import IteratorAndCompositePattern.menu.Menu;
+import IteratorAndCompositePattern.menu.MenuItem;
 
 /**
  * @author lkmc2
@@ -49,14 +49,14 @@ public class CompositeIteratorTest {
 
         /*
             运行结果：（有重复）
-            IteratorPattern.menu.Menu@4554617c
+            IteratorAndCompositePattern.menu.Menu@4554617c
             MenuItem{name='煎饼早餐', description='鸡蛋、蔬菜、面包', vegetarian=true, price=3.0}
             MenuItem{name='烤煎饼', description='鸡蛋、面包、芒果', vegetarian=true, price=3.0}
             MenuItem{name='红烧煎饼', description='排骨、鸡蛋、蔬菜、面包', vegetarian=false, price=8.0}
             MenuItem{name='煎饼早餐', description='鸡蛋、蔬菜、面包', vegetarian=true, price=3.0}
             MenuItem{name='烤煎饼', description='鸡蛋、面包、芒果', vegetarian=true, price=3.0}
             MenuItem{name='红烧煎饼', description='排骨、鸡蛋、蔬菜、面包', vegetarian=false, price=8.0}
-            IteratorPattern.menu.Menu@74a14482
+            IteratorAndCompositePattern.menu.Menu@74a14482
             MenuItem{name='水煮牛肉', description='牛肉、辣椒、豆芽', vegetarian=false, price=24.0}
             MenuItem{name='红烧鱼', description='鱼、秘制酱汁', vegetarian=false, price=18.0}
             MenuItem{name='虎皮凤爪', description='鸡爪、秘制酱汁', vegetarian=false, price=22.0}
@@ -65,17 +65,17 @@ public class CompositeIteratorTest {
             MenuItem{name='红烧鱼', description='鱼、秘制酱汁', vegetarian=false, price=18.0}
             MenuItem{name='虎皮凤爪', description='鸡爪、秘制酱汁', vegetarian=false, price=22.0}
             MenuItem{name='手拍黄瓜', description='黄瓜、辣椒、醋', vegetarian=true, price=12.0}
-            IteratorPattern.menu.Menu@1540e19d
+            IteratorAndCompositePattern.menu.Menu@1540e19d
             MenuItem{name='美式咖啡', description='咖啡', vegetarian=true, price=18.0}
             MenuItem{name='卡布奇诺咖啡', description='咖啡', vegetarian=true, price=19.0}
-            IteratorPattern.menu.Menu@677327b6
+            IteratorAndCompositePattern.menu.Menu@677327b6
             MenuItem{name='冰淇淋', description='甜点', vegetarian=false, price=3.0}
             MenuItem{name='水果布丁', description='甜点', vegetarian=false, price=12.0}
             MenuItem{name='冰淇淋', description='甜点', vegetarian=false, price=3.0}
             MenuItem{name='水果布丁', description='甜点', vegetarian=false, price=12.0}
             MenuItem{name='美式咖啡', description='咖啡', vegetarian=true, price=18.0}
             MenuItem{name='卡布奇诺咖啡', description='咖啡', vegetarian=true, price=19.0}
-            IteratorPattern.menu.Menu@677327b6
+            IteratorAndCompositePattern.menu.Menu@677327b6
             MenuItem{name='冰淇淋', description='甜点', vegetarian=false, price=3.0}
             MenuItem{name='水果布丁', description='甜点', vegetarian=false, price=12.0}
             MenuItem{name='冰淇淋', description='甜点', vegetarian=false, price=3.0}
