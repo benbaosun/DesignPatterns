@@ -1,5 +1,6 @@
 package IteratorPattern.menu;
 
+import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
@@ -8,7 +9,7 @@ import java.util.Map;
  * @date 2018/9/3
  * @description 咖啡厅的菜单
  */
-public class CafeMenu {
+public class CafeMenu implements Menu {
     private Map<String, MenuItem> menuItems; // 菜单子项map
 
     public CafeMenu() {
@@ -27,7 +28,8 @@ public class CafeMenu {
         menuItems.put(menuItem.getName(), menuItem);
     }
 
-    public Map<String, MenuItem> getMenuItems() {
-        return menuItems;
+    @Override
+    public Iterator<MenuItem> createIterator() {
+        return menuItems.values().iterator();
     }
 }
