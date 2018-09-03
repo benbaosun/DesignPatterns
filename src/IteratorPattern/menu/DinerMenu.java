@@ -21,7 +21,7 @@ public class DinerMenu implements Menu {
         addItem("水煮牛肉", "牛肉、辣椒、豆芽", false, 24);
         addItem("红烧鱼", "鱼、秘制酱汁", false, 18);
         addItem("虎皮凤爪", "鸡爪、秘制酱汁", false, 22);
-        addItem("手拍黄瓜", "黄瓜、辣椒、醋", false, 12);
+        addItem("手拍黄瓜", "黄瓜、辣椒、醋", true, 12);
     }
 
     // 添加菜单子项到数组
