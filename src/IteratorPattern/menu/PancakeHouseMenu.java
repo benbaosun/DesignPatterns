@@ -9,7 +9,7 @@ import java.util.List;
  * @date 2018/9/3
  * @description 煎饼屋的菜单
  */
-public class PancakeHouseMenu {
+public class PancakeHouseMenu implements Menu {
     private List<MenuItem> menuItems; // 菜单列表
 
     public PancakeHouseMenu() {
@@ -30,7 +30,7 @@ public class PancakeHouseMenu {
     }
 
     // 创建菜单迭代器
-    public Iterator createIterator() {
+    public Iterator<MenuItem> createIterator() {
         return menuItems.iterator();
     }
 }

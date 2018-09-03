@@ -9,7 +9,7 @@ import java.util.Iterator;
  * @date 2018/9/3
  * @description 餐厅菜单迭代器
  */
-public class DinerMenuIterator implements Iterator {
+public class DinerMenuIterator implements Iterator<MenuItem> {
     private MenuItem[] items; // 菜单子项数组
     private int position; // 当前迭代器的位置
 

@@ -1,8 +1,9 @@
 package IteratorPattern;
 
-import IteratorPattern.menu.DinerMenu;
+import IteratorPattern.menu.Menu;
 import IteratorPattern.menu.MenuItem;
-import IteratorPattern.menu.PancakeHouseMenu;
+
+import java.util.Iterator;
 
 /**
  * @author lkmc2
@@ -10,10 +11,10 @@ import IteratorPattern.menu.PancakeHouseMenu;
  * @description 服务员
  */
 public class Waitress {
-    private PancakeHouseMenu pancakeHouseMenu; // 煎饼屋的菜单
-    private DinerMenu dinerMenu; // 餐厅菜单
+    private Menu pancakeHouseMenu; // 煎饼屋的菜单
+    private Menu dinerMenu; // 餐厅菜单
 
-    public Waitress(PancakeHouseMenu pancakeHouseMenu, DinerMenu dinerMenu) {
+    public Waitress(Menu pancakeHouseMenu, Menu dinerMenu) {
         this.pancakeHouseMenu = pancakeHouseMenu;
         this.dinerMenu = dinerMenu;
     }

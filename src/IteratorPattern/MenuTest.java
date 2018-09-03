@@ -1,10 +1,8 @@
 package IteratorPattern;
 
 import IteratorPattern.menu.DinerMenu;
-import IteratorPattern.menu.MenuItem;
+import IteratorPattern.menu.Menu;
 import IteratorPattern.menu.PancakeHouseMenu;
-
-import java.util.List;
 
 /**
  * @author lkmc2
@@ -15,9 +13,9 @@ public class MenuTest {
 
     public static void main(String[] args) {
         // 煎饼屋菜单
-        PancakeHouseMenu pancakeHouseMenu = new PancakeHouseMenu();
+        Menu pancakeHouseMenu = new PancakeHouseMenu();
         // 餐厅菜单
-        DinerMenu dinerMenu = new DinerMenu();
+        Menu dinerMenu = new DinerMenu();
 
         // 带有菜单的服务员
         Waitress waitress = new Waitress(pancakeHouseMenu, dinerMenu);

@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b53849ff-7e58-4dcc-98b7-cb747762d9cf" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IteratorPattern/menu/Menu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/IteratorPattern/Waitress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IteratorPattern/Waitress.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/IteratorPattern/iterator/DinerMenuIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IteratorPattern/iterator/DinerMenuIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IteratorPattern/iterator/Iterator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IteratorPattern/iterator/PancakeHouseMenuIterator.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/IteratorPattern/menu/DinerMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IteratorPattern/menu/DinerMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/IteratorPattern/menu/PancakeHouseMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IteratorPattern/menu/PancakeHouseMenu.java" afterDir="false" />
     </list>
@@ -45,12 +43,12 @@
       <file leaf-file-name="PancakeHouseMenu.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IteratorPattern/menu/PancakeHouseMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+            <state relative-caret-position="608">
+              <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#921#922#0" expanded="true" />
-                <element signature="e#973#974#0" expanded="true" />
+                <element signature="e#862#863#0" expanded="true" />
+                <element signature="e#886#887#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -59,8 +57,8 @@
       <file leaf-file-name="DinerMenuIterator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IteratorPattern/iterator/DinerMenuIterator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+            <state relative-caret-position="456">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#320#321#0" expanded="true" />
@@ -70,11 +68,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DinerMenu.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Menu.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/IteratorPattern/menu/Menu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Iterator.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/Iterator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="94">
+              <caret line="53" column="17" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DinerMenu.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IteratorPattern/menu/DinerMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
+            <state relative-caret-position="779">
+              <caret line="41" column="48" lean-forward="true" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1104#1105#0" expanded="true" />
@@ -87,8 +106,8 @@
       <file leaf-file-name="Waitress.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IteratorPattern/Waitress.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            <state relative-caret-position="56">
+              <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -96,7 +115,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MenuTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MenuTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/IteratorPattern/MenuTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="456">
@@ -184,7 +203,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/CommandPattern/description.txt" />
         <option value="$PROJECT_DIR$/src/ApapterPattern/MallardDuck.java" />
         <option value="$PROJECT_DIR$/src/ApapterPattern/Turkey.java" />
         <option value="$PROJECT_DIR$/src/ApapterPattern/Duck.java" />
@@ -229,12 +247,13 @@
         <option value="$PROJECT_DIR$/src/IteratorPattern/MenuItem.java" />
         <option value="$PROJECT_DIR$/src/IteratorPattern/Iterator.java" />
         <option value="$PROJECT_DIR$/src/IteratorPattern/iterator/Iterator.java" />
-        <option value="$PROJECT_DIR$/src/IteratorPattern/menu/PancakeHouseMenu.java" />
-        <option value="$PROJECT_DIR$/src/IteratorPattern/Waitress.java" />
         <option value="$PROJECT_DIR$/src/IteratorPattern/MenuTest.java" />
         <option value="$PROJECT_DIR$/src/IteratorPattern/iterator/PancakeHouseMenuIterator.java" />
+        <option value="$PROJECT_DIR$/src/IteratorPattern/Menu.java" />
         <option value="$PROJECT_DIR$/src/IteratorPattern/iterator/DinerMenuIterator.java" />
         <option value="$PROJECT_DIR$/src/IteratorPattern/menu/DinerMenu.java" />
+        <option value="$PROJECT_DIR$/src/IteratorPattern/menu/PancakeHouseMenu.java" />
+        <option value="$PROJECT_DIR$/src/IteratorPattern/Waitress.java" />
       </list>
     </option>
   </component>
@@ -509,21 +528,7 @@
       <workItem from="1530085560636" duration="22000" />
       <workItem from="1535768272026" duration="22810000" />
       <workItem from="1535854090292" duration="26652000" />
-      <workItem from="1535945285319" duration="5267000" />
-    </task>
-    <task id="LOCAL-00020" summary="添加装饰者模式的基础类">
-      <created>1535792598243</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1535792598243</updated>
-    </task>
-    <task id="LOCAL-00021" summary="引入装饰者模式">
-      <created>1535797328429</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1535797328429</updated>
+      <workItem from="1535945285319" duration="6503000" />
     </task>
     <task id="LOCAL-00022" summary="为饮料引入杯子大小装饰器">
       <created>1535798141059</created>
@@ -854,14 +859,28 @@
       <option name="project" value="LOCAL" />
       <updated>1535949871348</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="替换jdk自带的Iterator接口，并使用List自带的iterator方法返回结果">
+      <created>1535950998333</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1535950998333</updated>
+    </task>
+    <task id="LOCAL-00070" summary="为餐厅菜单迭代器添加删除方法">
+      <created>1535951881586</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1535951881586</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70236000" />
+    <option name="totallyTimeSpent" value="71472000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="713" y="0" width="734" height="907" extended-state="0" />
+    <frame x="714" y="0" width="733" height="907" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="1" />
@@ -885,7 +904,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.5232558" />
       <window_info anchor="bottom" id="Run" order="12" weight="0.30620155" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.33026114" />
-      <window_info content_ui="combo" id="Project" order="8" sideWeight="0.498708" weight="0.46439168" />
+      <window_info content_ui="combo" id="Project" order="8" sideWeight="0.498708" weight="0.46359584" />
       <window_info id="JRebel" order="0" side_tool="true" />
       <window_info anchor="right" id="BPMNPalette" order="11" />
       <window_info id="Learn" order="10" weight="0.32937685" />
@@ -949,8 +968,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加更详尽的命令模式遥控器测试类" />
-    <MESSAGE value="补充两个遗漏的命令" />
     <MESSAGE value="为命令模式添加撤销操作" />
     <MESSAGE value="在命令模式中使用状态执行撤销" />
     <MESSAGE value="添加宏命令" />
@@ -974,20 +991,15 @@
     <MESSAGE value="添加不使用迭代器模式的例子" />
     <MESSAGE value="更改迭代器模式的包结构，并添加迭代器接口" />
     <MESSAGE value="使用迭代器模式改进菜单的遍历方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用迭代器模式改进菜单的遍历方法" />
+    <MESSAGE value="替换jdk自带的Iterator接口，并使用List自带的iterator方法返回结果" />
+    <MESSAGE value="为餐厅菜单迭代器添加删除方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="为餐厅菜单迭代器添加删除方法" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/CommandPattern/description.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ApapterPattern/添加适配器模式的基础接口和类.java" />
     <entry file="file://$PROJECT_DIR$/src/ApapterPattern/DuckExapmle/duck/Duck.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1014,7 +1026,7 @@
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
           <ID>JavaScript-modules-diagram</ID>
-          <OriginalElement />
+          <OriginalElement>$PROJECT_DIR$/src/ApapterPattern/duck;F:/IntellJ Project/DesignPatterns/src/ApapterPattern/turkey;</OriginalElement>
           <nodes />
           <notes />
           <edges />
@@ -1069,13 +1081,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/Iterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="53" column="17" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1318,38 +1323,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/IteratorPattern/menu/PancakeHouseMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#921#922#0" expanded="true" />
-            <element signature="e#973#974#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IteratorPattern/MenuTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IteratorPattern/Waitress.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/IteratorPattern/iterator/PancakeHouseMenuIterator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
@@ -1360,14 +1333,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/Iterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="53" column="17" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/IteratorPattern/iterator/DinerMenuIterator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+        <state relative-caret-position="456">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#320#321#0" expanded="true" />
             <element signature="e#354#355#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IteratorPattern/menu/DinerMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="41" column="48" lean-forward="true" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1104#1105#0" expanded="true" />
+            <element signature="e#1149#1150#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1389,14 +1381,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/IteratorPattern/menu/DinerMenu.java">
+    <entry file="file://$PROJECT_DIR$/src/IteratorPattern/menu/PancakeHouseMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
+        <state relative-caret-position="608">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1104#1105#0" expanded="true" />
-            <element signature="e#1149#1150#0" expanded="true" />
+            <element signature="e#862#863#0" expanded="true" />
+            <element signature="e#886#887#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IteratorPattern/menu/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IteratorPattern/Waitress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IteratorPattern/MenuTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
