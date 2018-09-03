@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b53849ff-7e58-4dcc-98b7-cb747762d9cf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/StatePattern/description.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProxyPattern/GumballMachine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,131 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="GumballMachine.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/StatePattern/GumballMachine.java">
+      <file leaf-file-name="GumballMachine.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ProxyPattern/GumballMachine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="74" column="26" selection-start-line="74" selection-start-column="26" selection-end-line="74" selection-end-column="26" />
-              <folding>
-                <element signature="e#803#804#0" expanded="true" />
-                <element signature="e#823#824#0" expanded="true" />
-                <element signature="e#884#885#0" expanded="true" />
-                <element signature="e#920#921#0" expanded="true" />
-                <element signature="e#3428#3429#0" expanded="true" />
-                <element signature="e#3456#3457#0" expanded="true" />
-                <element signature="e#3243#3244#0" expanded="true" />
-                <element signature="e#3277#3278#0" expanded="true" />
-                <element signature="e#3243#3244#0" expanded="true" />
-                <element signature="e#3275#3276#0" expanded="true" />
-                <element signature="e#2067#2068#0" expanded="true" />
-                <element signature="e#2102#2103#0" expanded="true" />
-                <element signature="e#2140#2141#0" expanded="true" />
-                <element signature="e#2175#2176#0" expanded="true" />
-                <element signature="e#2210#2211#0" expanded="true" />
-                <element signature="e#2242#2243#0" expanded="true" />
-                <element signature="e#2218#2219#0" expanded="true" />
-                <element signature="e#2252#2253#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GumballMachineWinnerTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/StatePattern/GumballMachineWinnerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="54" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="State.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/StatePattern/state/State.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GumballMachineTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/StatePattern/GumballMachineTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-228">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="description.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/StatePattern/description.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="14" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NoMoneyState.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/StatePattern/state/NoMoneyState.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SoldOutState.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/StatePattern/state/SoldOutState.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="49" lean-forward="true" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
-              <folding>
-                <element signature="e#686#687#0" expanded="true" />
-                <element signature="e#727#728#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SoldState.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/StatePattern/state/SoldState.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="34" column="37" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="34" selection-end-column="37" />
-              <folding>
-                <element signature="e#296#297#0" expanded="true" />
-                <element signature="e#348#349#0" expanded="true" />
-                <element signature="e#397#398#0" expanded="true" />
-                <element signature="e#445#446#0" expanded="true" />
-                <element signature="e#493#494#0" expanded="true" />
-                <element signature="e#541#542#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WinnerState.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/StatePattern/state/WinnerState.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="817">
-              <caret line="51" column="26" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HasMoneyState.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/StatePattern/state/HasMoneyState.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="836">
-              <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#395#396#0" expanded="true" />
-                <element signature="e#446#447#0" expanded="true" />
-                <element signature="e#871#872#0" expanded="true" />
-                <element signature="e#918#919#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="285">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -155,8 +35,8 @@
         <option value="package-info" />
         <option value="Arquillian JUnit Test Class" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -225,7 +105,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/FacadePattern/component/DvdPlayer.java" />
         <option value="$PROJECT_DIR$/src/FacadePattern/HomeTheaterFacadeTest.java" />
         <option value="$PROJECT_DIR$/src/FacadePattern/HomeTheaterFacade.java" />
         <option value="$PROJECT_DIR$/src/FacadePattern/description.txt" />
@@ -276,6 +155,7 @@
         <option value="$PROJECT_DIR$/src/StatePattern/GumballMachine.java" />
         <option value="$PROJECT_DIR$/src/StatePattern/GumballMachineTest.java" />
         <option value="$PROJECT_DIR$/src/StatePattern/description.txt" />
+        <option value="$PROJECT_DIR$/src/ProxyPattern/GumballMachine.java" />
       </list>
     </option>
   </component>
@@ -311,6 +191,12 @@
               <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ProxyPattern" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
@@ -358,11 +244,11 @@
       <recent name="F:\IntellJ Project\DesignPatterns\src\FactoryPattern\pizza\chicagostyle" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ProxyPattern" />
       <recent name="StatePattern.state" />
       <recent name="IteratorPattern.iterator" />
       <recent name="TemplatePattern" />
       <recent name="FacadePattern" />
-      <recent name="CommandPattern" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="IteratorPattern.menu" />
@@ -540,14 +426,7 @@
       <workItem from="1530085560636" duration="22000" />
       <workItem from="1535768272026" duration="22810000" />
       <workItem from="1535854090292" duration="26652000" />
-      <workItem from="1535945285319" duration="30109000" />
-    </task>
-    <task id="LOCAL-00037" summary="采用急切式方法创建单例">
-      <created>1535811673739</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1535811673739</updated>
+      <workItem from="1535945285319" duration="30355000" />
     </task>
     <task id="LOCAL-00038" summary="添加多种单例的写法">
       <created>1535812178820</created>
@@ -885,11 +764,18 @@
       <option name="project" value="LOCAL" />
       <updated>1535987482177</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="为状态模式添加描述">
+      <created>1535987716337</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1535987716337</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95078000" />
+    <option name="totallyTimeSpent" value="95324000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="713" y="0" width="734" height="907" extended-state="0" />
@@ -980,7 +866,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="给模版添加钩子方法" />
     <MESSAGE value="添加钩子方法的应用例子" />
     <MESSAGE value="使用钩子方法在模板类中自定义是否添加调味料的逻辑" />
     <MESSAGE value="添加排序类型的模板例子" />
@@ -1005,7 +890,8 @@
     <MESSAGE value="使用状态模式替换静态常量" />
     <MESSAGE value="添加中奖状态类，完成抽奖方案" />
     <MESSAGE value="为使用状态模式的糖果机添加重置方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="为使用状态模式的糖果机添加重置方法" />
+    <MESSAGE value="为状态模式添加描述" />
+    <option name="LAST_COMMIT_MESSAGE" value="为状态模式添加描述" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1017,13 +903,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/FacadePattern/component/CdPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/FacadePattern/component/PopcornPopper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -1474,6 +1353,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="14" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProxyPattern/GumballMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
