@@ -72,6 +72,12 @@ public class GumballMachine {
         return String.format("糖果机状态[%s]，剩余糖果数：[%s]", stateStr, count);
     }
 
+    // 重置糖果机的状态，并填入指定数量的糖果
+    public void refill(int count) {
+        this.count = count;
+        this.state = noMoneyState;
+    }
+
     // 获取糖果数目
     public int getCount() {
         return count;

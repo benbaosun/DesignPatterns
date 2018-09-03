@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b53849ff-7e58-4dcc-98b7-cb747762d9cf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/StatePattern/GumballMachineWinnerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StatePattern/state/WinnerState.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/StatePattern/GumballMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StatePattern/GumballMachine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StatePattern/state/HasMoneyState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StatePattern/state/HasMoneyState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StatePattern/GumballMachineTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StatePattern/GumballMachineTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,8 +22,8 @@
       <file leaf-file-name="GumballMachine.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/StatePattern/GumballMachine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            <state relative-caret-position="209">
+              <caret line="74" column="26" selection-start-line="74" selection-start-column="26" selection-end-line="74" selection-end-column="26" />
               <folding>
                 <element signature="e#803#804#0" expanded="true" />
                 <element signature="e#823#824#0" expanded="true" />
@@ -50,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GumballMachineWinnerTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GumballMachineWinnerTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/StatePattern/GumballMachineWinnerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="60" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
+            <state relative-caret-position="380">
+              <caret line="20" column="54" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -68,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GumballMachineTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GumballMachineTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/StatePattern/GumballMachineTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="84" column="5" lean-forward="true" selection-start-line="80" selection-start-column="4" selection-end-line="84" selection-end-column="5" />
+            <state relative-caret-position="151">
+              <caret line="56" column="32" lean-forward="true" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -265,11 +263,11 @@
         <option value="$PROJECT_DIR$/src/StatePattern/state/SoldOutQuarterState.java" />
         <option value="$PROJECT_DIR$/src/StatePattern/state/HasQuarterState.java" />
         <option value="$PROJECT_DIR$/src/StatePattern/state/SoldState.java" />
-        <option value="$PROJECT_DIR$/src/StatePattern/GumballMachineTest.java" />
         <option value="$PROJECT_DIR$/src/StatePattern/state/WinnerState.java" />
-        <option value="$PROJECT_DIR$/src/StatePattern/GumballMachine.java" />
         <option value="$PROJECT_DIR$/src/StatePattern/state/HasMoneyState.java" />
         <option value="$PROJECT_DIR$/src/StatePattern/GumballMachineWinnerTest.java" />
+        <option value="$PROJECT_DIR$/src/StatePattern/GumballMachine.java" />
+        <option value="$PROJECT_DIR$/src/StatePattern/GumballMachineTest.java" />
       </list>
     </option>
   </component>
@@ -383,7 +381,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GumballMachineWinnerTest">
+  <component name="RunManager" selected="Application.GumballMachineTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -518,8 +516,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GumballMachineWinnerTest" />
         <item itemvalue="Application.GumballMachineTest" />
+        <item itemvalue="Application.GumballMachineWinnerTest" />
         <item itemvalue="Application.MenuComponentTest" />
         <item itemvalue="Application.CompositeIteratorTest" />
         <item itemvalue="Application.MenuTest" />
@@ -541,14 +539,7 @@
       <workItem from="1530085560636" duration="22000" />
       <workItem from="1535768272026" duration="22810000" />
       <workItem from="1535854090292" duration="26652000" />
-      <workItem from="1535945285319" duration="29429000" />
-    </task>
-    <task id="LOCAL-00035" summary="添加巧克力工厂测试类">
-      <created>1535811446701</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1535811446701</updated>
+      <workItem from="1535945285319" duration="29824000" />
     </task>
     <task id="LOCAL-00036" summary="为单例类加锁，防止多线程中出现意外">
       <created>1535811526289</created>
@@ -886,11 +877,18 @@
       <option name="project" value="LOCAL" />
       <updated>1535986085909</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="添加中奖状态类，完成抽奖方案">
+      <created>1535987191161</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1535987191161</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94398000" />
+    <option name="totallyTimeSpent" value="94793000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="713" y="0" width="734" height="907" extended-state="0" />
@@ -916,7 +914,7 @@
       <window_info id="Image Layers" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.5232558" />
-      <window_info anchor="bottom" id="Run" order="12" weight="0.38697317" />
+      <window_info anchor="bottom" id="Run" order="12" weight="0.63049096" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.33026114" />
       <window_info content_ui="combo" id="Project" order="8" sideWeight="0.498708" weight="0.49109793" />
       <window_info id="JRebel" order="0" side_tool="true" />
@@ -981,7 +979,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="导入模板类简化咖啡因饮料的写法" />
     <MESSAGE value="防止模板方法被重写" />
     <MESSAGE value="给模版添加钩子方法" />
     <MESSAGE value="添加钩子方法的应用例子" />
@@ -1006,7 +1003,8 @@
     <MESSAGE value="添加组合模式的描述" />
     <MESSAGE value="添加状态模式的基础类" />
     <MESSAGE value="使用状态模式替换静态常量" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用状态模式替换静态常量" />
+    <MESSAGE value="添加中奖状态类，完成抽奖方案" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加中奖状态类，完成抽奖方案" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1437,10 +1435,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/StatePattern/GumballMachineWinnerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="54" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/StatePattern/GumballMachine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        <state relative-caret-position="209">
+          <caret line="74" column="26" selection-start-line="74" selection-start-column="26" selection-end-line="74" selection-end-column="26" />
           <folding>
             <element signature="e#803#804#0" expanded="true" />
             <element signature="e#823#824#0" expanded="true" />
@@ -1466,15 +1471,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/StatePattern/GumballMachineTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="84" column="5" lean-forward="true" selection-start-line="80" selection-start-column="4" selection-end-line="84" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/StatePattern/GumballMachineWinnerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="60" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
+        <state relative-caret-position="151">
+          <caret line="56" column="32" lean-forward="true" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
         </state>
       </provider>
     </entry>

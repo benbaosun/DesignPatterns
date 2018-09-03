@@ -38,6 +38,9 @@ public class GumballMachineTest {
         gumballMachine.turnCrank(); // 移动曲柄（移动曲柄才会发放糖果）
         printGumballMachineState(gumballMachine); // 打印糖果机状态
 
+        gumballMachine.refill(10); // 重置状态，并填入10颗糖果
+        printGumballMachineState(gumballMachine); // 打印糖果机状态
+
         /*
             运行结果：
             糖果机状态[未投币]，剩余糖果数：[5]
@@ -74,6 +77,8 @@ public class GumballMachineTest {
             已移动曲柄，但已售空，没有可用糖果
             已售空
             糖果机状态[已售空]，剩余糖果数：[0]
+            -----------------------------------
+            糖果机状态[未投币]，剩余糖果数：[10]
             -----------------------------------
          */
     }
