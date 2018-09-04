@@ -4,6 +4,8 @@ import CompoundPattern.duck.*;
 import CompoundPattern.goose.Goose;
 import CompoundPattern.pattern.adapter.GooseAdapter;
 import CompoundPattern.pattern.decorator.QuackCounter;
+import CompoundPattern.pattern.factory.AbstractDuckFactory;
+import CompoundPattern.pattern.factory.CountingDuckFactory;
 
 
 /**
@@ -14,11 +16,14 @@ import CompoundPattern.pattern.decorator.QuackCounter;
 public class DuckSimulator {
 
     public static void main(String[] args) {
+        // 计算鸭子工厂
+        AbstractDuckFactory duckFactory = new CountingDuckFactory();
+
         // 为鸭子添加叫唤统计器
-        Quackable mallardDuck = new QuackCounter(new MallardDuck()); // 绿头鸭
-        Quackable redHeadDuck = new QuackCounter(new RedHeadDuck()); // 红头鸭
-        Quackable duckCall = new QuackCounter(new DuckCall()); // 鸭鸣器（机器）
-        Quackable rubberDuck = new QuackCounter(new RubberDuck()); // 橡皮鸭
+        Quackable mallardDuck = duckFactory.createMallardDuck(); // 绿头鸭
+        Quackable redHeadDuck = duckFactory.createRedHeadDuck(); // 红头鸭
+        Quackable duckCall = duckFactory.createDuckCall(); // 鸭鸣器（机器）
+        Quackable rubberDuck = duckFactory.createRubberDuck(); // 橡皮鸭
 
         // 不统计鹅的个数
         Quackable gooseDuck = new GooseAdapter(new Goose()); // 鹅（通过适配器转换）
