@@ -1,12 +1,13 @@
 package CompoundPattern;
 
-import CompoundPattern.duck.*;
 import CompoundPattern.goose.Goose;
 import CompoundPattern.pattern.adapter.GooseAdapter;
 import CompoundPattern.pattern.composite.Flock;
 import CompoundPattern.pattern.decorator.QuackCounter;
 import CompoundPattern.pattern.factory.AbstractDuckFactory;
 import CompoundPattern.pattern.factory.CountingDuckFactory;
+import CompoundPattern.pattern.observer.QuackLogist;
+import CompoundPattern.quack.Quackable;
 
 
 /**
@@ -54,6 +55,11 @@ public class DuckSimulator {
         // 绿头鸭组合放入所有鸭子组合
         flockOfDucks.add(flockOfMallards);
 
+        // 叫唤学家
+        QuackLogist quackLogist = new QuackLogist();
+        // 叫唤学家订阅鸭子组合主题
+        flockOfDucks.registerObserver(quackLogist);
+
         simulate(flockOfDucks); // 测试所有鸭子叫唤
 
         System.out.println("--------------------------");
@@ -66,11 +72,32 @@ public class DuckSimulator {
         /*
             运行结果：
             我会呱呱叫
-            我会呱呱叫
+            叫唤学家：记录到鸭子CompoundPattern.duck.RedHeadDuck@12a3a380在叫唤
             我会咕咕叫
-            我会哇哇叫
+            叫唤学家：记录到鸭子CompoundPattern.duck.DuckCall@29453f44在叫唤
+            我会呱呱叫
+            叫唤学家：记录到鸭子CompoundPattern.duck.RedHeadDuck@5cad8086在叫唤
             我会呼呼叫
-            鸭子一共叫唤了4次
+            叫唤学家：记录到鸭子CompoundPattern.pattern.adapter.GooseAdapter@6e0be858在叫唤
+            我会呱呱叫
+            叫唤学家：记录到鸭子CompoundPattern.duck.MallardDuck@61bbe9ba在叫唤
+            我会呱呱叫
+            叫唤学家：记录到鸭子CompoundPattern.duck.MallardDuck@610455d6在叫唤
+            我会呱呱叫
+            叫唤学家：记录到鸭子CompoundPattern.duck.MallardDuck@511d50c0在叫唤
+            我会呱呱叫
+            叫唤学家：记录到鸭子CompoundPattern.duck.MallardDuck@60e53b93在叫唤
+            --------------------------
+            我会呱呱叫
+            叫唤学家：记录到鸭子CompoundPattern.duck.MallardDuck@61bbe9ba在叫唤
+            我会呱呱叫
+            叫唤学家：记录到鸭子CompoundPattern.duck.MallardDuck@610455d6在叫唤
+            我会呱呱叫
+            叫唤学家：记录到鸭子CompoundPattern.duck.MallardDuck@511d50c0在叫唤
+            我会呱呱叫
+            叫唤学家：记录到鸭子CompoundPattern.duck.MallardDuck@60e53b93在叫唤
+            --------------------------
+            鸭子一共叫唤了11次
          */
     }
 

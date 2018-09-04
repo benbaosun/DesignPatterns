@@ -1,6 +1,8 @@
 package CompoundPattern.pattern.decorator;
 
-import CompoundPattern.duck.Quackable;
+import CompoundPattern.pattern.observer.Observable;
+import CompoundPattern.pattern.observer.Observer;
+import CompoundPattern.quack.Quackable;
 
 /**
  * @author lkmc2
@@ -24,5 +26,17 @@ public class QuackCounter implements Quackable {
     // 获取鸭子个数
     public static int getQuacks() {
         return numberOfQuacks;
+    }
+
+    @Override
+    public void registerObserver(Observer observer) {
+        // 注册观察者
+        duck.registerObserver(observer);
+    }
+
+    @Override
+    public void notifyObservers() {
+        // 通知观察者数据改变
+        duck.notifyObservers();
     }
 }

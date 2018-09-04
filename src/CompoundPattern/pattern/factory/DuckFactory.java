@@ -2,7 +2,7 @@ package CompoundPattern.pattern.factory;
 
 import CompoundPattern.duck.DuckCall;
 import CompoundPattern.duck.MallardDuck;
-import CompoundPattern.duck.Quackable;
+import CompoundPattern.quack.Quackable;
 import CompoundPattern.duck.RedHeadDuck;
 
 /**
