@@ -1,7 +1,5 @@
 package CompoundPattern.duck;
 
-import CompoundPattern.Quackable;
-
 /**
  * @author lkmc2
  * @date 2018/9/4
