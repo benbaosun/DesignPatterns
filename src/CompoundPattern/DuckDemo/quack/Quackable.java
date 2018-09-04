@@ -1,6 +1,6 @@
-package CompoundPattern.quack;
+package CompoundPattern.DuckDemo.quack;
 
-import CompoundPattern.pattern.observer.QuackObservable;
+import CompoundPattern.DuckDemo.pattern.observer.QuackObservable;
 
 /**
  * Created by lkmc2 on 2018/6/25.

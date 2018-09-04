@@ -1,4 +1,4 @@
-package CompoundPattern.pattern.observer;
+package CompoundPattern.DuckDemo.pattern.observer;
 
 import java.util.ArrayList;
 import java.util.Iterator;

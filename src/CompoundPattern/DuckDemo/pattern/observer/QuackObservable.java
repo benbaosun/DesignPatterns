@@ -1,4 +1,4 @@
-package CompoundPattern.pattern.observer;
+package CompoundPattern.DuckDemo.pattern.observer;
 
 
 

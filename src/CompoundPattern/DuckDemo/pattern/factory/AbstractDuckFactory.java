@@ -1,6 +1,6 @@
-package CompoundPattern.pattern.factory;
+package CompoundPattern.DuckDemo.pattern.factory;
 
-import CompoundPattern.quack.Quackable;
+import CompoundPattern.DuckDemo.quack.Quackable;
 
 /**
  * @author lkmc2

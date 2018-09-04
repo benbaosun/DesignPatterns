@@ -1,7 +1,7 @@
-package CompoundPattern.pattern.composite;
+package CompoundPattern.DuckDemo.pattern.composite;
 
-import CompoundPattern.pattern.observer.Observer;
-import CompoundPattern.quack.Quackable;
+import CompoundPattern.DuckDemo.pattern.observer.Observer;
+import CompoundPattern.DuckDemo.quack.Quackable;
 
 import java.util.ArrayList;
 import java.util.Iterator;

@@ -2,23 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b53849ff-7e58-4dcc-98b7-cb747762d9cf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CompoundPattern/pattern/observer/Observable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompoundPattern/pattern/observer/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompoundPattern/pattern/observer/QuackLogist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompoundPattern/pattern/observer/QuackObservable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CompoundPattern/DuckSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompoundPattern/DuckSimulator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CompoundPattern/duck/DuckCall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompoundPattern/duck/DuckCall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CompoundPattern/duck/MallardDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompoundPattern/duck/MallardDuck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CompoundPattern/duck/Quackable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompoundPattern/quack/Quackable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CompoundPattern/duck/RedHeadDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompoundPattern/duck/RedHeadDuck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CompoundPattern/duck/RubberDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompoundPattern/duck/RubberDuck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CompoundPattern/pattern/adapter/GooseAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompoundPattern/pattern/adapter/GooseAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CompoundPattern/pattern/composite/Flock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompoundPattern/pattern/composite/Flock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CompoundPattern/pattern/decorator/QuackCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompoundPattern/pattern/decorator/QuackCounter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CompoundPattern/pattern/factory/AbstractDuckFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompoundPattern/pattern/factory/AbstractDuckFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CompoundPattern/pattern/factory/CountingDuckFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompoundPattern/pattern/factory/CountingDuckFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CompoundPattern/pattern/factory/DuckFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompoundPattern/pattern/factory/DuckFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CompoundPattern/DuckSimulator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CompoundPattern/DuckSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompoundPattern/DuckDemo/DuckSimulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CompoundPattern/duck/DuckCall.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CompoundPattern/duck/DuckCall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompoundPattern/DuckDemo/duck/DuckCall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CompoundPattern/duck/MallardDuck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CompoundPattern/duck/MallardDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompoundPattern/DuckDemo/duck/MallardDuck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CompoundPattern/duck/RedHeadDuck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CompoundPattern/duck/RedHeadDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompoundPattern/DuckDemo/duck/RedHeadDuck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CompoundPattern/duck/RubberDuck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CompoundPattern/duck/RubberDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompoundPattern/DuckDemo/duck/RubberDuck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CompoundPattern/goose/Goose.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CompoundPattern/goose/Goose.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompoundPattern/DuckDemo/goose/Goose.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CompoundPattern/pattern/adapter/GooseAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CompoundPattern/pattern/adapter/GooseAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompoundPattern/DuckDemo/pattern/adapter/GooseAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CompoundPattern/pattern/composite/Flock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CompoundPattern/pattern/composite/Flock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompoundPattern/DuckDemo/pattern/composite/Flock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CompoundPattern/pattern/decorator/QuackCounter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CompoundPattern/pattern/decorator/QuackCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompoundPattern/DuckDemo/pattern/decorator/QuackCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CompoundPattern/pattern/factory/AbstractDuckFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CompoundPattern/pattern/factory/AbstractDuckFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompoundPattern/DuckDemo/pattern/factory/AbstractDuckFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CompoundPattern/pattern/factory/CountingDuckFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CompoundPattern/pattern/factory/CountingDuckFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompoundPattern/DuckDemo/pattern/factory/CountingDuckFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CompoundPattern/pattern/factory/DuckFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CompoundPattern/pattern/factory/DuckFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompoundPattern/DuckDemo/pattern/factory/DuckFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CompoundPattern/pattern/observer/Observable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CompoundPattern/pattern/observer/Observable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompoundPattern/DuckDemo/pattern/observer/Observable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CompoundPattern/pattern/observer/Observer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CompoundPattern/pattern/observer/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompoundPattern/DuckDemo/pattern/observer/Observer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CompoundPattern/pattern/observer/QuackLogist.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CompoundPattern/pattern/observer/QuackLogist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompoundPattern/DuckDemo/pattern/observer/QuackLogist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CompoundPattern/pattern/observer/QuackObservable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CompoundPattern/pattern/observer/QuackObservable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompoundPattern/DuckDemo/pattern/observer/QuackObservable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CompoundPattern/quack/Quackable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CompoundPattern/quack/Quackable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompoundPattern/DuckDemo/quack/Quackable.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,7 +52,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="QuackObservable.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CompoundPattern/pattern/observer/QuackObservable.java">
+        <entry file="file://$PROJECT_DIR$/src/CompoundPattern/DuckDemo/pattern/observer/QuackObservable.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
               <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
@@ -43,7 +61,7 @@
         </entry>
       </file>
       <file leaf-file-name="MallardDuck.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CompoundPattern/duck/MallardDuck.java">
+        <entry file="file://$PROJECT_DIR$/src/CompoundPattern/DuckDemo/duck/MallardDuck.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="208">
               <caret line="15" column="47" lean-forward="true" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
@@ -57,10 +75,10 @@
         </entry>
       </file>
       <file leaf-file-name="QuackLogist.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CompoundPattern/pattern/observer/QuackLogist.java">
+        <entry file="file://$PROJECT_DIR$/src/CompoundPattern/DuckDemo/pattern/observer/QuackLogist.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            <state relative-caret-position="247">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <element signature="e#214#215#0" expanded="true" />
                 <element signature="e#270#271#0" expanded="true" />
@@ -70,10 +88,10 @@
         </entry>
       </file>
       <file leaf-file-name="DuckSimulator.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/CompoundPattern/DuckSimulator.java">
+        <entry file="file://$PROJECT_DIR$/src/CompoundPattern/DuckDemo/DuckSimulator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="74" column="17" lean-forward="true" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
+            <state relative-caret-position="240">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,7 +100,7 @@
         </entry>
       </file>
       <file leaf-file-name="Flock.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CompoundPattern/pattern/composite/Flock.java">
+        <entry file="file://$PROJECT_DIR$/src/CompoundPattern/DuckDemo/pattern/composite/Flock.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="741">
               <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
@@ -96,10 +114,10 @@
         </entry>
       </file>
       <file leaf-file-name="QuackCounter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CompoundPattern/pattern/decorator/QuackCounter.java">
+        <entry file="file://$PROJECT_DIR$/src/CompoundPattern/DuckDemo/pattern/decorator/QuackCounter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="550">
-              <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+              <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#430#431#0" expanded="true" />
@@ -110,7 +128,7 @@
         </entry>
       </file>
       <file leaf-file-name="RedHeadDuck.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CompoundPattern/duck/RedHeadDuck.java">
+        <entry file="file://$PROJECT_DIR$/src/CompoundPattern/DuckDemo/duck/RedHeadDuck.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
               <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
@@ -119,7 +137,7 @@
         </entry>
       </file>
       <file leaf-file-name="DuckCall.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CompoundPattern/duck/DuckCall.java">
+        <entry file="file://$PROJECT_DIR$/src/CompoundPattern/DuckDemo/duck/DuckCall.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="304">
               <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
@@ -131,7 +149,7 @@
         </entry>
       </file>
       <file leaf-file-name="Quackable.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CompoundPattern/quack/Quackable.java">
+        <entry file="file://$PROJECT_DIR$/src/CompoundPattern/DuckDemo/quack/Quackable.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
               <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
@@ -140,7 +158,7 @@
         </entry>
       </file>
       <file leaf-file-name="Observable.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CompoundPattern/pattern/observer/Observable.java">
+        <entry file="file://$PROJECT_DIR$/src/CompoundPattern/DuckDemo/pattern/observer/Observable.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
               <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
@@ -235,8 +253,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/StatePattern/state/SoldOutState.java" />
-        <option value="$PROJECT_DIR$/src/StatePattern/state/NoMoneyState.java" />
         <option value="$PROJECT_DIR$/src/StatePattern/state/HasMoneyState.java" />
         <option value="$PROJECT_DIR$/src/StatePattern/state/SoldState.java" />
         <option value="$PROJECT_DIR$/src/StatePattern/state/WinnerState.java" />
@@ -285,7 +301,9 @@
         <option value="$PROJECT_DIR$/src/CompoundPattern/pattern/observer/Quackologist.java" />
         <option value="$PROJECT_DIR$/src/CompoundPattern/pattern/decorator/QuackCounter.java" />
         <option value="$PROJECT_DIR$/src/CompoundPattern/pattern/composite/Flock.java" />
+        <option value="$PROJECT_DIR$/src/CompoundPattern/pattern/observer/QuackLogist.java" />
         <option value="$PROJECT_DIR$/src/CompoundPattern/DuckSimulator.java" />
+        <option value="$PROJECT_DIR$/src/CompoundPattern/DuckDemo/DuckSimulator.java" />
       </list>
     </option>
   </component>
@@ -329,59 +347,6 @@
               <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="CompoundPattern" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="CompoundPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="duck" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="CompoundPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="goose" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="CompoundPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="pattern" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="CompoundPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="adapter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="CompoundPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="composite" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="CompoundPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="decorator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="CompoundPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="observer" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -451,12 +416,12 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration name="DuckSimulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CompoundPattern.DuckSimulator" />
+      <option name="MAIN_CLASS_NAME" value="CompoundPattern.DuckDemo.DuckSimulator" />
       <module name="DesignPatterns" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CompoundPattern.quack.*" />
+          <option name="PATTERN" value="CompoundPattern.DuckDemo.quack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -606,14 +571,7 @@
       <workItem from="1535854090292" duration="26652000" />
       <workItem from="1535945285319" duration="31967000" />
       <workItem from="1536029935019" duration="1467000" />
-      <workItem from="1536031437545" duration="21989000" />
-    </task>
-    <task id="LOCAL-00056" summary="添加私人影院外观模式的例子">
-      <created>1535880201488</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1535880201488</updated>
+      <workItem from="1536031437545" duration="22861000" />
     </task>
     <task id="LOCAL-00057" summary="添加外观模式的描述">
       <created>1535880614723</created>
@@ -951,15 +909,21 @@
       <option name="project" value="LOCAL" />
       <updated>1536056277520</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="添加观察者模式记录鸭子的叫唤">
+      <created>1536060800085</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1536060800085</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120392000" />
+    <option name="totallyTimeSpent" value="121264000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="713" y="0" width="734" height="907" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="1" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32945737" />
@@ -975,14 +939,14 @@
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Debug" order="13" weight="0.449553" />
       <window_info anchor="bottom" id="TODO" order="16" />
-      <window_info anchor="bottom" id="Messages" order="2" weight="0.32439336" />
+      <window_info anchor="bottom" id="Messages" order="2" weight="0.3242894" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info id="Image Layers" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.52196383" />
       <window_info anchor="bottom" id="Run" order="12" weight="0.33333334" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32945737" />
-      <window_info content_ui="combo" id="Project" order="8" sideWeight="0.498708" weight="0.4851632" />
+      <window_info active="true" content_ui="combo" id="Project" order="8" sideWeight="0.498708" visible="true" weight="0.4851632" />
       <window_info id="JRebel" order="0" side_tool="true" />
       <window_info anchor="right" id="BPMNPalette" order="11" />
       <window_info anchor="bottom" id="Find" order="11" weight="0.32816538" />
@@ -1046,7 +1010,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加组合迭代器" />
     <MESSAGE value="调整包结构，并删除多余的类" />
     <MESSAGE value="添加组合模式的描述" />
     <MESSAGE value="添加状态模式的基础类" />
@@ -1071,7 +1034,8 @@
     <MESSAGE value="调整符合模式的包结构" />
     <MESSAGE value="添加了使用工厂模式的计算鸭子工厂" />
     <MESSAGE value="使用组合模式和迭代器模式管理一群鸭子的叫唤" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用组合模式和迭代器模式管理一群鸭子的叫唤" />
+    <MESSAGE value="添加观察者模式记录鸭子的叫唤" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加观察者模式记录鸭子的叫唤" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1396,7 +1360,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompoundPattern/pattern/factory/DuckFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/CompoundPattern/DuckDemo/pattern/factory/DuckFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
           <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
@@ -1414,7 +1378,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompoundPattern/pattern/factory/CountingDuckFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/CompoundPattern/DuckDemo/pattern/factory/CountingDuckFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
           <caret line="31" column="49" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
@@ -1432,35 +1396,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompoundPattern/pattern/factory/AbstractDuckFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/CompoundPattern/DuckDemo/pattern/factory/AbstractDuckFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompoundPattern/pattern/observer/Observer.java">
+    <entry file="file://$PROJECT_DIR$/src/CompoundPattern/DuckDemo/pattern/observer/Observer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompoundPattern/pattern/observer/QuackObservable.java">
+    <entry file="file://$PROJECT_DIR$/src/CompoundPattern/DuckDemo/pattern/observer/QuackObservable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompoundPattern/duck/RedHeadDuck.java">
+    <entry file="file://$PROJECT_DIR$/src/CompoundPattern/DuckDemo/duck/RedHeadDuck.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompoundPattern/duck/DuckCall.java">
+    <entry file="file://$PROJECT_DIR$/src/CompoundPattern/DuckDemo/duck/DuckCall.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
@@ -1470,7 +1434,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompoundPattern/pattern/adapter/GooseAdapter.java">
+    <entry file="file://$PROJECT_DIR$/src/CompoundPattern/DuckDemo/pattern/adapter/GooseAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="464">
           <caret line="29" column="16" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
@@ -1480,7 +1444,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompoundPattern/duck/RubberDuck.java">
+    <entry file="file://$PROJECT_DIR$/src/CompoundPattern/DuckDemo/duck/RubberDuck.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="627">
           <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
@@ -1492,28 +1456,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompoundPattern/goose/Goose.java">
+    <entry file="file://$PROJECT_DIR$/src/CompoundPattern/DuckDemo/goose/Goose.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompoundPattern/pattern/observer/QuackLogist.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding>
-            <element signature="e#214#215#0" expanded="true" />
-            <element signature="e#270#271#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompoundPattern/pattern/decorator/QuackCounter.java">
+    <entry file="file://$PROJECT_DIR$/src/CompoundPattern/DuckDemo/pattern/decorator/QuackCounter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
-          <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+          <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#430#431#0" expanded="true" />
@@ -1522,7 +1475,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompoundPattern/duck/MallardDuck.java">
+    <entry file="file://$PROJECT_DIR$/src/CompoundPattern/DuckDemo/duck/MallardDuck.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="15" column="47" lean-forward="true" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
@@ -1534,14 +1487,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompoundPattern/quack/Quackable.java">
+    <entry file="file://$PROJECT_DIR$/src/CompoundPattern/DuckDemo/quack/Quackable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompoundPattern/pattern/composite/Flock.java">
+    <entry file="file://$PROJECT_DIR$/src/CompoundPattern/DuckDemo/pattern/composite/Flock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="741">
           <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
@@ -1553,7 +1506,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompoundPattern/pattern/observer/Observable.java">
+    <entry file="file://$PROJECT_DIR$/src/CompoundPattern/DuckDemo/pattern/observer/Observable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
@@ -1567,10 +1520,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompoundPattern/DuckSimulator.java">
+    <entry file="file://$PROJECT_DIR$/src/CompoundPattern/DuckDemo/pattern/observer/QuackLogist.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="74" column="17" lean-forward="true" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
+        <state relative-caret-position="247">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CompoundPattern/DuckDemo/DuckSimulator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

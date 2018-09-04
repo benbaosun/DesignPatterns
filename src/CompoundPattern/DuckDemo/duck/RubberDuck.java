@@ -1,24 +1,24 @@
-package CompoundPattern.duck;
+package CompoundPattern.DuckDemo.duck;
 
-import CompoundPattern.pattern.observer.Observable;
-import CompoundPattern.pattern.observer.Observer;
-import CompoundPattern.quack.Quackable;
+import CompoundPattern.DuckDemo.pattern.observer.Observable;
+import CompoundPattern.DuckDemo.pattern.observer.Observer;
+import CompoundPattern.DuckDemo.quack.Quackable;
 
 /**
  * @author lkmc2
  * @date 2018/9/4
- * @description 鸭鸣器（机器）
+ * @description 橡皮鸭
  */
-public class DuckCall implements Quackable {
+public class RubberDuck implements Quackable {
     private Observable observable; // 主题
 
-    public DuckCall() {
+    public RubberDuck() {
         this.observable = new Observable(this);
     }
 
     @Override
     public void quack() {
-        System.out.println("我会咕咕叫");
+        System.out.println("我会哇哇叫");
         notifyObservers(); // 通知数据改变
     }
 

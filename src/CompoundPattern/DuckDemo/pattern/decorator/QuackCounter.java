@@ -1,8 +1,7 @@
-package CompoundPattern.pattern.decorator;
+package CompoundPattern.DuckDemo.pattern.decorator;
 
-import CompoundPattern.pattern.observer.Observable;
-import CompoundPattern.pattern.observer.Observer;
-import CompoundPattern.quack.Quackable;
+import CompoundPattern.DuckDemo.pattern.observer.Observer;
+import CompoundPattern.DuckDemo.quack.Quackable;
 
 /**
  * @author lkmc2

@@ -1,13 +1,13 @@
-package CompoundPattern;
+package CompoundPattern.DuckDemo;
 
-import CompoundPattern.goose.Goose;
-import CompoundPattern.pattern.adapter.GooseAdapter;
-import CompoundPattern.pattern.composite.Flock;
-import CompoundPattern.pattern.decorator.QuackCounter;
-import CompoundPattern.pattern.factory.AbstractDuckFactory;
-import CompoundPattern.pattern.factory.CountingDuckFactory;
-import CompoundPattern.pattern.observer.QuackLogist;
-import CompoundPattern.quack.Quackable;
+import CompoundPattern.DuckDemo.goose.Goose;
+import CompoundPattern.DuckDemo.pattern.adapter.GooseAdapter;
+import CompoundPattern.DuckDemo.pattern.composite.Flock;
+import CompoundPattern.DuckDemo.pattern.decorator.QuackCounter;
+import CompoundPattern.DuckDemo.pattern.factory.AbstractDuckFactory;
+import CompoundPattern.DuckDemo.pattern.factory.CountingDuckFactory;
+import CompoundPattern.DuckDemo.pattern.observer.QuackLogist;
+import CompoundPattern.DuckDemo.quack.Quackable;
 
 
 /**

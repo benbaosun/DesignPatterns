@@ -1,10 +1,10 @@
-package CompoundPattern.pattern.factory;
+package CompoundPattern.DuckDemo.pattern.factory;
 
-import CompoundPattern.duck.DuckCall;
-import CompoundPattern.duck.MallardDuck;
-import CompoundPattern.quack.Quackable;
-import CompoundPattern.duck.RedHeadDuck;
-import CompoundPattern.pattern.decorator.QuackCounter;
+import CompoundPattern.DuckDemo.duck.DuckCall;
+import CompoundPattern.DuckDemo.duck.MallardDuck;
+import CompoundPattern.DuckDemo.quack.Quackable;
+import CompoundPattern.DuckDemo.duck.RedHeadDuck;
+import CompoundPattern.DuckDemo.pattern.decorator.QuackCounter;
 
 /**
  * @author lkmc2

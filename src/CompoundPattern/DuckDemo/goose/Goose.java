@@ -1,4 +1,4 @@
-package CompoundPattern.goose;
+package CompoundPattern.DuckDemo.goose;
 
 /**
  * @author lkmc2
