@@ -1,10 +1,9 @@
-package ProxyPattern.GumballMachine.remote;
+package ProxyPattern.GumballMachineRemote.remote;
 
 
 
 
-import ProxyPattern.GumballMachine.remote.GumballMachineRemote;
-import ProxyPattern.GumballMachine.state.*;
+import ProxyPattern.GumballMachineRemote.state.*;
 
 
 import java.rmi.RemoteException;

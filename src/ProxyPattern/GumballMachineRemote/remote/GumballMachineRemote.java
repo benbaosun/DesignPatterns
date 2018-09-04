@@ -1,8 +1,8 @@
-package ProxyPattern.GumballMachine.remote;
+package ProxyPattern.GumballMachineRemote.remote;
 
 
 
-import ProxyPattern.GumballMachine.state.State;
+import ProxyPattern.GumballMachineRemote.state.State;
 
 import java.rmi.Remote;
 import java.rmi.RemoteException;
@@ -10,7 +10,7 @@ import java.rmi.RemoteException;
 /**
  * @author lkmc2
  * @date 2018/9/4
- * @description 糖果机代理
+ * @description 糖果机代理（远程代理）
  */
 public interface GumballMachineRemote extends Remote {
     // 获取剩余糖果数目

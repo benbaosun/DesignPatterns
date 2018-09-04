@@ -1,6 +1,6 @@
-package ProxyPattern.GumballMachine.state;
+package ProxyPattern.GumballMachineRemote.state;
 
-import ProxyPattern.GumballMachine.remote.GumballMachine;
+import ProxyPattern.GumballMachineRemote.remote.GumballMachine;
 
 /**
  * @author lkmc2

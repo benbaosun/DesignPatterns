@@ -1,7 +1,7 @@
-package ProxyPattern.GumballMachine;
+package ProxyPattern.GumballMachineRemote;
 
-import ProxyPattern.GumballMachine.client.GumballMonitor;
-import ProxyPattern.GumballMachine.remote.GumballMachine;
+import ProxyPattern.GumballMachineRemote.client.GumballMonitor;
+import ProxyPattern.GumballMachineRemote.remote.GumballMachine;
 
 import java.rmi.RemoteException;
 
@@ -30,7 +30,7 @@ public class GumballMonitorTest {
             ------ 糖果机报告------
             糖果机位置：北京王府井
             剩余糖果数：5
-            当前状态：ProxyPattern.GumballMachine.state.NoMoneyState@74a14482
+            当前状态：ProxyPattern.GumballMachineRemote.state.NoMoneyState@74a14482
             ******************
             已投币
             已移动曲柄
@@ -39,7 +39,7 @@ public class GumballMonitorTest {
             ------ 糖果机报告------
             糖果机位置：北京王府井
             剩余糖果数：4
-            当前状态：ProxyPattern.GumballMachine.state.NoMoneyState@74a14482
+            当前状态：ProxyPattern.GumballMachineRemote.state.NoMoneyState@74a14482
             ******************
             已投币
             已移动曲柄
@@ -48,7 +48,7 @@ public class GumballMonitorTest {
             ------ 糖果机报告------
             糖果机位置：北京王府井
             剩余糖果数：3
-            当前状态：ProxyPattern.GumballMachine.state.NoMoneyState@74a14482
+            当前状态：ProxyPattern.GumballMachineRemote.state.NoMoneyState@74a14482
          */
 
     }

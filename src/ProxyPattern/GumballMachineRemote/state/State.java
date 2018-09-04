@@ -1,4 +1,4 @@
-package ProxyPattern.GumballMachine.state;
+package ProxyPattern.GumballMachineRemote.state;
 
 import java.io.Serializable;
 

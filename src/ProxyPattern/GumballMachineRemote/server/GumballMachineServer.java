@@ -1,7 +1,7 @@
-package ProxyPattern.GumballMachine.server;
+package ProxyPattern.GumballMachineRemote.server;
 
-import ProxyPattern.GumballMachine.remote.GumballMachine;
-import ProxyPattern.GumballMachine.remote.GumballMachineRemote;
+import ProxyPattern.GumballMachineRemote.remote.GumballMachine;
+import ProxyPattern.GumballMachineRemote.remote.GumballMachineRemote;
 
 import java.net.MalformedURLException;
 import java.rmi.Naming;

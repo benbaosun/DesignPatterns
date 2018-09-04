@@ -1,7 +1,7 @@
-package ProxyPattern.GumballMachine;
+package ProxyPattern.GumballMachineRemote;
 
-import ProxyPattern.GumballMachine.client.GumballMonitor;
-import ProxyPattern.GumballMachine.remote.GumballMachineRemote;
+import ProxyPattern.GumballMachineRemote.client.GumballMonitor;
+import ProxyPattern.GumballMachineRemote.remote.GumballMachineRemote;
 
 import java.net.MalformedURLException;
 import java.rmi.Naming;
@@ -42,15 +42,15 @@ public class GumballMonitorClientTest {
             ------ 糖果机报告------
             糖果机位置：北京王府井
             剩余糖果数：5
-            当前状态：ProxyPattern.GumballMachine.state.NoMoneyState@246b179d
+            当前状态：ProxyPattern.GumballMachineRemote.state.NoMoneyState@246b179d
             ------ 糖果机报告------
             糖果机位置：上海东方塔
             剩余糖果数：10
-            当前状态：ProxyPattern.GumballMachine.state.NoMoneyState@7a07c5b4
+            当前状态：ProxyPattern.GumballMachineRemote.state.NoMoneyState@7a07c5b4
             ------ 糖果机报告------
             糖果机位置：武汉世界之窗
             剩余糖果数：20
-            当前状态：ProxyPattern.GumballMachine.state.NoMoneyState@26a1ab54
+            当前状态：ProxyPattern.GumballMachineRemote.state.NoMoneyState@26a1ab54
          */
     }
 
