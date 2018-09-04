@@ -5,7 +5,7 @@ import CompoundPattern.duck.Quackable;
 /**
  * @author lkmc2
  * @date 2018/9/4
- * @description
+ * @description 鹅适配器（适配器模式）
  */
 public class GooseAdapter implements Quackable {
     private Goose goose; // 鹅
