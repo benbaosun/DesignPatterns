@@ -1,6 +1,7 @@
-package CompoundPattern.goose;
+package CompoundPattern.pattern.adapter;
 
 import CompoundPattern.duck.Quackable;
+import CompoundPattern.goose.Goose;
 
 /**
  * @author lkmc2

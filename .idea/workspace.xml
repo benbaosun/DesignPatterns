@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b53849ff-7e58-4dcc-98b7-cb747762d9cf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CompoundPattern/QuackCounter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CompoundPattern/DuckSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompoundPattern/DuckSimulator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CompoundPattern/goose/GooseAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompoundPattern/goose/GooseAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CompoundPattern/QuackCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompoundPattern/pattern/decorator/QuackCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CompoundPattern/goose/GooseAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompoundPattern/pattern/adapter/GooseAdapter.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,12 +42,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GooseAdapter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CompoundPattern/goose/GooseAdapter.java">
+      <file leaf-file-name="GooseAdapter.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/CompoundPattern/pattern/adapter/GooseAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+            <state relative-caret-position="285">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#248#249#0" expanded="true" />
                 <element signature="e#282#283#0" expanded="true" />
                 <element signature="e#323#324#0" expanded="true" />
@@ -58,10 +59,10 @@
         </entry>
       </file>
       <file leaf-file-name="QuackCounter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CompoundPattern/QuackCounter.java">
+        <entry file="file://$PROJECT_DIR$/src/CompoundPattern/pattern/decorator/QuackCounter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+            <state relative-caret-position="171">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding>
                 <element signature="e#308#309#0" expanded="true" />
                 <element signature="e#340#341#0" expanded="true" />
@@ -112,11 +113,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DuckSimulator.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DuckSimulator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CompoundPattern/DuckSimulator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="303">
+              <caret line="17" column="42" lean-forward="true" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#809#810#0" expanded="true" />
@@ -147,7 +148,7 @@
       <find>芝士</find>
       <find>希腊</find>
       <find>芝士披萨</find>
-      <find />
+      <find>pizza =</find>
       <find>创建</find>
       <find>COMMAND_COUNT</find>
       <find>收音机</find>
@@ -162,6 +163,7 @@
       <find>被</find>
       <find>糖加奶</find>
       <find>List&lt;Menu&gt;</find>
+      <find>不同的可叫唤的动物的数目</find>
     </findStrings>
     <replaceStrings>
       <replace>牛奶</replace>
@@ -188,6 +190,7 @@
       <replace>杯</replace>
       <replace>柠檬</replace>
       <replace>MenuComponent</replace>
+      <replace>鸭子个数</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -204,7 +207,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/StatePattern/description.txt" />
         <option value="$PROJECT_DIR$/src/ProxyPattern/GumballMonitor.java" />
         <option value="$PROJECT_DIR$/src/ProxyPattern/GumballMachine.java" />
         <option value="$PROJECT_DIR$/src/ProxyPattern/GumballMonitorTest.java" />
@@ -255,6 +257,7 @@
         <option value="$PROJECT_DIR$/src/CompoundPattern/goose/GooseAdapter.java" />
         <option value="$PROJECT_DIR$/src/CompoundPattern/QuackCounter.java" />
         <option value="$PROJECT_DIR$/src/CompoundPattern/DuckSimulator.java" />
+        <option value="$PROJECT_DIR$/src/CompoundPattern/pattern/decorator/QuackCounter.java" />
       </list>
     </option>
   </component>
@@ -304,14 +307,7 @@
               <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="CompoundPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="duck" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="CompoundPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="goose" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -536,14 +532,7 @@
       <workItem from="1535854090292" duration="26652000" />
       <workItem from="1535945285319" duration="31967000" />
       <workItem from="1536029935019" duration="1467000" />
-      <workItem from="1536031437545" duration="15536000" />
-    </task>
-    <task id="LOCAL-00052" summary="添加适配器类">
-      <created>1535876481437</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1535876481437</updated>
+      <workItem from="1536031437545" duration="15813000" />
     </task>
     <task id="LOCAL-00053" summary="修改适配器模式的包结构">
       <created>1535876658430</created>
@@ -881,11 +870,18 @@
       <option name="project" value="LOCAL" />
       <updated>1536053521609</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="添加使用装饰器模式的鸭子叫唤统计器">
+      <created>1536054123998</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1536054123998</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113939000" />
+    <option name="totallyTimeSpent" value="114216000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="713" y="0" width="734" height="907" extended-state="0" />
@@ -912,7 +908,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.52196383" />
       <window_info anchor="bottom" id="Run" order="12" weight="0.33333334" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32945737" />
-      <window_info content_ui="combo" id="Project" order="8" sideWeight="0.498708" weight="0.5059347" />
+      <window_info active="true" content_ui="combo" id="Project" order="8" sideWeight="0.498708" visible="true" weight="0.5059347" />
       <window_info id="JRebel" order="0" side_tool="true" />
       <window_info anchor="right" id="BPMNPalette" order="11" />
       <window_info anchor="bottom" id="Find" order="11" weight="0.32816538" />
@@ -976,7 +972,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加迭代器模式的描述" />
     <MESSAGE value="添加组合模式的菜单组件" />
     <MESSAGE value="添加组合模式的例子" />
     <MESSAGE value="优化子菜单的打印效果" />
@@ -1001,7 +996,8 @@
     <MESSAGE value="添加组合模式的基础类" />
     <MESSAGE value="修改组合模式的包结构" />
     <MESSAGE value="为鹅添加适配器" />
-    <option name="LAST_COMMIT_MESSAGE" value="为鹅添加适配器" />
+    <MESSAGE value="添加使用装饰器模式的鸭子叫唤统计器" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加使用装饰器模式的鸭子叫唤统计器" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1441,19 +1437,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompoundPattern/goose/GooseAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-          <folding>
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CompoundPattern/duck/DuckCall.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -1461,10 +1444,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompoundPattern/QuackCounter.java">
+    <entry file="file://$PROJECT_DIR$/src/CompoundPattern/DuckSimulator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        <state relative-caret-position="303">
+          <caret line="17" column="42" lean-forward="true" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#809#810#0" expanded="true" />
+            <element signature="e#845#846#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CompoundPattern/pattern/decorator/QuackCounter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="e#308#309#0" expanded="true" />
             <element signature="e#340#341#0" expanded="true" />
@@ -1474,14 +1469,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompoundPattern/DuckSimulator.java">
+    <entry file="file://$PROJECT_DIR$/src/CompoundPattern/pattern/adapter/GooseAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="285">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#809#810#0" expanded="true" />
-            <element signature="e#845#846#0" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
           </folding>
         </state>
       </provider>

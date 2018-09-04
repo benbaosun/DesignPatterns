@@ -1,4 +1,4 @@
-package CompoundPattern;
+package CompoundPattern.pattern.decorator;
 
 import CompoundPattern.duck.Quackable;
 

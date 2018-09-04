@@ -2,7 +2,8 @@ package CompoundPattern;
 
 import CompoundPattern.duck.*;
 import CompoundPattern.goose.Goose;
-import CompoundPattern.goose.GooseAdapter;
+import CompoundPattern.pattern.adapter.GooseAdapter;
+import CompoundPattern.pattern.decorator.QuackCounter;
 
 
 /**
