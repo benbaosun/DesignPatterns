@@ -1,4 +1,4 @@
-package ProxyPattern.remote;
+package ProxyPattern.RemoteSample;
 
 import java.rmi.Remote;
 import java.rmi.RemoteException;

@@ -1,4 +1,4 @@
-package ProxyPattern;
+package ProxyPattern.GumballMachine;
 
 /**
  * @author lkmc2
