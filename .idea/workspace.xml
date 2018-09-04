@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b53849ff-7e58-4dcc-98b7-cb747762d9cf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/MatchMakingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/bean/PersonBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/bean/PersonBeanImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/handler/NonOwnerInvocationHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/handler/OwnerInvocationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProxyPattern/description.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -80,11 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MatchMakingTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MatchMakingTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/MatchMakingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="57" column="69" selection-start-line="57" selection-start-column="69" selection-end-line="57" selection-end-column="69" />
+            <state relative-caret-position="-380">
+              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#408#409#0" expanded="true" />
@@ -96,11 +92,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="description.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ProxyPattern/description.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="OwnerInvocationHandler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/handler/OwnerInvocationHandler.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="116">
-              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#341#342#0" expanded="true" />
@@ -113,8 +118,8 @@
       <file leaf-file-name="NonOwnerInvocationHandler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/handler/NonOwnerInvocationHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+            <state relative-caret-position="190">
+              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#304#305#0" expanded="true" />
@@ -147,18 +152,6 @@
                 <element signature="e#265#266#0" expanded="true" />
                 <element signature="e#309#310#0" expanded="true" />
                 <element signature="e#341#342#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GumballMachineServer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ProxyPattern/GumballMachineRemote/server/GumballMachineServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -242,7 +235,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/IteratorPattern/menu/CompositeIterator.java" />
         <option value="$PROJECT_DIR$/src/IteratorPattern/menu/PancakeHouseMenu.java" />
         <option value="$PROJECT_DIR$/src/IteratorPattern/MenuComponentTest.java" />
         <option value="$PROJECT_DIR$/src/IteratorAndCompositePattern/Waitress.java" />
@@ -290,9 +282,10 @@
         <option value="$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/PersonBeanImpl.java" />
         <option value="$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/OwnerIncocationHandler.java" />
         <option value="$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/OwnerInvocationHandler.java" />
+        <option value="$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/MatchMakingTest.java" />
         <option value="$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/handler/OwnerInvocationHandler.java" />
         <option value="$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/handler/NonOwnerInvocationHandler.java" />
-        <option value="$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/MatchMakingTest.java" />
+        <option value="$PROJECT_DIR$/src/ProxyPattern/description.txt" />
       </list>
     </option>
   </component>
@@ -336,21 +329,6 @@
               <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ProxyPattern" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ProxyPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="DynamicProxy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ProxyPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="DynamicProxy" type="462c0819:PsiDirectoryNode" />
-              <item name="handler" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -575,14 +553,7 @@
       <workItem from="1535854090292" duration="26652000" />
       <workItem from="1535945285319" duration="31967000" />
       <workItem from="1536029935019" duration="1467000" />
-      <workItem from="1536031437545" duration="13395000" />
-    </task>
-    <task id="LOCAL-00047" summary="在命令模式中使用状态执行撤销">
-      <created>1535866784937</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1535866784937</updated>
+      <workItem from="1536031437545" duration="13830000" />
     </task>
     <task id="LOCAL-00048" summary="添加宏命令">
       <created>1535874181858</created>
@@ -920,11 +891,18 @@
       <option name="project" value="LOCAL" />
       <updated>1536048656992</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="添加动态代理的例子">
+      <created>1536052039227</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1536052039227</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111798000" />
+    <option name="totallyTimeSpent" value="112233000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="713" y="0" width="734" height="907" extended-state="0" />
@@ -1015,7 +993,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="为餐厅菜单迭代器添加删除方法" />
     <MESSAGE value="添加了菜单接口，减少服务员和具体类之间的依赖" />
     <MESSAGE value="添加咖啡厅的菜单" />
     <MESSAGE value="为咖啡厅菜单创建迭代器方法" />
@@ -1040,7 +1017,8 @@
     <MESSAGE value="为糖果机添加代理模式" />
     <MESSAGE value="调整代理模式的包结构" />
     <MESSAGE value="添加使用代理模式的CD封面加载器" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加使用代理模式的CD封面加载器" />
+    <MESSAGE value="添加动态代理的例子" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加动态代理的例子" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1052,7 +1030,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/IteratorPattern/iterator/DinerMenuIterator.java" />
     <entry file="file://$PROJECT_DIR$/src/IteratorAndCompositePattern/component/MenuComponent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="589">
@@ -1459,22 +1436,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/handler/OwnerInvocationHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#341#342#0" expanded="true" />
-            <element signature="e#377#378#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/handler/NonOwnerInvocationHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+        <state relative-caret-position="190">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#304#305#0" expanded="true" />
@@ -1483,10 +1448,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/handler/OwnerInvocationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/MatchMakingTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="57" column="69" selection-start-line="57" selection-start-column="69" selection-end-line="57" selection-end-column="69" />
+        <state relative-caret-position="-380">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#408#409#0" expanded="true" />
@@ -1494,6 +1471,13 @@
             <element signature="e#1895#1896#0" expanded="true" />
             <element signature="e#1935#1936#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProxyPattern/description.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
         </state>
       </provider>
     </entry>
