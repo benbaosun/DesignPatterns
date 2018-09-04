@@ -1,7 +1,5 @@
 package ProxyPattern;
 
-import java.util.Scanner;
-
 /**
  * @author lkmc2
  * @date 2018/9/3
