@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b53849ff-7e58-4dcc-98b7-cb747762d9cf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ProxyPattern/VirtualProxy/ImageComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProxyPattern/VirtualProxy/ImageProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProxyPattern/VirtualProxy/ImageProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/MatchMakingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/bean/PersonBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/bean/PersonBeanImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/handler/NonOwnerInvocationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/handler/OwnerInvocationHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,30 +22,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GumballMachine.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ProxyPattern/GumballMachineRemote/remote/GumballMachine.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GumballMonitor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ProxyPattern/GumballMachineRemote/client/GumballMonitor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="27" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="GumballMachineRemote.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ProxyPattern/GumballMachineRemote/remote/GumballMachineRemote.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -56,7 +34,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ImageProxy.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ImageProxy.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ProxyPattern/VirtualProxy/ImageProxy.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
@@ -65,6 +43,82 @@
                 <element signature="imports" expanded="true" />
                 <element signature="e#411#412#0" expanded="true" />
                 <element signature="e#451#452#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PersonBean.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/bean/PersonBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PersonBeanImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/bean/PersonBeanImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-145">
+              <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="12" />
+              <folding>
+                <element signature="e#365#366#0" expanded="true" />
+                <element signature="e#392#393#0" expanded="true" />
+                <element signature="e#446#447#0" expanded="true" />
+                <element signature="e#478#479#0" expanded="true" />
+                <element signature="e#525#526#0" expanded="true" />
+                <element signature="e#554#555#0" expanded="true" />
+                <element signature="e#612#613#0" expanded="true" />
+                <element signature="e#648#649#0" expanded="true" />
+                <element signature="e#698#699#0" expanded="true" />
+                <element signature="e#730#731#0" expanded="true" />
+                <element signature="e#794#795#0" expanded="true" />
+                <element signature="e#836#837#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MatchMakingTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/MatchMakingTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="57" column="69" selection-start-line="57" selection-start-column="69" selection-end-line="57" selection-end-column="69" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#408#409#0" expanded="true" />
+                <element signature="e#450#451#0" expanded="true" />
+                <element signature="e#1895#1896#0" expanded="true" />
+                <element signature="e#1935#1936#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OwnerInvocationHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/handler/OwnerInvocationHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#341#342#0" expanded="true" />
+                <element signature="e#377#378#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NonOwnerInvocationHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/handler/NonOwnerInvocationHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="254">
+              <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#304#305#0" expanded="true" />
+                <element signature="e#340#341#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -93,30 +147,6 @@
                 <element signature="e#265#266#0" expanded="true" />
                 <element signature="e#309#310#0" expanded="true" />
                 <element signature="e#341#342#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyRemoteImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ProxyPattern/RemoteSample/MyRemoteImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="27" column="50" lean-forward="true" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GumballMonitorClientTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ProxyPattern/GumballMachineRemote/GumballMonitorClientTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1083">
-              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
-              <folding>
-                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -212,13 +242,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/IteratorPattern/MenuTest.java" />
-        <option value="$PROJECT_DIR$/src/IteratorPattern/menu/CompositeIteratorTest.java" />
-        <option value="$PROJECT_DIR$/src/IteratorPattern/menu/MenuItem.java" />
-        <option value="$PROJECT_DIR$/src/IteratorPattern/menu/NullIterator.java" />
-        <option value="$PROJECT_DIR$/src/IteratorPattern/menu/Menu.java" />
-        <option value="$PROJECT_DIR$/src/IteratorPattern/Waitress.java" />
-        <option value="$PROJECT_DIR$/src/IteratorPattern/CompositeIteratorTest.java" />
         <option value="$PROJECT_DIR$/src/IteratorPattern/menu/CompositeIterator.java" />
         <option value="$PROJECT_DIR$/src/IteratorPattern/menu/PancakeHouseMenu.java" />
         <option value="$PROJECT_DIR$/src/IteratorPattern/MenuComponentTest.java" />
@@ -263,6 +286,13 @@
         <option value="$PROJECT_DIR$/src/ProxyPattern/VirtualProxy/ImageComponent.java" />
         <option value="$PROJECT_DIR$/src/ProxyPattern/VirtualProxy/ImageProxyTest.java" />
         <option value="$PROJECT_DIR$/src/ProxyPattern/VirtualProxy/ImageProxy.java" />
+        <option value="$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/PersonBean.java" />
+        <option value="$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/PersonBeanImpl.java" />
+        <option value="$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/OwnerIncocationHandler.java" />
+        <option value="$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/OwnerInvocationHandler.java" />
+        <option value="$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/handler/OwnerInvocationHandler.java" />
+        <option value="$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/handler/NonOwnerInvocationHandler.java" />
+        <option value="$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/MatchMakingTest.java" />
       </list>
     </option>
   </component>
@@ -312,7 +342,15 @@
               <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ProxyPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="VirtualProxy" type="462c0819:PsiDirectoryNode" />
+              <item name="DynamicProxy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ProxyPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="DynamicProxy" type="462c0819:PsiDirectoryNode" />
+              <item name="handler" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -377,7 +415,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ImageProxyTest">
+  <component name="RunManager" selected="Application.MatchMakingTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -436,13 +474,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="MyRemoteClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ProxyPattern.RemoteSample.MyRemoteClient" />
+    <configuration name="MatchMakingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProxyPattern.DynamicProxy.MatchMakingTest" />
       <module name="DesignPatterns" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ProxyPattern.RemoteSample.*" />
+          <option name="PATTERN" value="ProxyPattern.DynamicProxy.handler.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -505,18 +543,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.GumballMonitorTest" />
-      <item itemvalue="Application.MyRemoteClient" />
       <item itemvalue="Application.GumballMachineServer" />
       <item itemvalue="Application.GumballMonitorClientTest" />
       <item itemvalue="Application.ImageProxyTest" />
+      <item itemvalue="Application.MatchMakingTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MatchMakingTest" />
         <item itemvalue="Application.ImageProxyTest" />
         <item itemvalue="Application.GumballMonitorClientTest" />
         <item itemvalue="Application.GumballMachineServer" />
         <item itemvalue="Application.GumballMonitorTest" />
-        <item itemvalue="Application.MyRemoteClient" />
       </list>
     </recent_temporary>
   </component>
@@ -537,14 +575,7 @@
       <workItem from="1535854090292" duration="26652000" />
       <workItem from="1535945285319" duration="31967000" />
       <workItem from="1536029935019" duration="1467000" />
-      <workItem from="1536031437545" duration="10201000" />
-    </task>
-    <task id="LOCAL-00046" summary="为命令模式添加撤销操作">
-      <created>1535865014561</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1535865014561</updated>
+      <workItem from="1536031437545" duration="13395000" />
     </task>
     <task id="LOCAL-00047" summary="在命令模式中使用状态执行撤销">
       <created>1535866784937</created>
@@ -882,11 +913,18 @@
       <option name="project" value="LOCAL" />
       <updated>1536039023099</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="添加使用代理模式的CD封面加载器">
+      <created>1536048656992</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1536048656992</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108604000" />
+    <option name="totallyTimeSpent" value="111798000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="713" y="0" width="734" height="907" extended-state="0" />
@@ -911,7 +949,7 @@
       <window_info id="Image Layers" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.52196383" />
-      <window_info active="true" anchor="bottom" id="Run" order="12" visible="true" weight="0.33333334" />
+      <window_info anchor="bottom" id="Run" order="12" visible="true" weight="0.33333334" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32945737" />
       <window_info content_ui="combo" id="Project" order="8" sideWeight="0.498708" weight="0.5059347" />
       <window_info id="JRebel" order="0" side_tool="true" />
@@ -977,7 +1015,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="替换jdk自带的Iterator接口，并使用List自带的iterator方法返回结果" />
     <MESSAGE value="为餐厅菜单迭代器添加删除方法" />
     <MESSAGE value="添加了菜单接口，减少服务员和具体类之间的依赖" />
     <MESSAGE value="添加咖啡厅的菜单" />
@@ -1002,7 +1039,8 @@
     <MESSAGE value="拷贝更完善的糖果机到代理模式" />
     <MESSAGE value="为糖果机添加代理模式" />
     <MESSAGE value="调整代理模式的包结构" />
-    <option name="LAST_COMMIT_MESSAGE" value="调整代理模式的包结构" />
+    <MESSAGE value="添加使用代理模式的CD封面加载器" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加使用代理模式的CD封面加载器" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1014,17 +1052,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
-          <caret line="105" column="11" selection-start-line="105" selection-start-column="11" selection-end-line="105" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IteratorPattern/menu/PancakeHouseMenu.java" />
-    <entry file="file://$PROJECT_DIR$/src/IteratorPattern/menu/CafeMenu.java" />
-    <entry file="file://$PROJECT_DIR$/src/IteratorPattern/MenuTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/IteratorPattern/menu/DinerMenu.java" />
     <entry file="file://$PROJECT_DIR$/src/IteratorPattern/iterator/DinerMenuIterator.java" />
     <entry file="file://$PROJECT_DIR$/src/IteratorAndCompositePattern/component/MenuComponent.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1400,6 +1427,72 @@
             <element signature="imports" expanded="true" />
             <element signature="e#411#412#0" expanded="true" />
             <element signature="e#451#452#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/bean/PersonBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/bean/PersonBeanImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-145">
+          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="12" />
+          <folding>
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
+            <element signature="e#612#613#0" expanded="true" />
+            <element signature="e#648#649#0" expanded="true" />
+            <element signature="e#698#699#0" expanded="true" />
+            <element signature="e#730#731#0" expanded="true" />
+            <element signature="e#794#795#0" expanded="true" />
+            <element signature="e#836#837#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/handler/OwnerInvocationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/handler/NonOwnerInvocationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProxyPattern/DynamicProxy/MatchMakingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="57" column="69" selection-start-line="57" selection-start-column="69" selection-end-line="57" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#1895#1896#0" expanded="true" />
+            <element signature="e#1935#1936#0" expanded="true" />
           </folding>
         </state>
       </provider>
