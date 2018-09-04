@@ -1,10 +1,9 @@
 package CompoundPattern;
 
-import CompoundPattern.duck.Quackable;
-import CompoundPattern.duck.impl.DuckCall;
-import CompoundPattern.duck.impl.MallardDuck;
-import CompoundPattern.duck.impl.RedHeadDuck;
-import CompoundPattern.duck.impl.RubberDuck;
+import CompoundPattern.duck.DuckCall;
+import CompoundPattern.duck.MallardDuck;
+import CompoundPattern.duck.RedHeadDuck;
+import CompoundPattern.duck.RubberDuck;
 
 
 /**

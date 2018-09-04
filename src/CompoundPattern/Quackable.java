@@ -1,4 +1,4 @@
-package CompoundPattern.duck;
+package CompoundPattern;
 
 /**
  * Created by lkmc2 on 2018/6/25.

@@ -1,6 +1,6 @@
-package CompoundPattern.duck.impl;
+package CompoundPattern.duck;
 
-import CompoundPattern.duck.Quackable;
+import CompoundPattern.Quackable;
 
 /**
  * @author lkmc2
