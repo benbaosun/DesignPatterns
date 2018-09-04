@@ -1,5 +1,10 @@
 package ProxyPattern.GumballMachine;
 
+import ProxyPattern.GumballMachine.client.GumballMonitor;
+import ProxyPattern.GumballMachine.remote.GumballMachine;
+
+import java.rmi.RemoteException;
+
 /**
  * @author lkmc2
  * @date 2018/9/3
@@ -7,7 +12,7 @@ package ProxyPattern.GumballMachine;
  */
 public class GumballMonitorTest {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws RemoteException {
         // 糖果机
         GumballMachine machine = new GumballMachine(5, "北京王府井");
         // 糖果机监视器

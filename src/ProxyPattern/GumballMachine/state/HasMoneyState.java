@@ -1,7 +1,6 @@
 package ProxyPattern.GumballMachine.state;
 
-import ProxyPattern.GumballMachine.GumballMachine;
-import ProxyPattern.GumballMachine.state.State;
+import ProxyPattern.GumballMachine.remote.GumballMachine;
 
 import java.util.Random;
 
@@ -12,7 +11,7 @@ import java.util.Random;
  */
 public class HasMoneyState implements State {
     private Random randomWinner = new Random(System.currentTimeMillis()); // 决定中奖的随机数
-    private GumballMachine gumballMachine; // 糖果机
+    private transient GumballMachine gumballMachine; // 糖果机（不序列化此属性）
 
     public HasMoneyState(GumballMachine gumballMachine) {
         this.gumballMachine = gumballMachine;

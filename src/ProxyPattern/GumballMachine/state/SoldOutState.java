@@ -1,7 +1,6 @@
 package ProxyPattern.GumballMachine.state;
 
-import ProxyPattern.GumballMachine.GumballMachine;
-import ProxyPattern.GumballMachine.state.State;
+import ProxyPattern.GumballMachine.remote.GumballMachine;
 
 /**
  * @author lkmc2
@@ -9,7 +8,7 @@ import ProxyPattern.GumballMachine.state.State;
  * @description 售空状态（状态模式）
  */
 public class SoldOutState implements State {
-    private GumballMachine gumballMachine; // 糖果机
+    private transient GumballMachine gumballMachine; // 糖果机（不序列化此属性）
 
     public SoldOutState(GumballMachine gumballMachine) {
         this.gumballMachine = gumballMachine;

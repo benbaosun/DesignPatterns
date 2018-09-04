@@ -1,5 +1,9 @@
 package ProxyPattern.GumballMachine.remote;
 
+
+
+import ProxyPattern.GumballMachine.state.State;
+
 import java.rmi.Remote;
 import java.rmi.RemoteException;
 
@@ -14,5 +18,5 @@ public interface GumballMachineRemote extends Remote {
     // 获取糖果机位置
     String getLocation() throws RemoteException;
     // 获取糖果机状态
-    String getState() throws RemoteException;
+    State getState() throws RemoteException;
 }

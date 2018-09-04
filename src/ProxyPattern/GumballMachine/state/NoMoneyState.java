@@ -1,6 +1,6 @@
 package ProxyPattern.GumballMachine.state;
 
-import ProxyPattern.GumballMachine.GumballMachine;
+import ProxyPattern.GumballMachine.remote.GumballMachine;
 
 /**
  * @author lkmc2
@@ -8,7 +8,7 @@ import ProxyPattern.GumballMachine.GumballMachine;
  * @description 未投币状态（状态模式）
  */
 public class NoMoneyState implements State {
-    private GumballMachine gumballMachine; // 糖果机
+    private transient GumballMachine gumballMachine; // 糖果机（不序列化此属性）
 
     public NoMoneyState(GumballMachine gumballMachine) {
         this.gumballMachine = gumballMachine;

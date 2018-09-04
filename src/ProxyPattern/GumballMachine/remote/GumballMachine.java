@@ -1,13 +1,21 @@
-package ProxyPattern.GumballMachine;
+package ProxyPattern.GumballMachine.remote;
 
+
+
+
+import ProxyPattern.GumballMachine.remote.GumballMachineRemote;
 import ProxyPattern.GumballMachine.state.*;
+
+
+import java.rmi.RemoteException;
+import java.rmi.server.UnicastRemoteObject;
 
 /**
  * @author lkmc2
  * @date 2018/9/3
  * @description 糖果机
  */
-public class GumballMachine {
+public class GumballMachine extends UnicastRemoteObject implements GumballMachineRemote {
     private State soldOutState; // 未投币
     private State noMoneyState; // 投币
     private State hasMoneyState; // 卖光
@@ -18,7 +26,7 @@ public class GumballMachine {
     private int count; // 现有糖果数目
     private String location; // 位置
 
-    public GumballMachine(int count, String location) {
+    public GumballMachine(int count, String location) throws RemoteException {
         soldOutState = new SoldOutState(this);
         noMoneyState = new NoMoneyState(this);
         hasMoneyState = new HasMoneyState(this);

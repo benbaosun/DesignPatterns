@@ -1,11 +1,13 @@
 package ProxyPattern.GumballMachine.state;
 
+import java.io.Serializable;
+
 /**
  * @author lkmc2
  * @date 2018/9/3
- * @description 状态
+ * @description 状态（需要序列化才能使用远程调用）
  */
-public interface State {
+public interface State extends Serializable {
     // 投币
     void insertQuarter();
     // 退币
