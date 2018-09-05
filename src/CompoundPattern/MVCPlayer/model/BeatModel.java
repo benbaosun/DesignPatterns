@@ -1,5 +1,8 @@
 package CompoundPattern.MVCPlayer.model;
 
+import CompoundPattern.MVCPlayer.observer.BPMObserver;
+import CompoundPattern.MVCPlayer.observer.BeatObserver;
+
 import javax.sound.midi.MetaEventListener;
 import javax.sound.midi.MetaMessage;
 import javax.sound.midi.Sequencer;

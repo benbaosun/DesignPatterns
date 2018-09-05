@@ -1,9 +1,9 @@
 package CompoundPattern.MVCPlayer.view;
 
 import CompoundPattern.MVCPlayer.controller.ControllerInterface;
-import CompoundPattern.MVCPlayer.model.BPMObserver;
+import CompoundPattern.MVCPlayer.observer.BPMObserver;
 import CompoundPattern.MVCPlayer.model.BeatModelInterface;
-import CompoundPattern.MVCPlayer.model.BeatObserver;
+import CompoundPattern.MVCPlayer.observer.BeatObserver;
 
 import javax.swing.*;
 import java.awt.*;

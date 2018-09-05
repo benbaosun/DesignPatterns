@@ -1,4 +1,4 @@
-package CompoundPattern.MVCPlayer.model;
+package CompoundPattern.MVCPlayer.observer;
 
 /**
  * @author lkmc2
