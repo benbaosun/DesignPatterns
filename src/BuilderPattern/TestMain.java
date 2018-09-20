@@ -8,20 +8,22 @@ package BuilderPattern;
 public class TestMain {
 
     public static void main(String[] args) {
-        Person person = new Person();
-        person.setId(1);
-        person.setName("Jack");
-        person.setAge(18);
-        person.setSex("男");
-        person.setPhone("18745694458");
-        person.setAddress("北海");
-        person.setDesc("一个善良的人");
+
+        // 使用Builder模式构建对象
+        Person person = new Person.Builder()
+                .id(1)
+                .age(18)
+                .sex("男")
+                .phone("13845671289")
+                .address("北海")
+                .desc("一个善良的人")
+                .build();
 
         System.out.println(person);
 
         /*
             运行结果：
-            Person{id=1, name='Jack', age=0, sex='null', phone='null', address='null', desc='null'}
+            Person{id=1, name='null', age=18, sex='男', phone='13845671289', address='北海', desc='一个善良的人'}
          */
     }
 

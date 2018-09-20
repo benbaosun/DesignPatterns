@@ -15,61 +15,66 @@ public class Person {
     private String address;
     private String desc;
 
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
+    private Person(int id, String name, int age, String sex, String phone, String address, String desc) {
         this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
         this.name = name;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
         this.age = age;
-    }
-
-    public String getSex() {
-        return sex;
-    }
-
-    public void setSex(String sex) {
         this.sex = sex;
-    }
-
-    public String getPhone() {
-        return phone;
-    }
-
-    public void setPhone(String phone) {
         this.phone = phone;
-    }
-
-    public String getAddress() {
-        return address;
-    }
-
-    public void setAddress(String address) {
         this.address = address;
-    }
-
-    public String getDesc() {
-        return desc;
-    }
-
-    public void setDesc(String desc) {
         this.desc = desc;
     }
+
+    public static class Builder {
+        private int id;
+        private String name;
+        private int age;
+        private String sex;
+        private String phone;
+        private String address;
+        private String desc;
+
+        public Builder id(int id) {
+            this.id = id;
+            return this;
+        }
+
+        public Builder name(String name) {
+            this.name = name;
+            return this;
+        }
+
+        public Builder age(int age) {
+            this.age = age;
+            return this;
+        }
+
+        public Builder sex(String sex) {
+            this.sex = sex;
+            return this;
+        }
+
+        public Builder phone(String phone) {
+            this.phone = phone;
+            return this;
+        }
+
+        public Builder address(String address) {
+            this.address = address;
+            return this;
+        }
+
+        public Builder desc(String desc) {
+            this.desc = desc;
+            return this;
+        }
+
+        public Person build() {
+            return new Person(id, name, age, sex, phone, address, desc);
+        }
+
+    }
+
 
     @Override
     public String toString() {
